@@ -1,10 +1,9 @@
 import {
-  CloudSun,
   LayoutDashboard,
-  ListTodo,
   Network,
-  PlaneTakeoff,
-  Users,
+  PiggyBank,
+  Sunrise,
+  Telescope,
   type LucideIcon,
 } from "lucide-react";
 
@@ -21,28 +20,23 @@ export const sidebarLinks: RouteItem[] = [
     label: "Dashboard",
   },
   {
-    icon: PlaneTakeoff,
-    route: "/flights",
-    label: "Flights",
+    icon: Sunrise,
+    route: "/morning-briefing",
+    label: "Morning briefing",
   },
   {
-    icon: CloudSun,
-    route: "/weather",
-    label: "Weather",
+    icon: Telescope,
+    route: "/flight-deep-detail",
+    label: "Flight Deep Detail",
   },
   {
     icon: Network,
     route: "/cascade",
-    label: "Cascade",
+    label: "Cascade tracker",
   },
   {
-    icon: ListTodo,
-    route: "/actions",
-    label: "Actions",
-  },
-  {
-    icon: Users,
-    route: "/crew",
-    label: "Crew",
+    icon: PiggyBank,
+    route: "/savings-estimator",
+    label: "Savings estimator",
   },
 ];
