@@ -1,65 +1,79 @@
 import AirportWeatherCard from "@/components/features/weather/AirportWeatherCard";
+import WeatherGrid from "@/components/features/weather/WeatherGrid";
+import { enrich, fetchCurrentWeather } from "@/components/features/weather/weather";
+import data from "@/data/discover_airlines_destinations.json";
+import type { DestinationsFile, Hub } from "@/types/destination";
 
-// Placeholder data — to be replaced with Open-Meteo forecasts and
-// NOAA/METAR (METeorological Aerodrome Report) reports for the airports in the operation's network.
-const airports = [
+const { destinations } = data as DestinationsFile;
+
+// The two operating bases. They're where the network is flown *from*, so they
+// aren't in the destinations list — pin them at the top of the ops view.
+const hubs = [
   {
-    airport: "FRA",
-    name: "Frankfurt",
-    condition: "rain" as const,
-    summary: "Thunderstorms building from 09:00, gusty crosswinds expected.",
-    temperature: "19°C",
-    wind: "24 kt",
-    impact: "high" as const,
+    iata: "FRA",
+    city: "Frankfurt",
+    country: "Germany",
+    lat: 50.0379,
+    lon: 8.5622,
+    hubs: ["FRA"] as Hub[],
+    seasonal: false,
   },
   {
-    airport: "MUC",
-    name: "Munich",
-    condition: "cloudy" as const,
-    summary: "Overcast with low cloud base, occasional light showers.",
-    temperature: "16°C",
-    wind: "11 kt",
-    impact: "medium" as const,
-  },
-  {
-    airport: "JFK",
-    name: "New York",
-    condition: "clear" as const,
-    summary: "Clear skies, light winds. No weather constraints expected.",
-    temperature: "23°C",
-    wind: "7 kt",
-    impact: "low" as const,
-  },
-  {
-    airport: "ORD",
-    name: "Chicago",
-    condition: "wind" as const,
-    summary: "Strong sustained winds, possible ground delay program.",
-    temperature: "14°C",
-    wind: "31 kt",
-    impact: "high" as const,
+    iata: "MUC",
+    city: "Munich",
+    country: "Germany",
+    lat: 48.3538,
+    lon: 11.7861,
+    hubs: ["MUC"] as Hub[],
+    seasonal: false,
   },
 ];
 
-export default function WeatherPage() {
+export default async function WeatherPage() {
+  // One batched Open-Meteo request for hubs + every destination, in order.
+  const points = [...hubs, ...destinations].map((d) => ({
+    lat: d.lat,
+    lon: d.lon,
+  }));
+  const weather = await fetchCurrentWeather(points);
+
+  const hubCards = hubs.map((h, i) => enrich(h, weather[i]));
+  const destinationCards = destinations.map((d, i) =>
+    enrich(d, weather[hubs.length + i])
+  );
+
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col gap-1">
         <h1 className="text-2xl font-bold">Weather</h1>
         <p className="text-muted-foreground">
-          The external driver behind most delays. Conditions across the network,
-          flagged by their likely impact on operations.
+          The external driver behind most delays. Live conditions across the
+          network, flagged by their likely impact on operations.
         </p>
       </header>
 
-      <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        {airports.map((a) => (
-          <AirportWeatherCard key={a.airport} {...a} />
-        ))}
+      <section className="flex flex-col gap-3">
+        <h2 className="text-muted-foreground text-sm font-semibold uppercase tracking-wide">
+          Operating bases
+        </h2>
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+          {hubCards.map((h) => (
+            <AirportWeatherCard key={h.airport} {...h} />
+          ))}
+        </div>
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="text-muted-foreground text-sm font-semibold uppercase tracking-wide">
+          Destinations
+        </h2>
+        <WeatherGrid destinations={destinationCards} />
       </section>
 
       <p className="text-muted-foreground text-xs">
-        Placeholder data. Wire to Open-Meteo (forecast) and NOAA/METAR (reports).
+        Current conditions from Open-Meteo (WMO weather codes, winds in knots),
+        refreshed every 30 minutes. Operational impact is a transparent rule on
+        wind speed and weather code — not a black box.
       </p>
     </div>
   );

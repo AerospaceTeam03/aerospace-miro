@@ -1,7 +1,8 @@
 import { cn } from "@/lib/utils";
 import { Cloud, CloudRain, CloudSnow, Sun, Wind } from "lucide-react";
 
-type Condition = "clear" | "cloudy" | "rain" | "snow" | "wind";
+export type Condition = "clear" | "cloudy" | "rain" | "snow" | "wind";
+export type Impact = "low" | "medium" | "high";
 
 const conditionIcon: Record<Condition, typeof Sun> = {
   clear: Sun,
@@ -25,6 +26,7 @@ export default function AirportWeatherCard({
   temperature,
   wind,
   impact,
+  seasonal = false,
 }: {
   airport: string;
   name: string;
@@ -32,14 +34,22 @@ export default function AirportWeatherCard({
   summary: string;
   temperature: string;
   wind: string;
-  impact: "low" | "medium" | "high";
+  impact: Impact;
+  seasonal?: boolean;
 }) {
   const Icon = conditionIcon[condition];
   return (
     <div className="border-border flex flex-col gap-3 rounded-xl border p-4">
       <div className="flex items-start justify-between gap-2">
         <div>
-          <p className="text-foreground text-lg font-bold">{airport}</p>
+          <div className="flex items-center gap-2">
+            <p className="text-foreground text-lg font-bold">{airport}</p>
+            {seasonal && (
+              <span className="text-muted-foreground border-border rounded-full border px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide">
+                Seasonal
+              </span>
+            )}
+          </div>
           <p className="text-muted-foreground text-xs">{name}</p>
         </div>
         <Icon className="text-muted-foreground size-7 shrink-0" />

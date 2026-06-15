@@ -1,0 +1,1065 @@
+{
+  "_meta": {
+    "airline": "Discover Airlines",
+    "iata": "4Y",
+    "icao": "OCN",
+    "callsign": "OCEAN",
+    "parent": "Lufthansa Group",
+    "operating_bases": [
+      "FRA",
+      "MUC"
+    ],
+    "scope": "currently served destinations only (terminated routes excluded)",
+    "generated": "2026-06-16",
+    "sources": [
+      "Wikipedia: Discover Airlines (destination table, seasonal flags)",
+      "Lufthansa Group route-network pages (2026 schedule notes)",
+      "flightsfrom.com / flightconnections.com / airport-munich.com (hub-level route data)"
+    ],
+    "field_notes": {
+      "hubs": "FRA = Frankfurt, MUC = Munich. CONFIDENCE: long-haul/intercontinental assignments are reliable (intercontinental network is concentrated at FRA, with a few leisure long-haul routes also from MUC). Short- and medium-haul European/Mediterranean assignments are APPROXIMATE: Munich's role is short-haul Mediterranean leisure, and many Mediterranean destinations are served from both hubs, but the exact split shifts by season. Verify against the official timetable for booking-grade accuracy.",
+      "seasonal": "true = operated only during part of the year per the 2026 schedule; false = year-round.",
+      "note": "Finland may additionally include Ivalo (IVL) per some route databases; not yet reflected in the primary source, so omitted here.",
+      "lat": "Airport reference-point latitude, decimal degrees (WGS84), 4 dp. Sufficient for weather lookups.",
+      "lon": "Airport reference-point longitude, decimal degrees (WGS84), 4 dp.",
+      "timezone": "IANA timezone of the airport. Open-Meteo can also infer this with timezone=auto; stored here so you can interpret/display local times without an extra call."
+    },
+    "count": 71
+  },
+  "destinations": [
+    {
+      "city": "Bridgetown",
+      "airport": "Grantley Adams International Airport",
+      "iata": "BGI",
+      "icao": "TBPB",
+      "country": "Barbados",
+      "lat": 13.0746,
+      "lon": -59.4925,
+      "timezone": "America/Barbados",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Burgas",
+      "airport": "Burgas Airport",
+      "iata": "BOJ",
+      "icao": "LBBG",
+      "country": "Bulgaria",
+      "lat": 42.5696,
+      "lon": 27.5152,
+      "timezone": "Europe/Sofia",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Varna",
+      "airport": "Varna Airport",
+      "iata": "VAR",
+      "icao": "LBWN",
+      "country": "Bulgaria",
+      "lat": 43.2322,
+      "lon": 27.8251,
+      "timezone": "Europe/Sofia",
+      "hubs": [
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Calgary",
+      "airport": "Calgary International Airport",
+      "iata": "YYC",
+      "icao": "CYYC",
+      "country": "Canada",
+      "lat": 51.1139,
+      "lon": -114.0203,
+      "timezone": "America/Edmonton",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Halifax",
+      "airport": "Halifax Stanfield International Airport",
+      "iata": "YHZ",
+      "icao": "CYHZ",
+      "country": "Canada",
+      "lat": 44.8808,
+      "lon": -63.5086,
+      "timezone": "America/Halifax",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Dubrovnik",
+      "airport": "Dubrovnik Airport",
+      "iata": "DBV",
+      "icao": "LDDU",
+      "country": "Croatia",
+      "lat": 42.5614,
+      "lon": 18.2682,
+      "timezone": "Europe/Zagreb",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Pula",
+      "airport": "Pula Airport",
+      "iata": "PUY",
+      "icao": "LDPL",
+      "country": "Croatia",
+      "lat": 44.8935,
+      "lon": 13.9222,
+      "timezone": "Europe/Zagreb",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Split",
+      "airport": "Split Airport",
+      "iata": "SPU",
+      "icao": "LDSP",
+      "country": "Croatia",
+      "lat": 43.5389,
+      "lon": 16.298,
+      "timezone": "Europe/Zagreb",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Zadar",
+      "airport": "Zadar Airport",
+      "iata": "ZAD",
+      "icao": "LDZD",
+      "country": "Croatia",
+      "lat": 44.1083,
+      "lon": 15.3467,
+      "timezone": "Europe/Zagreb",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Larnaca",
+      "airport": "Larnaca International Airport",
+      "iata": "LCA",
+      "icao": "LCLK",
+      "country": "Cyprus",
+      "lat": 34.8751,
+      "lon": 33.6249,
+      "timezone": "Asia/Nicosia",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "La Romana",
+      "airport": "La Romana International Airport",
+      "iata": "LRM",
+      "icao": "MDLR",
+      "country": "Dominican Republic",
+      "lat": 18.4507,
+      "lon": -68.9118,
+      "timezone": "America/Santo_Domingo",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Punta Cana",
+      "airport": "Punta Cana International Airport",
+      "iata": "PUJ",
+      "icao": "MDPC",
+      "country": "Dominican Republic",
+      "lat": 18.5674,
+      "lon": -68.3634,
+      "timezone": "America/Santo_Domingo",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Hurghada",
+      "airport": "Hurghada International Airport",
+      "iata": "HRG",
+      "icao": "HEGN",
+      "country": "Egypt",
+      "lat": 27.1783,
+      "lon": 33.7994,
+      "timezone": "Africa/Cairo",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Marsa Alam",
+      "airport": "Marsa Alam International Airport",
+      "iata": "RMF",
+      "icao": "HEMA",
+      "country": "Egypt",
+      "lat": 25.5571,
+      "lon": 34.5836,
+      "timezone": "Africa/Cairo",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Kittilä",
+      "airport": "Kittilä Airport",
+      "iata": "KTT",
+      "icao": "EFKT",
+      "country": "Finland",
+      "lat": 67.701,
+      "lon": 24.8468,
+      "timezone": "Europe/Helsinki",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Montpellier",
+      "airport": "Montpellier–Méditerranée Airport",
+      "iata": "MPL",
+      "icao": "LFMT",
+      "country": "France",
+      "lat": 43.5762,
+      "lon": 3.963,
+      "timezone": "Europe/Paris",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Chania",
+      "airport": "Chania International Airport",
+      "iata": "CHQ",
+      "icao": "LGSA",
+      "country": "Greece",
+      "lat": 35.5317,
+      "lon": 24.1497,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Corfu",
+      "airport": "Corfu International Airport",
+      "iata": "CFU",
+      "icao": "LGKR",
+      "country": "Greece",
+      "lat": 39.6019,
+      "lon": 19.9117,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Heraklion",
+      "airport": "Heraklion International Airport",
+      "iata": "HER",
+      "icao": "LGIR",
+      "country": "Greece",
+      "lat": 35.3397,
+      "lon": 25.1803,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Kalamata",
+      "airport": "Kalamata International Airport",
+      "iata": "KLX",
+      "icao": "LGKL",
+      "country": "Greece",
+      "lat": 37.0683,
+      "lon": 22.0255,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Kefalonia",
+      "airport": "Kefalonia International Airport",
+      "iata": "EFL",
+      "icao": "LGKF",
+      "country": "Greece",
+      "lat": 38.1201,
+      "lon": 20.5005,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Kos",
+      "airport": "Kos International Airport",
+      "iata": "KGS",
+      "icao": "LGKO",
+      "country": "Greece",
+      "lat": 36.7933,
+      "lon": 27.0917,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Mykonos",
+      "airport": "Mykonos Airport",
+      "iata": "JMK",
+      "icao": "LGMK",
+      "country": "Greece",
+      "lat": 37.4351,
+      "lon": 25.3481,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Rhodes",
+      "airport": "Rhodes International Airport",
+      "iata": "RHO",
+      "icao": "LGRP",
+      "country": "Greece",
+      "lat": 36.4054,
+      "lon": 28.0862,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Samos",
+      "airport": "Samos International Airport",
+      "iata": "SMI",
+      "icao": "LGSM",
+      "country": "Greece",
+      "lat": 37.69,
+      "lon": 26.9117,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Santorini",
+      "airport": "Santorini International Airport",
+      "iata": "JTR",
+      "icao": "LGSR",
+      "country": "Greece",
+      "lat": 36.3992,
+      "lon": 25.4793,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Skiathos",
+      "airport": "Skiathos International Airport",
+      "iata": "JSI",
+      "icao": "LGSK",
+      "country": "Greece",
+      "lat": 39.1771,
+      "lon": 23.5037,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Zakynthos",
+      "airport": "Zakynthos International Airport",
+      "iata": "ZTH",
+      "icao": "LGZA",
+      "country": "Greece",
+      "lat": 37.7509,
+      "lon": 20.8843,
+      "timezone": "Europe/Athens",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Reykjavík",
+      "airport": "Keflavík International Airport",
+      "iata": "KEF",
+      "icao": "BIKF",
+      "country": "Iceland",
+      "lat": 63.985,
+      "lon": -22.6056,
+      "timezone": "Atlantic/Reykjavik",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Bari",
+      "airport": "Bari Karol Wojtyła Airport",
+      "iata": "BRI",
+      "icao": "LIBD",
+      "country": "Italy",
+      "lat": 41.1389,
+      "lon": 16.7606,
+      "timezone": "Europe/Rome",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Naples",
+      "airport": "Naples International Airport",
+      "iata": "NAP",
+      "icao": "LIRN",
+      "country": "Italy",
+      "lat": 40.886,
+      "lon": 14.2908,
+      "timezone": "Europe/Rome",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Rome",
+      "airport": "Rome Fiumicino Airport",
+      "iata": "FCO",
+      "icao": "LIRF",
+      "country": "Italy",
+      "lat": 41.8003,
+      "lon": 12.2389,
+      "timezone": "Europe/Rome",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Montego Bay",
+      "airport": "Sangster International Airport",
+      "iata": "MBJ",
+      "icao": "MKJS",
+      "country": "Jamaica",
+      "lat": 18.5037,
+      "lon": -77.9134,
+      "timezone": "America/Jamaica",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Mombasa",
+      "airport": "Moi International Airport",
+      "iata": "MBA",
+      "icao": "HKMO",
+      "country": "Kenya",
+      "lat": -4.0348,
+      "lon": 39.5942,
+      "timezone": "Africa/Nairobi",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Malé",
+      "airport": "Velana International Airport",
+      "iata": "MLE",
+      "icao": "VRMM",
+      "country": "Maldives",
+      "lat": 4.1918,
+      "lon": 73.5291,
+      "timezone": "Indian/Maldives",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Port Louis",
+      "airport": "Sir Seewoosagur Ramgoolam International Airport",
+      "iata": "MRU",
+      "icao": "FIMP",
+      "country": "Mauritius",
+      "lat": -20.4302,
+      "lon": 57.6836,
+      "timezone": "Indian/Mauritius",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Cancún",
+      "airport": "Cancún International Airport",
+      "iata": "CUN",
+      "icao": "MMUN",
+      "country": "Mexico",
+      "lat": 21.0365,
+      "lon": -86.8771,
+      "timezone": "America/Cancun",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Tulum",
+      "airport": "Tulum International Airport",
+      "iata": "TQO",
+      "icao": "MMTU",
+      "country": "Mexico",
+      "lat": 20.2433,
+      "lon": -87.5631,
+      "timezone": "America/Cancun",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Marrakesh",
+      "airport": "Marrakesh Menara Airport",
+      "iata": "RAK",
+      "icao": "GMMX",
+      "country": "Morocco",
+      "lat": 31.6069,
+      "lon": -8.0363,
+      "timezone": "Africa/Casablanca",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Windhoek",
+      "airport": "Hosea Kutako International Airport",
+      "iata": "WDH",
+      "icao": "FYWH",
+      "country": "Namibia",
+      "lat": -22.4799,
+      "lon": 17.4709,
+      "timezone": "Africa/Windhoek",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Ålesund",
+      "airport": "Ålesund Airport, Vigra",
+      "iata": "AES",
+      "icao": "ENAL",
+      "country": "Norway",
+      "lat": 62.5625,
+      "lon": 6.1197,
+      "timezone": "Europe/Oslo",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Alta",
+      "airport": "Alta Airport",
+      "iata": "ALF",
+      "icao": "ENAT",
+      "country": "Norway",
+      "lat": 69.9761,
+      "lon": 23.3717,
+      "timezone": "Europe/Oslo",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Bodø",
+      "airport": "Bodø Airport",
+      "iata": "BOO",
+      "icao": "ENBO",
+      "country": "Norway",
+      "lat": 67.2692,
+      "lon": 14.3653,
+      "timezone": "Europe/Oslo",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Harstad/Narvik",
+      "airport": "Harstad/Narvik Airport, Evenes",
+      "iata": "EVE",
+      "icao": "ENEV",
+      "country": "Norway",
+      "lat": 68.4913,
+      "lon": 16.6781,
+      "timezone": "Europe/Oslo",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Funchal",
+      "airport": "Cristiano Ronaldo International Airport",
+      "iata": "FNC",
+      "icao": "LPMA",
+      "country": "Portugal",
+      "lat": 32.6979,
+      "lon": -16.7745,
+      "timezone": "Atlantic/Madeira",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Porto",
+      "airport": "Porto Airport",
+      "iata": "OPO",
+      "icao": "LPPR",
+      "country": "Portugal",
+      "lat": 41.2481,
+      "lon": -8.6814,
+      "timezone": "Europe/Lisbon",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Victoria",
+      "airport": "Seychelles International Airport",
+      "iata": "SEZ",
+      "icao": "FSIA",
+      "country": "Seychelles",
+      "lat": -4.6743,
+      "lon": 55.5218,
+      "timezone": "Indian/Mahe",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Barcelona",
+      "airport": "Josep Tarradellas Barcelona–El Prat Airport",
+      "iata": "BCN",
+      "icao": "LEBL",
+      "country": "Spain",
+      "lat": 41.2974,
+      "lon": 2.0833,
+      "timezone": "Europe/Madrid",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Fuerteventura",
+      "airport": "Fuerteventura Airport",
+      "iata": "FUE",
+      "icao": "GCFV",
+      "country": "Spain",
+      "lat": 28.4527,
+      "lon": -13.8638,
+      "timezone": "Atlantic/Canary",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Gran Canaria",
+      "airport": "Gran Canaria Airport",
+      "iata": "LPA",
+      "icao": "GCLP",
+      "country": "Spain",
+      "lat": 27.9319,
+      "lon": -15.3866,
+      "timezone": "Atlantic/Canary",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Ibiza",
+      "airport": "Ibiza Airport",
+      "iata": "IBZ",
+      "icao": "LEIB",
+      "country": "Spain",
+      "lat": 38.8729,
+      "lon": 1.3731,
+      "timezone": "Europe/Madrid",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Jerez de la Frontera",
+      "airport": "Jerez Airport",
+      "iata": "XRY",
+      "icao": "LEJR",
+      "country": "Spain",
+      "lat": 36.7446,
+      "lon": -6.0601,
+      "timezone": "Europe/Madrid",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "La Palma",
+      "airport": "La Palma Airport",
+      "iata": "SPC",
+      "icao": "GCLA",
+      "country": "Spain",
+      "lat": 28.6265,
+      "lon": -17.7556,
+      "timezone": "Atlantic/Canary",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Lanzarote",
+      "airport": "Lanzarote Airport",
+      "iata": "ACE",
+      "icao": "GCRR",
+      "country": "Spain",
+      "lat": 28.9455,
+      "lon": -13.6052,
+      "timezone": "Atlantic/Canary",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Menorca",
+      "airport": "Menorca Airport",
+      "iata": "MAH",
+      "icao": "LEMH",
+      "country": "Spain",
+      "lat": 39.8626,
+      "lon": 4.2186,
+      "timezone": "Europe/Madrid",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Palma de Mallorca",
+      "airport": "Palma de Mallorca Airport",
+      "iata": "PMI",
+      "icao": "LEPA",
+      "country": "Spain",
+      "lat": 39.5517,
+      "lon": 2.7388,
+      "timezone": "Europe/Madrid",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Tenerife",
+      "airport": "Tenerife South Airport",
+      "iata": "TFS",
+      "icao": "GCTS",
+      "country": "Spain",
+      "lat": 28.0445,
+      "lon": -16.5725,
+      "timezone": "Atlantic/Canary",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Kilimanjaro",
+      "airport": "Kilimanjaro International Airport",
+      "iata": "JRO",
+      "icao": "HTKJ",
+      "country": "Tanzania",
+      "lat": -3.4294,
+      "lon": 37.0745,
+      "timezone": "Africa/Dar_es_Salaam",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Zanzibar",
+      "airport": "Abeid Amani Karume International Airport",
+      "iata": "ZNZ",
+      "icao": "HTZA",
+      "country": "Tanzania",
+      "lat": -6.222,
+      "lon": 39.2249,
+      "timezone": "Africa/Dar_es_Salaam",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Djerba",
+      "airport": "Djerba–Zarzis International Airport",
+      "iata": "DJE",
+      "icao": "DTTJ",
+      "country": "Tunisia",
+      "lat": 33.875,
+      "lon": 10.7755,
+      "timezone": "Africa/Tunis",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Monastir",
+      "airport": "Monastir Habib Bourguiba International Airport",
+      "iata": "MIR",
+      "icao": "DTMB",
+      "country": "Tunisia",
+      "lat": 35.7581,
+      "lon": 10.7547,
+      "timezone": "Africa/Tunis",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Antalya",
+      "airport": "Antalya Airport",
+      "iata": "AYT",
+      "icao": "LTAI",
+      "country": "Turkey",
+      "lat": 36.8987,
+      "lon": 30.8005,
+      "timezone": "Europe/Istanbul",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Bodrum",
+      "airport": "Milas–Bodrum Airport",
+      "iata": "BJV",
+      "icao": "LTFE",
+      "country": "Turkey",
+      "lat": 37.2506,
+      "lon": 27.6643,
+      "timezone": "Europe/Istanbul",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Anchorage",
+      "airport": "Ted Stevens Anchorage International Airport",
+      "iata": "ANC",
+      "icao": "PANC",
+      "country": "United States",
+      "lat": 61.1743,
+      "lon": -149.9982,
+      "timezone": "America/Anchorage",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Fort Myers",
+      "airport": "Southwest Florida International Airport",
+      "iata": "RSW",
+      "icao": "KRSW",
+      "country": "United States",
+      "lat": 26.5362,
+      "lon": -81.7552,
+      "timezone": "America/New_York",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Las Vegas",
+      "airport": "Harry Reid International Airport",
+      "iata": "LAS",
+      "icao": "KLAS",
+      "country": "United States",
+      "lat": 36.084,
+      "lon": -115.1537,
+      "timezone": "America/Los_Angeles",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Minneapolis/St Paul",
+      "airport": "Minneapolis–Saint Paul International Airport",
+      "iata": "MSP",
+      "icao": "KMSP",
+      "country": "United States",
+      "lat": 44.882,
+      "lon": -93.2218,
+      "timezone": "America/Chicago",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": true
+    },
+    {
+      "city": "Orlando",
+      "airport": "Orlando International Airport",
+      "iata": "MCO",
+      "icao": "KMCO",
+      "country": "United States",
+      "lat": 28.4312,
+      "lon": -81.3081,
+      "timezone": "America/New_York",
+      "hubs": [
+        "FRA",
+        "MUC"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Philadelphia",
+      "airport": "Philadelphia International Airport",
+      "iata": "PHL",
+      "icao": "KPHL",
+      "country": "United States",
+      "lat": 39.8744,
+      "lon": -75.2424,
+      "timezone": "America/New_York",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Tampa",
+      "airport": "Tampa International Airport",
+      "iata": "TPA",
+      "icao": "KTPA",
+      "country": "United States",
+      "lat": 27.9755,
+      "lon": -82.5332,
+      "timezone": "America/New_York",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    },
+    {
+      "city": "Victoria Falls",
+      "airport": "Victoria Falls Airport",
+      "iata": "VFA",
+      "icao": "FVFA",
+      "country": "Zimbabwe",
+      "lat": -18.0959,
+      "lon": 25.839,
+      "timezone": "Africa/Harare",
+      "hubs": [
+        "FRA"
+      ],
+      "seasonal": false
+    }
+  ]
+}
