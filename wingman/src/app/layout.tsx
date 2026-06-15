@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Wingman",
     default: "Wingman",
   },
-  description: "TODO",
+  description: "WINGMAN - Every dispatcher needs a wingman",
 };
 
 export const viewport: Viewport = {
