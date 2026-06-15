@@ -1,7 +1,7 @@
 # Aerospace03
 
 ## Team Miron
-- 
+- Anastasiya Henechka, Comp. Business Analytics; Maths & Economics
 - Martí Roca Bosch, Business Administration
 - Miriam Weigand, Physics
 - Aaron Kreuzer, Computer Science

@@ -1,0 +1,163 @@
+﻿record_id,flight_number,route,origin_iata,origin_airport,destination_iata,destination_airport,days_of_week,departure_time_local,arrival_time_local,duration,origin_coordinates,destination_coordinates,distance_km,quality_flag
+4Y210-FRA-DJE-04:45,4Y210,FRA-DJE,FRA,Frankfurt Airport,DJE,Djerba-Zarzis International Airport,Wednesday;Saturday,04:45,06:30,2h45m,"50.0379,8.5622","33.875,10.7755",1806,ok
+4Y530-FRA-IBZ-04:45,4Y530,FRA-IBZ,FRA,Frankfurt Airport,IBZ,Ibiza Airport,Saturday,04:45,07:00,2h15m,"50.0379,8.5622","38.8729,1.3731",1365,ok
+4Y1200-FRA-RHO-04:45,4Y1200,FRA-RHO,FRA,Frankfurt Airport,RHO,Rhodes International Airport,Sunday,04:45,08:50,3h5m,"50.0379,8.5622","36.4054,28.0862",2179,ok
+4Y900-FRA-DBV-04:45,4Y900,FRA-DBV,FRA,Frankfurt Airport,DBV,Dubrovnik Airport,Saturday,04:45,06:35,1h50m,"50.0379,8.5622","42.5614,18.2682",1115,ok
+4Y1202-FRA-KGS-04:45,4Y1202,FRA-KGS,FRA,Frankfurt Airport,KGS,Kos International Airport,Monday,04:45,08:55,3h10m,"50.0379,8.5622","36.7933,27.0917",2089,ok
+4Y1210-FRA-CFU-04:45,4Y1210,FRA-CFU,FRA,Frankfurt Airport,CFU,Corfu International Airport,Sunday,04:45,08:05,2h20m,"50.0379,8.5622","39.6019,19.9117",1462,ok
+4Y1204-FRA-HER-04:45,4Y1204,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Sunday,04:45,08:45,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y802-FRA-BRI-04:45,4Y802,FRA-BRI,FRA,Frankfurt Airport,BRI,Bari Karol Wojtyla Airport,Saturday,04:45,06:45,2h,"50.0379,8.5622","41.1389,16.7606",1176,ok
+4Y202-FRA-RAK-04:50,4Y202,FRA-RAK,FRA,Frankfurt Airport,RAK,Marrakesh Menara Airport,Sunday,04:50,07:40,3h50m,"50.0379,8.5622","31.6069,-8.0363",2468,ok
+4Y1206-FRA-CHQ-04:50,4Y1206,FRA-CHQ,FRA,Frankfurt Airport,CHQ,Chania International Airport,Thursday,04:50,08:50,3h,"50.0379,8.5622","35.5317,24.1497",2046,review
+4Y1204-FRA-HER-04:50,4Y1204,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Wednesday;Thursday;Saturday,04:50,08:50,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y1400-FRA-BOJ-04:50,4Y1400,FRA-BOJ,FRA,Frankfurt Airport,BOJ,Burgas Airport,Sunday,04:50,08:25,2h35m,"50.0379,8.5622","42.5696,27.5152",1669,ok
+4Y900-FRA-DBV-04:55,4Y900,FRA-DBV,FRA,Frankfurt Airport,DBV,Dubrovnik Airport,Saturday,04:55,06:45,1h50m,"50.0379,8.5622","42.5614,18.2682",1115,ok
+4Y1408-FRA-VAR-05:05,4Y1408,FRA-VAR,FRA,Frankfurt Airport,VAR,Varna Airport,Thursday,05:05,08:35,2h30m,"50.0379,8.5622","43.2321,27.8251",1647,ok
+4Y1204-FRA-HER-05:05,4Y1204,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Monday,05:05,09:05,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y1408-FRA-VAR-05:10,4Y1408,FRA-VAR,FRA,Frankfurt Airport,VAR,Varna Airport,Sunday,05:10,08:40,2h30m,"50.0379,8.5622","43.2321,27.8251",1647,ok
+4Y912-FRA-SPU-05:15,4Y912,FRA-SPU,FRA,Frankfurt Airport,SPU,Split Airport,Sunday,05:15,06:55,1h40m,"50.0379,8.5622","43.5389,16.298",931,ok
+4Y214-FRA-MIR-05:15,4Y214,FRA-MIR,FRA,Frankfurt Airport,MIR,Monastir Habib Bourguiba International Airport,Monday,05:15,06:45,2h30m,"50.0379,8.5622","35.7581,10.7547",1598,ok
+4Y910-FRA-ZAD-05:20,4Y910,FRA-ZAD,FRA,Frankfurt Airport,ZAD,Zadar Airport,Sunday,05:20,06:50,1h30m,"50.0379,8.5622","44.1083,15.3467",835,ok
+4Y512-FRA-PMI-05:40,4Y512,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Friday,05:40,07:45,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y1206-FRA-CHQ-05:50,4Y1206,FRA-CHQ,FRA,Frankfurt Airport,CHQ,Chania International Airport,Thursday,05:50,09:50,3h,"50.0379,8.5622","35.5317,24.1497",2046,review
+4Y1204-FRA-HER-05:50,4Y1204,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Sunday,05:50,09:50,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y1200-FRA-RHO-06:35,4Y1200,FRA-RHO,FRA,Frankfurt Airport,RHO,Rhodes International Airport,Wednesday,06:35,10:40,3h5m,"50.0379,8.5622","36.4054,28.0862",2179,ok
+4Y512-FRA-PMI-06:55,4Y512,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Sunday,06:55,08:55,2h,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y214-FRA-MIR-07:05,4Y214,FRA-MIR,FRA,Frankfurt Airport,MIR,Monastir Habib Bourguiba International Airport,Wednesday,07:05,08:35,2h30m,"50.0379,8.5622","35.7581,10.7547",1598,ok
+4Y1408-FRA-VAR-07:25,4Y1408,FRA-VAR,FRA,Frankfurt Airport,VAR,Varna Airport,Tuesday,07:25,10:55,2h30m,"50.0379,8.5622","43.2321,27.8251",1647,ok
+4Y1210-FRA-CFU-07:25,4Y1210,FRA-CFU,FRA,Frankfurt Airport,CFU,Corfu International Airport,Thursday,07:25,10:45,2h20m,"50.0379,8.5622","39.6019,19.9117",1462,ok
+4Y1214-FRA-ZTH-07:25,4Y1214,FRA-ZTH,FRA,Frankfurt Airport,ZTH,Zakynthos International Airport,Sunday,07:25,11:00,2h35m,"50.0379,8.5622","37.7509,20.8842",1681,ok
+4Y802-FRA-BRI-07:55,4Y802,FRA-BRI,FRA,Frankfurt Airport,BRI,Bari Karol Wojtyla Airport,Thursday,07:55,09:55,2h,"50.0379,8.5622","41.1389,16.7606",1176,ok
+4Y1210-FRA-CFU-08:20,4Y1210,FRA-CFU,FRA,Frankfurt Airport,CFU,Corfu International Airport,Tuesday,08:20,11:40,2h20m,"50.0379,8.5622","39.6019,19.9117",1462,ok
+4Y206-FRA-HRG-08:20,4Y206,FRA-HRG,FRA,Frankfurt Airport,HRG,Hurghada International Airport,Saturday,08:20,13:00,4h40m,"50.0379,8.5622","27.1783,33.7994",3324,ok
+4Y202-FRA-RAK-08:25,4Y202,FRA-RAK,FRA,Frankfurt Airport,RAK,Marrakesh Menara Airport,Wednesday,08:25,11:10,3h45m,"50.0379,8.5622","31.6069,-8.0363",2468,ok
+4Y910-FRA-ZAD-08:30,4Y910,FRA-ZAD,FRA,Frankfurt Airport,ZAD,Zadar Airport,Friday,08:30,10:00,1h30m,"50.0379,8.5622","44.1083,15.3467",835,ok
+4Y500-FRA-XRY-08:50,4Y500,FRA-XRY,FRA,Frankfurt Airport,XRY,Jerez Airport,Friday,08:50,11:50,3h,"50.0379,8.5622","36.7446,-6.0601",1885,ok
+4Y206-FRA-HRG-08:55,4Y206,FRA-HRG,FRA,Frankfurt Airport,HRG,Hurghada International Airport,Thursday,08:55,13:30,4h35m,"50.0379,8.5622","27.1783,33.7994",3324,ok
+4Y54-FRA-LAS-09:20,4Y54,FRA-LAS,FRA,Frankfurt Airport,LAS,Harry Reid International Airport,Wednesday,09:20,12:05,11h45m,"50.0379,8.5622","36.084,-115.1537",8962,ok
+4Y802-FRA-BRI-09:25,4Y802,FRA-BRI,FRA,Frankfurt Airport,BRI,Bari Karol Wojtyla Airport,Wednesday;Saturday,09:25,11:25,2h,"50.0379,8.5622","41.1389,16.7606",1176,ok
+4Y530-FRA-IBZ-09:25,4Y530,FRA-IBZ,FRA,Frankfurt Airport,IBZ,Ibiza Airport,Friday,09:25,11:40,2h15m,"50.0379,8.5622","38.8729,1.3731",1365,ok
+4Y1300-FRA-EVE-09:30,4Y1300,FRA-EVE,FRA,Frankfurt Airport,EVE,Harstad/Narvik Airport,Thursday,09:30,12:35,3h5m,"50.0379,8.5622","68.4913,16.6781",2099,ok
+4Y530-FRA-IBZ-09:30,4Y530,FRA-IBZ,FRA,Frankfurt Airport,IBZ,Ibiza Airport,Monday;Wednesday,09:30,11:45,2h15m,"50.0379,8.5622","38.8729,1.3731",1365,ok
+4Y530-FRA-IBZ-09:35,4Y530,FRA-IBZ,FRA,Frankfurt Airport,IBZ,Ibiza Airport,Tuesday,09:35,11:50,2h15m,"50.0379,8.5622","38.8729,1.3731",1365,ok
+4Y206-FRA-HRG-09:40,4Y206,FRA-HRG,FRA,Frankfurt Airport,HRG,Hurghada International Airport,Wednesday,09:40,14:15,4h35m,"50.0379,8.5622","27.1783,33.7994",3324,ok
+4Y530-FRA-IBZ-09:40,4Y530,FRA-IBZ,FRA,Frankfurt Airport,IBZ,Ibiza Airport,Thursday,09:40,11:55,2h15m,"50.0379,8.5622","38.8729,1.3731",1365,ok
+4Y202-FRA-RAK-09:45,4Y202,FRA-RAK,FRA,Frankfurt Airport,RAK,Marrakesh Menara Airport,Monday,09:45,12:35,3h50m,"50.0379,8.5622","31.6069,-8.0363",2468,ok
+4Y1300-FRA-EVE-09:50,4Y1300,FRA-EVE,FRA,Frankfurt Airport,EVE,Harstad/Narvik Airport,Friday,09:50,12:55,3h5m,"50.0379,8.5622","68.4913,16.6781",2099,ok
+4Y500-FRA-XRY-09:50,4Y500,FRA-XRY,FRA,Frankfurt Airport,XRY,Jerez Airport,Tuesday,09:50,12:50,3h,"50.0379,8.5622","36.7446,-6.0601",1885,ok
+4Y1302-FRA-ALF-09:50,4Y1302,FRA-ALF,FRA,Frankfurt Airport,ALF,Alta Airport,Sunday,09:50,13:25,3h35m,"50.0379,8.5622","69.9761,23.3717",2350,ok
+4Y302-FRA-LPA-09:55,4Y302,FRA-LPA,FRA,Frankfurt Airport,LPA,Gran Canaria Airport,Monday,09:55,13:35,4h40m,"50.0379,8.5622","27.9319,-15.3866",3185,ok
+4Y306-FRA-TFS-10:00,4Y306,FRA-TFS,FRA,Frankfurt Airport,TFS,Tenerife South Airport,Tuesday,10:00,14:00,5h,"50.0379,8.5622","28.0445,-16.5725",3239,ok
+4Y10-FRA-CUN-10:00,4Y10,FRA-CUN,FRA,Frankfurt Airport,CUN,Cancun International Airport,Thursday;Friday,10:00,16:05,12h5m,"50.0379,8.5622","21.0365,-86.8771",8605,ok
+4Y302-FRA-LPA-10:00,4Y302,FRA-LPA,FRA,Frankfurt Airport,LPA,Gran Canaria Airport,Friday,10:00,13:40,4h40m,"50.0379,8.5622","27.9319,-15.3866",3185,ok
+4Y1500-FRA-SNN-10:05,4Y1500,FRA-SNN,FRA,Frankfurt Airport,SNN,Shannon Airport,Saturday,10:05,11:15,2h10m,"50.0379,8.5622","52.7019,-8.9248",1246,ok
+4Y308-FRA-ACE-10:05,4Y308,FRA-ACE,FRA,Frankfurt Airport,ACE,Cesar Manrique-Lanzarote Airport,Monday;Thursday;Friday,10:05,13:35,4h30m,"50.0379,8.5622","28.9455,-13.6052",2996,ok
+4Y302-FRA-LPA-10:05,4Y302,FRA-LPA,FRA,Frankfurt Airport,LPA,Gran Canaria Airport,Tuesday;Friday,10:05,13:45,4h40m,"50.0379,8.5622","27.9319,-15.3866",3185,ok
+4Y10-FRA-CUN-10:10,4Y10,FRA-CUN,FRA,Frankfurt Airport,CUN,Cancun International Airport,Monday;Sunday,10:10,16:15,12h5m,"50.0379,8.5622","21.0365,-86.8771",8605,ok
+4Y1300-FRA-EVE-10:10,4Y1300,FRA-EVE,FRA,Frankfurt Airport,EVE,Harstad/Narvik Airport,Wednesday,10:10,13:25,3h15m,"50.0379,8.5622","68.4913,16.6781",2099,ok
+4Y512-FRA-PMI-10:10,4Y512,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Monday;Wednesday,10:10,12:15,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y10-FRA-CUN-10:15,4Y10,FRA-CUN,FRA,Frankfurt Airport,CUN,Cancun International Airport,Wednesday,10:15,16:20,12h5m,"50.0379,8.5622","21.0365,-86.8771",8605,ok
+4Y310-FRA-SPC-10:15,4Y310,FRA-SPC,FRA,Frankfurt Airport,SPC,La Palma Airport,Tuesday;Saturday,10:15,14:00,4h45m,"50.0379,8.5622","28.6265,-17.7556",3252,ok
+4Y300-FRA-FUE-10:20,4Y300,FRA-FUE,FRA,Frankfurt Airport,FUE,Fuerteventura Airport,Tuesday,10:20,13:50,4h30m,"50.0379,8.5622","28.4527,-13.8638",3056,ok
+4Y306-FRA-TFS-10:20,4Y306,FRA-TFS,FRA,Frankfurt Airport,TFS,Tenerife South Airport,Saturday,10:20,14:10,4h50m,"50.0379,8.5622","28.0445,-16.5725",3239,ok
+4Y512-FRA-PMI-10:20,4Y512,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Tuesday;Wednesday;Thursday;Sunday,10:20,12:25,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y206-FRA-HRG-10:25,4Y206,FRA-HRG,FRA,Frankfurt Airport,HRG,Hurghada International Airport,Sunday,10:25,15:00,4h35m,"50.0379,8.5622","27.1783,33.7994",3324,ok
+4Y910-FRA-ZAD-10:25,4Y910,FRA-ZAD,FRA,Frankfurt Airport,ZAD,Zadar Airport,Wednesday,10:25,11:55,1h30m,"50.0379,8.5622","44.1083,15.3467",835,ok
+4Y308-FRA-ACE-10:25,4Y308,FRA-ACE,FRA,Frankfurt Airport,ACE,Cesar Manrique-Lanzarote Airport,Saturday,10:25,13:55,4h30m,"50.0379,8.5622","28.9455,-13.6052",2996,ok
+4Y10-FRA-CUN-10:25,4Y10,FRA-CUN,FRA,Frankfurt Airport,CUN,Cancun International Airport,Monday;Wednesday;Thursday;Friday;Sunday,10:25,15:20,11h55m,"50.0379,8.5622","21.0365,-86.8771",8605,ok
+4Y1204-FRA-HER-10:30,4Y1204,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Wednesday,10:30,14:35,3h5m,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y300-FRA-FUE-10:35,4Y300,FRA-FUE,FRA,Frankfurt Airport,FUE,Fuerteventura Airport,Thursday,10:35,14:05,4h30m,"50.0379,8.5622","28.4527,-13.8638",3056,ok
+4Y306-FRA-TFS-10:35,4Y306,FRA-TFS,FRA,Frankfurt Airport,TFS,Tenerife South Airport,Monday,10:35,14:25,4h50m,"50.0379,8.5622","28.0445,-16.5725",3239,ok
+4Y1204-FRA-HER-10:35,4Y1204,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Saturday,10:35,14:40,3h5m,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y310-FRA-SPC-10:40,4Y310,FRA-SPC,FRA,Frankfurt Airport,SPC,La Palma Airport,Saturday,10:40,14:25,4h45m,"50.0379,8.5622","28.6265,-17.7556",3252,ok
+4Y530-FRA-IBZ-10:40,4Y530,FRA-IBZ,FRA,Frankfurt Airport,IBZ,Ibiza Airport,Sunday,10:40,12:55,2h15m,"50.0379,8.5622","38.8729,1.3731",1365,ok
+4Y1320-FRA-KTT-10:40,4Y1320,FRA-KTT,FRA,Frankfurt Airport,KTT,Kittila Airport,Friday,10:40,15:00,3h20m,"50.0379,8.5622","67.701,24.8466",2160,ok
+4Y300-FRA-FUE-10:45,4Y300,FRA-FUE,FRA,Frankfurt Airport,FUE,Fuerteventura Airport,Sunday,10:45,14:15,4h30m,"50.0379,8.5622","28.4527,-13.8638",3056,ok
+4Y1302-FRA-ALF-10:45,4Y1302,FRA-ALF,FRA,Frankfurt Airport,ALF,Alta Airport,Thursday,10:45,14:20,3h35m,"50.0379,8.5622","69.9761,23.3717",2350,ok
+4Y206-FRA-HRG-10:45,4Y206,FRA-HRG,FRA,Frankfurt Airport,HRG,Hurghada International Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday,10:45,16:15,4h30m,"50.0379,8.5622","27.1783,33.7994",3324,ok
+4Y1320-FRA-KTT-10:50,4Y1320,FRA-KTT,FRA,Frankfurt Airport,KTT,Kittila Airport,Tuesday,10:50,15:10,3h20m,"50.0379,8.5622","67.701,24.8466",2160,ok
+4Y1300-FRA-EVE-10:55,4Y1300,FRA-EVE,FRA,Frankfurt Airport,EVE,Harstad/Narvik Airport,Saturday,10:55,13:55,3h,"50.0379,8.5622","68.4913,16.6781",2099,ok
+4Y206-FRA-HRG-10:55,4Y206,FRA-HRG,FRA,Frankfurt Airport,HRG,Hurghada International Airport,Monday,10:55,15:30,4h35m,"50.0379,8.5622","27.1783,33.7994",3324,ok
+4Y308-FRA-ACE-11:00,4Y308,FRA-ACE,FRA,Frankfurt Airport,ACE,Cesar Manrique-Lanzarote Airport,Monday,11:00,14:30,4h30m,"50.0379,8.5622","28.9455,-13.6052",2996,ok
+4Y60-FRA-RSW-11:00,4Y60,FRA-RSW,FRA,Frankfurt Airport,RSW,Southwest Florida International Airport,Saturday,11:00,16:55,10h55m,"50.0379,8.5622","26.5362,-81.7552",7802,ok
+4Y302-FRA-LPA-11:00,4Y302,FRA-LPA,FRA,Frankfurt Airport,LPA,Gran Canaria Airport,Thursday,11:00,14:50,4h50m,"50.0379,8.5622","27.9319,-15.3866",3185,ok
+4Y1302-FRA-ALF-11:05,4Y1302,FRA-ALF,FRA,Frankfurt Airport,ALF,Alta Airport,Thursday;Sunday,11:05,14:40,3h35m,"50.0379,8.5622","69.9761,23.3717",2350,ok
+4Y306-FRA-TFS-11:10,4Y306,FRA-TFS,FRA,Frankfurt Airport,TFS,Tenerife South Airport,Friday,11:10,14:55,4h45m,"50.0379,8.5622","28.0445,-16.5725",3239,ok
+4Y1240-FRA-LCA-11:10,4Y1240,FRA-LCA,FRA,Frankfurt Airport,LCA,Larnaca International Airport,Tuesday;Friday;Saturday,11:10,16:00,3h50m,"50.0379,8.5622","34.8751,33.6249",2637,ok
+4Y1300-FRA-EVE-11:10,4Y1300,FRA-EVE,FRA,Frankfurt Airport,EVE,Harstad/Narvik Airport,Sunday,11:10,14:15,3h5m,"50.0379,8.5622","68.4913,16.6781",2099,ok
+4Y702-FRA-FNC-11:15,4Y702,FRA-FNC,FRA,Frankfurt Airport,FNC,Madeira Airport,Wednesday;Friday;Sunday,11:15,14:30,4h15m,"50.0379,8.5622","32.6979,-16.7745",2836,ok
+4Y1240-FRA-LCA-11:15,4Y1240,FRA-LCA,FRA,Frankfurt Airport,LCA,Larnaca International Airport,Monday;Wednesday;Thursday;Sunday,11:15,16:00,3h45m,"50.0379,8.5622","34.8751,33.6249",2637,ok
+4Y536-FRA-MAH-11:15,4Y536,FRA-MAH,FRA,Frankfurt Airport,MAH,Menorca Airport,Saturday,11:15,13:10,1h55m,"50.0379,8.5622","39.8626,4.2186",1181,ok
+4Y306-FRA-TFS-11:15,4Y306,FRA-TFS,FRA,Frankfurt Airport,TFS,Tenerife South Airport,Wednesday,11:15,15:00,4h45m,"50.0379,8.5622","28.0445,-16.5725",3239,ok
+4Y52-FRA-MSP-11:30,4Y52,FRA-MSP,FRA,Frankfurt Airport,MSP,Minneapolis-Saint Paul International Airport,Monday;Wednesday;Friday,11:30,14:00,9h30m,"50.0379,8.5622","44.883,-93.2223",7049,ok
+4Y64-FRA-TPA-11:30,4Y64,FRA-TPA,FRA,Frankfurt Airport,TPA,Tampa International Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday,11:30,15:55,10h25m,"50.0379,8.5622","27.9755,-82.5332",7738,ok
+4Y64-FRA-TPA-11:45,4Y64,FRA-TPA,FRA,Frankfurt Airport,TPA,Tampa International Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday,11:45,17:40,10h55m,"50.0379,8.5622","27.9755,-82.5332",7738,ok
+4Y500-FRA-XRY-11:50,4Y500,FRA-XRY,FRA,Frankfurt Airport,XRY,Jerez Airport,Saturday,11:50,14:50,3h,"50.0379,8.5622","36.7446,-6.0601",1885,ok
+4Y54-FRA-LAS-11:50,4Y54,FRA-LAS,FRA,Frankfurt Airport,LAS,Harry Reid International Airport,Sunday,11:50,15:40,11h50m,"50.0379,8.5622","36.084,-115.1537",8962,ok
+4Y202-FRA-RAK-11:55,4Y202,FRA-RAK,FRA,Frankfurt Airport,RAK,Marrakesh Menara Airport,Thursday,11:55,14:45,3h50m,"50.0379,8.5622","31.6069,-8.0363",2468,ok
+4Y308-FRA-ACE-12:00,4Y308,FRA-ACE,FRA,Frankfurt Airport,ACE,Cesar Manrique-Lanzarote Airport,Friday,12:00,15:30,4h30m,"50.0379,8.5622","28.9455,-13.6052",2996,ok
+4Y2-FRA-PUJ-12:05,4Y2,FRA-PUJ,FRA,Frankfurt Airport,PUJ,Punta Cana International Airport,Tuesday;Wednesday;Friday;Saturday,12:05,16:00,9h55m,"50.0379,8.5622","18.5674,-68.3634",7512,ok
+4Y206-FRA-HRG-12:10,4Y206,FRA-HRG,FRA,Frankfurt Airport,HRG,Hurghada International Airport,Friday,12:10,16:45,4h35m,"50.0379,8.5622","27.1783,33.7994",3324,ok
+4Y302-FRA-LPA-12:10,4Y302,FRA-LPA,FRA,Frankfurt Airport,LPA,Gran Canaria Airport,Wednesday,12:10,15:50,4h40m,"50.0379,8.5622","27.9319,-15.3866",3185,ok
+4Y306-FRA-TFS-12:10,4Y306,FRA-TFS,FRA,Frankfurt Airport,TFS,Tenerife South Airport,Thursday;Saturday;Sunday,12:10,16:00,4h50m,"50.0379,8.5622","28.0445,-16.5725",3239,ok
+4Y518-FRA-PMI-12:10,4Y518,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Friday,12:10,14:15,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y1244-FRA-LCA-12:15,4Y1244,FRA-LCA,FRA,Frankfurt Airport,LCA,Larnaca International Airport,Monday,12:15,17:00,3h45m,"50.0379,8.5622","34.8751,33.6249",2637,ok
+4Y1224-FRA-HER-12:15,4Y1224,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Saturday,12:15,16:15,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y302-FRA-LPA-12:40,4Y302,FRA-LPA,FRA,Frankfurt Airport,LPA,Gran Canaria Airport,Saturday;Sunday,12:40,16:20,4h40m,"50.0379,8.5622","27.9319,-15.3866",3185,ok
+4Y702-FRA-FNC-12:50,4Y702,FRA-FNC,FRA,Frankfurt Airport,FNC,Madeira Airport,Sunday,12:50,16:05,4h15m,"50.0379,8.5622","32.6979,-16.7745",2836,ok
+4Y1220-FRA-JTR-12:50,4Y1220,FRA-JTR,FRA,Frankfurt Airport,JTR,Santorini Airport,Saturday,12:50,16:45,2h55m,"50.0379,8.5622","36.3992,25.4793",2035,ok
+4Y1220-FRA-JTR-12:55,4Y1220,FRA-JTR,FRA,Frankfurt Airport,JTR,Santorini Airport,Tuesday;Saturday,12:55,16:50,2h55m,"50.0379,8.5622","36.3992,25.4793",2035,ok
+4Y300-FRA-FUE-13:00,4Y300,FRA-FUE,FRA,Frankfurt Airport,FUE,Fuerteventura Airport,Tuesday;Thursday;Sunday,13:00,16:30,4h30m,"50.0379,8.5622","28.4527,-13.8638",3056,ok
+4Y702-FRA-FNC-13:00,4Y702,FRA-FNC,FRA,Frankfurt Airport,FNC,Madeira Airport,Saturday,13:00,16:15,4h15m,"50.0379,8.5622","32.6979,-16.7745",2836,ok
+4Y1220-FRA-JTR-13:00,4Y1220,FRA-JTR,FRA,Frankfurt Airport,JTR,Santorini Airport,Thursday;Sunday,13:00,16:55,2h55m,"50.0379,8.5622","36.3992,25.4793",2035,ok
+4Y50-FRA-PHL-13:00,4Y50,FRA-PHL,FRA,Frankfurt Airport,PHL,Philadelphia International Airport,Tuesday;Wednesday;Thursday;Friday;Sunday,13:00,17:05,9h5m,"50.0379,8.5622","39.8744,-75.2424",6339,ok
+4Y308-FRA-ACE-13:05,4Y308,FRA-ACE,FRA,Frankfurt Airport,ACE,Cesar Manrique-Lanzarote Airport,Thursday;Friday,13:05,16:35,4h30m,"50.0379,8.5622","28.9455,-13.6052",2996,ok
+4Y702-FRA-FNC-13:05,4Y702,FRA-FNC,FRA,Frankfurt Airport,FNC,Madeira Airport,Wednesday,13:05,16:20,4h15m,"50.0379,8.5622","32.6979,-16.7745",2836,ok
+4Y60-FRA-RSW-13:05,4Y60,FRA-RSW,FRA,Frankfurt Airport,RSW,Southwest Florida International Airport,Thursday;Saturday,13:05,17:35,10h30m,"50.0379,8.5622","26.5362,-81.7552",7802,ok
+4Y68-FRA-MCO-13:10,4Y68,FRA-MCO,FRA,Frankfurt Airport,MCO,Orlando International Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Sunday,13:10,18:55,10h45m,"50.0379,8.5622","28.4312,-81.3081",7619,ok
+4Y50-FRA-PHL-13:15,4Y50,FRA-PHL,FRA,Frankfurt Airport,PHL,Philadelphia International Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Sunday,13:15,16:05,8h50m,"50.0379,8.5622","39.8744,-75.2424",6339,ok
+4Y318-FRA-LPA-13:20,4Y318,FRA-LPA,FRA,Frankfurt Airport,LPA,Gran Canaria Airport,Saturday,13:20,13:45,25m,"50.0379,8.5622","27.9319,-15.3866",3185,review
+4Y1230-FRA-JMK-13:20,4Y1230,FRA-JMK,FRA,Frankfurt Airport,JMK,Mykonos Airport,Friday,13:20,17:10,2h50m,"50.0379,8.5622","37.4351,25.3481",1936,ok
+4Y1200-FRA-RHO-13:30,4Y1200,FRA-RHO,FRA,Frankfurt Airport,RHO,Rhodes International Airport,Friday;Saturday;Sunday,13:30,17:35,3h5m,"50.0379,8.5622","36.4054,28.0862",2179,ok
+4Y76-FRA-YYC-13:30,4Y76,FRA-YYC,FRA,Frankfurt Airport,YYC,Calgary International Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday,13:30,15:05,9h35m,"50.0379,8.5622","51.1139,-114.0203",7528,ok
+4Y536-FRA-MAH-13:35,4Y536,FRA-MAH,FRA,Frankfurt Airport,MAH,Menorca Airport,Thursday,13:35,15:35,2h,"50.0379,8.5622","39.8626,4.2186",1181,ok
+4Y68-FRA-MCO-13:40,4Y68,FRA-MCO,FRA,Frankfurt Airport,MCO,Orlando International Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday,13:40,17:55,10h15m,"50.0379,8.5622","28.4312,-81.3081",7619,ok
+4Y1230-FRA-JMK-13:45,4Y1230,FRA-JMK,FRA,Frankfurt Airport,JMK,Mykonos Airport,Tuesday,13:45,17:35,2h50m,"50.0379,8.5622","37.4351,25.3481",1936,ok
+4Y54-FRA-LAS-13:45,4Y54,FRA-LAS,FRA,Frankfurt Airport,LAS,Harry Reid International Airport,Monday;Wednesday;Friday;Saturday;Sunday,13:45,16:20,11h35m,"50.0379,8.5622","36.084,-115.1537",8962,ok
+4Y1224-FRA-HER-13:45,4Y1224,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Thursday,13:45,17:45,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y1408-FRA-VAR-13:45,4Y1408,FRA-VAR,FRA,Frankfurt Airport,VAR,Varna Airport,Thursday,13:45,17:15,2h30m,"50.0379,8.5622","43.2321,27.8251",1647,ok
+4Y1234-FRA-EFL-13:45,4Y1234,FRA-EFL,FRA,Frankfurt Airport,EFL,Kefalonia Airport,Monday,13:45,17:15,2h30m,"50.0379,8.5622","38.1201,20.5005",1628,ok
+4Y2-FRA-PUJ-13:55,4Y2,FRA-PUJ,FRA,Frankfurt Airport,PUJ,Punta Cana International Airport,Thursday,13:55,17:50,9h55m,"50.0379,8.5622","18.5674,-68.3634",7512,ok
+4Y1232-FRA-KLX-14:00,4Y1232,FRA-KLX,FRA,Frankfurt Airport,KLX,Kalamata International Airport,Sunday,14:00,17:45,2h45m,"50.0379,8.5622","37.0683,22.0255",1799,ok
+4Y516-FRA-PMI-14:00,4Y516,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Wednesday,14:00,16:05,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y518-FRA-PMI-14:05,4Y518,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Monday,14:05,16:05,2h,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y1212-FRA-JSI-14:05,4Y1212,FRA-JSI,FRA,Frankfurt Airport,JSI,Skiathos Island National Airport,Tuesday,14:05,17:35,2h30m,"50.0379,8.5622","39.1771,23.503",1684,ok
+4Y518-FRA-PMI-14:20,4Y518,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Thursday;Sunday,14:20,16:25,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y202-FRA-RAK-14:20,4Y202,FRA-RAK,FRA,Frankfurt Airport,RAK,Marrakesh Menara Airport,Friday,14:20,17:10,3h50m,"50.0379,8.5622","31.6069,-8.0363",2468,ok
+4Y1212-FRA-JSI-14:20,4Y1212,FRA-JSI,FRA,Frankfurt Airport,JSI,Skiathos Island National Airport,Friday,14:20,17:50,2h30m,"50.0379,8.5622","39.1771,23.503",1684,ok
+4Y1224-FRA-HER-14:25,4Y1224,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Sunday,14:25,18:25,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y1224-FRA-HER-14:30,4Y1224,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Monday,14:30,18:30,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y1210-FRA-CFU-14:35,4Y1210,FRA-CFU,FRA,Frankfurt Airport,CFU,Corfu International Airport,Friday,14:35,17:55,2h20m,"50.0379,8.5622","39.6019,19.9117",1462,ok
+4Y1224-FRA-HER-14:35,4Y1224,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Wednesday,14:35,18:35,3h,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y1400-FRA-BOJ-14:45,4Y1400,FRA-BOJ,FRA,Frankfurt Airport,BOJ,Burgas Airport,Tuesday,14:45,18:20,2h35m,"50.0379,8.5622","42.5696,27.5152",1669,ok
+4Y1224-FRA-HER-14:45,4Y1224,FRA-HER,FRA,Frankfurt Airport,HER,Heraklion International Airport,Wednesday;Sunday,14:45,18:35,2h50m,"50.0379,8.5622","35.3397,25.1803",2115,ok
+4Y514-FRA-PMI-15:00,4Y514,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday,15:00,17:10,2h10m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y910-FRA-ZAD-15:15,4Y910,FRA-ZAD,FRA,Frankfurt Airport,ZAD,Zadar Airport,Monday,15:15,16:45,1h30m,"50.0379,8.5622","44.1083,15.3467",835,ok
+4Y900-FRA-DBV-15:15,4Y900,FRA-DBV,FRA,Frankfurt Airport,DBV,Dubrovnik Airport,Wednesday;Thursday,15:15,17:05,1h50m,"50.0379,8.5622","42.5614,18.2682",1115,ok
+4Y74-FRA-YHZ-15:40,4Y74,FRA-YHZ,FRA,Frankfurt Airport,YHZ,Halifax Stanfield International Airport,Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday,15:40,18:00,7h20m,"50.0379,8.5622","44.8808,-63.5086",5235,ok
+4Y900-FRA-DBV-15:55,4Y900,FRA-DBV,FRA,Frankfurt Airport,DBV,Dubrovnik Airport,Tuesday;Friday,15:55,17:45,1h50m,"50.0379,8.5622","42.5614,18.2682",1115,ok
+4Y912-FRA-SPU-16:10,4Y912,FRA-SPU,FRA,Frankfurt Airport,SPU,Split Airport,Thursday,16:10,17:50,1h40m,"50.0379,8.5622","43.5389,16.298",931,ok
+4Y912-FRA-SPU-16:15,4Y912,FRA-SPU,FRA,Frankfurt Airport,SPU,Split Airport,Saturday,16:15,17:55,1h40m,"50.0379,8.5622","43.5389,16.298",931,ok
+4Y514-FRA-PMI-16:20,4Y514,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Monday,16:20,18:25,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y900-FRA-DBV-16:20,4Y900,FRA-DBV,FRA,Frankfurt Airport,DBV,Dubrovnik Airport,Monday,16:20,18:10,1h50m,"50.0379,8.5622","42.5614,18.2682",1115,ok
+4Y514-FRA-PMI-16:25,4Y514,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Tuesday,16:25,18:30,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y912-FRA-SPU-16:25,4Y912,FRA-SPU,FRA,Frankfurt Airport,SPU,Split Airport,Monday,16:25,18:05,1h40m,"50.0379,8.5622","43.5389,16.298",931,ok
+4Y912-FRA-SPU-16:25,4Y912,FRA-SPU,FRA,Frankfurt Airport,SPU,Split Airport,Monday;Wednesday,16:25,18:05,1h40m,"50.0379,8.5622","43.5389,16.298",931,ok
+4Y912-FRA-SPU-16:30,4Y912,FRA-SPU,FRA,Frankfurt Airport,SPU,Split Airport,Sunday,16:30,18:10,1h40m,"50.0379,8.5622","43.5389,16.298",931,ok
+4Y514-FRA-PMI-16:30,4Y514,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Friday,16:30,18:35,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y1310-FRA-FRA-16:40,4Y1310,FRA-FRA,FRA,Frankfurt Airport,FRA,Frankfurt Airport,Friday,16:40,18:55,3h15m,"50.0379,8.5622","50.0379,8.5622",0,review
+4Y514-FRA-PMI-16:40,4Y514,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Wednesday,16:40,18:45,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y514-FRA-PMI-16:50,4Y514,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Saturday,16:50,18:55,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y802-FRA-BRI-17:00,4Y802,FRA-BRI,FRA,Frankfurt Airport,BRI,Bari Karol Wojtyla Airport,Monday,17:00,19:00,2h,"50.0379,8.5622","41.1389,16.7606",1176,ok
+4Y514-FRA-PMI-17:05,4Y514,FRA-PMI,FRA,Frankfurt Airport,PMI,Palma de Mallorca Airport,Sunday,17:05,19:10,2h5m,"50.0379,8.5622","39.5517,2.7388",1252,ok
+4Y152-FRA-MRU-17:45,4Y152,FRA-MRU,FRA,Frankfurt Airport,MRU,Sir Seewoosagur Ramgoolam International Airport,Friday,17:45,07:00,11h15m,"50.0379,8.5622","-20.4302,57.6836",9200,ok
