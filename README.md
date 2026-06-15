@@ -2,7 +2,7 @@
 
 ## Team Miron
 - 
-- 
+- Martí Roca Bosch, Business Administration
 - Miriam Weigand, Physics
 - Aaron Kreuzer, Computer Science
 
