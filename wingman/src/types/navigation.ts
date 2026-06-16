@@ -3,7 +3,6 @@ import {
   LayoutDashboard,
   Network,
   PiggyBank,
-  Sunrise,
   Telescope,
   type LucideIcon,
 } from "lucide-react";
@@ -19,11 +18,6 @@ export const sidebarLinks: RouteItem[] = [
     icon: LayoutDashboard,
     route: "/",
     label: "Dashboard",
-  },
-  {
-    icon: Sunrise,
-    route: "/morning-briefing",
-    label: "Morning briefing",
   },
   {
     icon: CloudSun,
