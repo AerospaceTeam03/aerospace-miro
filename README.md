@@ -1,6 +1,6 @@
 # Wingman ✈️
 
-## Team Miron
+## Team Miron/ Aerospace Team 3
 - Anastasiya Henechka, Comp. Business Analytics; Maths & Economics
 - Martí Roca Bosch, Business Administration
 - Miriam Weigand, Physics
