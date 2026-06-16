@@ -26,7 +26,7 @@ a risk score with no reason attached is just one more thing blinking on a screen
 
 ---
 
- # Our Progduct: Wingman
+ # Our Product: Wingman
 
 **An explainable delay intelligence tool for airline Operations Control Centers (OCCs).**
 
