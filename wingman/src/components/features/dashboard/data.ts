@@ -24,7 +24,9 @@ export type BracketMeta = {
   badge: string; // pill classes
   bar: string; // severity-bar fill classes
   dot: string; // small status dot classes
-  actions: string[]; // dispatcher action set (assets/brackets-action-map.md)
+  // Ranked dispatcher action set (assets/brackets-action-map.md). `label` is the action
+  // the operator executes; `detail` is the one-line "why" shown in the decision dialog.
+  actions: { label: string; detail: string }[];
 };
 
 // Single source of truth: colour, ordering, and the action set all derive from here.
@@ -36,7 +38,12 @@ export const brackets: Record<Bracket, BracketMeta> = {
     badge: "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400",
     bar: "bg-emerald-500",
     dot: "bg-emerald-500",
-    actions: ["Monitor"],
+    actions: [
+      {
+        label: "Monitor",
+        detail: "On profile — keep it on the watchlist and let the model re-score it.",
+      },
+    ],
   },
   B1: {
     label: "Minor delay",
@@ -46,10 +53,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
     bar: "bg-yellow-400",
     dot: "bg-yellow-400",
     actions: [
-      "Notify gate crew to expedite turnaround",
-      "Pre-position fuel, catering, and baggage",
-      "Check next leg for cascade risk",
-      "Log in dispatcher feed",
+      {
+        label: "Notify gate crew to expedite turnaround",
+        detail: "Get the ground team moving early to claw back minutes before they compound.",
+      },
+      {
+        label: "Pre-position fuel, catering, and baggage",
+        detail: "Stage services at the gate so the turnaround isn't waiting on suppliers.",
+      },
+      {
+        label: "Check next leg for cascade risk",
+        detail: "Confirm the aircraft's following rotation still has enough buffer to absorb this.",
+      },
+      {
+        label: "Log in dispatcher feed",
+        detail: "Record the call so the rest of the desk has the same picture.",
+      },
     ],
   },
   B2: {
@@ -60,10 +79,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
     bar: "bg-amber-500",
     dot: "bg-amber-500",
     actions: [
-      "Extend turnaround buffer in schedule",
-      "Alert standby crew (do not activate yet)",
-      "Notify connecting flight desks",
-      "Verify crew duty time remaining",
+      {
+        label: "Extend turnaround buffer in schedule",
+        detail: "Push the next departure out now so the delay doesn't cascade down the rotation.",
+      },
+      {
+        label: "Alert standby crew (do not activate yet)",
+        detail: "Put reserves on notice so they're ready if this slips into the next bracket.",
+      },
+      {
+        label: "Notify connecting flight desks",
+        detail: "Give downline stations a head start on at-risk passenger connections.",
+      },
+      {
+        label: "Verify crew duty time remaining",
+        detail: "Check the operating crew can still legally finish the rotation under this delay.",
+      },
     ],
   },
   B3: {
@@ -74,10 +105,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
     bar: "bg-red-500",
     dot: "bg-red-500",
     actions: [
-      "Activate standby crew",
-      "Distribute meal vouchers (EU261 Article 9)",
-      "Initiate aircraft swap evaluation",
-      "Rebook at-risk connecting passengers",
+      {
+        label: "Activate standby crew",
+        detail: "Bring reserves on duty now so the next leg isn't lost to duty-time limits.",
+      },
+      {
+        label: "Distribute meal vouchers (EU261 Article 9)",
+        detail: "Meet the care obligation early and take pressure off the gate.",
+      },
+      {
+        label: "Initiate aircraft swap evaluation",
+        detail: "Start sizing a spare airframe before the delay forces the decision.",
+      },
+      {
+        label: "Rebook at-risk connecting passengers",
+        detail: "Move tight connections proactively while alternative seats still exist.",
+      },
     ],
   },
   B4: {
@@ -88,10 +131,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
     bar: "bg-rose-700",
     dot: "bg-rose-700",
     actions: [
-      "Execute aircraft swap",
-      "Process EU261 Article 7 compensation",
-      "Book passenger hotels immediately",
-      "Replace crew if duty limit approached",
+      {
+        label: "Execute aircraft swap",
+        detail: "Commit the spare airframe to save the rotation instead of riding the delay out.",
+      },
+      {
+        label: "Process EU261 Article 7 compensation",
+        detail: "Trigger the compensation workflow now to contain the EU261 exposure.",
+      },
+      {
+        label: "Book passenger hotels immediately",
+        detail: "Secure rooms before inventory tightens overnight and costs climb.",
+      },
+      {
+        label: "Replace crew if duty limit approached",
+        detail: "Swap in fresh crew so a duty breach doesn't turn the delay into a cancellation.",
+      },
     ],
   },
   B5: {
@@ -102,10 +157,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
     bar: "bg-zinc-900 dark:bg-zinc-100",
     dot: "bg-zinc-900 dark:bg-zinc-100",
     actions: [
-      "Cancel the flight",
-      "Rebook passengers onto alternate flights",
-      "Cover hotels, meals, transport",
-      "Release crew and reposition aircraft",
+      {
+        label: "Cancel the flight",
+        detail: "Cut losses on an unrecoverable rotation and free the slot and crew.",
+      },
+      {
+        label: "Rebook passengers onto alternate flights",
+        detail: "Reaccommodate immediately while seats on partner and later services remain.",
+      },
+      {
+        label: "Cover hotels, meals, transport",
+        detail: "Discharge the EU261 care duty and keep stranded passengers looked after.",
+      },
+      {
+        label: "Release crew and reposition aircraft",
+        detail: "Reset crew and airframe so the cancellation doesn't damage tomorrow's plan.",
+      },
     ],
   },
 };

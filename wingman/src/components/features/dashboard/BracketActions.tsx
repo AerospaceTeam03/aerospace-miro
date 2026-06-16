@@ -19,9 +19,9 @@ export default function BracketActions({
     return (
       <ul className="flex flex-col gap-1">
         {shown.map((action) => (
-          <li key={action} className="flex items-start gap-2">
+          <li key={action.label} className="flex items-start gap-2">
             <Check className="text-muted-foreground mt-0.5 h-3.5 w-3.5 shrink-0" />
-            <span className="font-medium">{action}</span>
+            <span className="font-medium">{action.label}</span>
           </li>
         ))}
         {remaining > 0 && (
@@ -36,9 +36,9 @@ export default function BracketActions({
   return (
     <ul className="flex flex-col gap-1.5">
       {actions.map((action) => (
-        <li key={action} className="flex items-start gap-2 text-sm">
+        <li key={action.label} className="flex items-start gap-2 text-sm">
           <Check className="text-muted-foreground mt-0.5 h-3.5 w-3.5 shrink-0" />
-          <span>{action}</span>
+          <span>{action.label}</span>
         </li>
       ))}
     </ul>
