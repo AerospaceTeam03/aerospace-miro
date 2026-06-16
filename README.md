@@ -137,6 +137,30 @@ The model combines:
 - Delay propagation costs
 - Passenger compensation obligations under EU261
 
+### Operational Decision Thresholds
+
+Wingman does not only estimate delay costs — it highlights critical operational decision points.
+
+| Bracket | Key Threshold |
+|----------|---------------|
+| B2 (60–120 min) | Delay propagation through the network begins |
+| B3 (120–180 min) | Passenger care obligations (EU261 Article 9) apply |
+| B4 (180–300 min) | Passenger compensation (EU261 Article 7) creates a major cost jump |
+| B5 (300+ min) | Cancellation can become economically preferable |
+
+For medium and large aircraft, the combination of passenger compensation, hotels, crew replacement, and network disruption can exceed the cost of cancelling the flight entirely.
+
+**Example:**
+
+| Scenario | Typical Cost |
+|-----------|------------|
+| Severe delay (B4) – Medium aircraft | ~€95,000 |
+| Cancellation (B5) – Medium aircraft | ~€25,700 |
+| Severe delay (B4) – Large aircraft | ~€195,000 |
+| Cancellation (B5) – Large aircraft | ~€123,900 |
+
+This creates an operational tipping point where cancelling a flight may minimize total losses. Wingman helps dispatchers identify these thresholds early enough to take action before costs escalate.
+
 ### Delay Cost Thresholds
 
 | Delay | Operational Impact |
