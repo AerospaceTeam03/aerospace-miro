@@ -96,7 +96,7 @@ Rather than predicting exact delay minutes, delays are classified into operation
 | B4 | 180–300 min | Severe Delay |
 | B5 | 300+ min | Cancellation Zone |
 
-These brackets align with operational and regulatory thresholds used by airlines and allow dispatchers to focus on decisions rather than raw delay values.
+These brackets align with operational and regulatory thresholds used by airlines and allow dispatchers to focus on decisions rather than raw delay values. 
 
 
 ---
@@ -104,7 +104,9 @@ These brackets align with operational and regulatory thresholds used by airlines
 ## Financial Impact Engine
 
 To make delay risk actionable, Wingman converts predicted delays into estimated financial exposure.
-Look into /assets/Brackets_sizes_money for more information.
+
+Look into /assets/Finance_readme_section.pdf for more information.
+
 The model combines:
 
 - Variable operating costs (fuel, crew, maintenance)
@@ -134,6 +136,7 @@ To estimate delay costs without access to airline-internal accounting systems, f
 | Medium | 1,500–5,000 km | 150 |
 | Large | > 5,000 km | 250 |
 
+Look into assets/Brackets_sizes_money.pdf for more details.
 Representative per-minute delay costs were derived from EUROCONTROL delay cost benchmarks:
 
 | Size | B1 | B2 | B3 | B4 |
