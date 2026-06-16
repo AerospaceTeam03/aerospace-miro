@@ -15,12 +15,12 @@ Flight delays are one of the largest controllable costs in commercial aviation. 
 
 1.2. Persona’s description
 
-     The person who must catch a delay before it cascades sits at the Operations Control Center (OCC). At Discover Airlines, our airline target, this role is called Flight Operations Controller.  
+The person who must catch a delay before it cascades sits at the Operations Control Center (OCC). At Discover Airlines, our airline target, this role is called Flight Operations Controller.    
+
+Persona:  
+Thomas Brandt, 45, Flight Operations Controller, Heart of Ops, Discover Airlines, Frankfurt.  
        
-     Persona:  
-     Thomas Brandt, 45, Flight Operations Controller, Heart of Ops, Discover Airlines, Frankfurt.  
-       
-     Role definition (Source: Lufthansa Group / SunExpress, Flight Operations Controller job posting, Frankfurt. WIZBII ([en.wizbii.com](http://en.wizbii.com))):  
+Role definition (Source: Lufthansa Group / SunExpress, Flight Operations Controller job posting, Frankfurt. WIZBII ([en.wizbii.com](http://en.wizbii.com))):  
 - Central control of all flights operated by the airline in cooperation with other operating departments.  
 - Continuous monitoring of all aircraft movements to ensure the best possible assistance in the event of a deviation from the operational flight programme.  
 - Take necessary measures in the event of a technical irregularity and/or weather conditions which require diversion, re-routing, delay or cancellation.
@@ -32,9 +32,9 @@ Discover Airlines context:
 
 1.3. Persona’s activity analysis
 
-     Thomas arrives at 06:00. He has 15 flights to manage before noon. He opens three screens: Flightradar24, an internal rotation Excel, and a chat channel with ground handling agents at Fraport and partner airports (AENA, GTAA, etc.). His first 40-60 minutes consist of manually reconstructing whether each incoming aircraft will arrive in time for its next rotation.  
+Thomas arrives at 06:00. He has 15 flights to manage before noon. He opens three screens: Flightradar24, an internal rotation Excel, and a chat channel with ground handling agents at Fraport and partner airports (AENA, GTAA, etc.). His first 40-60 minutes consist of manually reconstructing whether each incoming aircraft will arrive in time for its next rotation.  
        
-     The questions he answers manually, every morning, from scattered sources:  
+The questions he answers manually, every morning, from scattered sources:  
 - Where is each aircraft right now, and what is its real Estimate Time of arrival (ETA)?  
 - Is the scheduled turnaround time sufficient given the real arrival time?  
 - Does the crew of the incoming flight have enough duty time left for the outbound leg?  
@@ -78,7 +78,7 @@ Source: Aviation software market: Mordor Intelligence, 2025\. EU261 figures: IAT
 
 3.3. Why now?
 
-     Three forces make this the right moment:  
+Three forces make this the right moment:  
 - EU261 reform: trilogue negotiations ongoing in Brussels, with negotiations regarding the option of nearly doubling airline compensation obligations by 2026/27. Every preventable delay is becoming more expensive.  
 - Traffic at record levels: 11.12 million European flights in 2025, surpassing pre-pandemic 2019, while average Air Traffic Flow Management (ATFM) delay still stands at 2.4 min/flight. Volume is up, but operational tools are not.  
 - EU AI Act: high-risk AI systems (including those influencing safety-critical operational decisions) face mandatory explainability requirements fully applicable from 2026\. A black-box score is not compliant. A causal narrative is.
@@ -110,13 +110,13 @@ Source: Lufthansa Systems: lhsystems.com; IBS: ibsplc.com; Amadeus: amadeus.com;
 
 4.3. The market gap
 
-      The gap Wingman fills:  
-      Prediction-first tools (Foresight, Lumo) predict but do not recommend OCC actions and do not explain causally.  
-      Enterprise suites (NetLine aiOCC, CAE) have partial explainability but are inaccessible to SMB airlines.  
-      No tool leads with a causal-chain narrative \+ specific pre-cascade action as a standalone, lightweight advisory layer.  
-      No European tool specifically serves the 15-50 aircraft leisure and regional airline segment.  
+The gap Wingman fills:  
+- Prediction-first tools (Foresight, Lumo) predict but do not recommend OCC actions and do not explain causally.  
+- Enterprise suites (NetLine aiOCC, CAE) have partial explainability but are inaccessible to SMB airlines.  
+- No tool leads with a causal-chain narrative \+ specific pre-cascade action as a standalone, lightweight advisory layer.  
+- No European tool specifically serves the 15-50 aircraft leisure and regional airline segment.  
         
-      Wingman occupies the intersection of three gaps: explainability, pre-cascade action, and SMB accessibility.
+Wingman occupies the intersection of three gaps: explainability, pre-cascade action, and SMB accessibility.
 
 5. # Business model
 
