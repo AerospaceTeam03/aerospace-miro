@@ -2,16 +2,16 @@ import { cn } from "@/lib/utils";
 import {
   brackets,
   eur,
-  flights,
   reasonCopy,
   sum,
   type Bracket,
+  type Flight,
   type ReasonType,
 } from "./data";
 
 const bracketOrder: Bracket[] = ["B5", "B4", "B3", "B2", "B1", "B0"];
 
-export default function BracketBreakdown() {
+export default function BracketBreakdown({ flights }: { flights: Flight[] }) {
   // How many flights sit in each bracket.
   const counts = bracketOrder.map((b) => ({
     bracket: b,
@@ -70,7 +70,7 @@ export default function BracketBreakdown() {
               <div className="bg-muted h-2 w-full overflow-hidden rounded-full">
                 <div
                   className="bg-primary h-full rounded-full"
-                  style={{ width: `${Math.round((ecdn / totalEcdn) * 100)}%` }}
+                  style={{ width: `${totalEcdn > 0 ? Math.round((ecdn / totalEcdn) * 100) : 0}%` }}
                 />
               </div>
             </div>

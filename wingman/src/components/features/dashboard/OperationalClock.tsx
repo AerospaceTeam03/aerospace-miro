@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { operationalDate } from "./data";
 
-export default function OperationalClock() {
+export default function OperationalClock({ label }: { label: string }) {
   const [now, setNow] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -23,7 +22,7 @@ export default function OperationalClock() {
       <span className="text-foreground font-mono text-3xl font-bold tabular-nums">
         {now ? now.toLocaleTimeString("en-GB", { hour12: false }) : "--:--:--"}
       </span>
-      <span className="text-muted-foreground text-sm">LT · {operationalDate}</span>
+      <span className="text-muted-foreground text-sm">LT · {label}</span>
     </div>
   );
 }

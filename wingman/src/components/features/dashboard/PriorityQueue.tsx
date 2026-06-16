@@ -9,19 +9,24 @@ import BracketBadge from "./BracketBadge";
 import SeverityBar from "./SeverityBar";
 import {
   eur,
-  flights,
   isActionable,
   reasonCopy,
   sortByBracketThenTime,
+  type Flight,
 } from "./data";
 
-export default function PriorityQueue() {
-  const [actionableOnly, setActionableOnly] = useState(false);
+const TOP_N = 12;
 
-  const rows = useMemo(() => {
+export default function PriorityQueue({ flights }: { flights: Flight[] }) {
+  const [actionableOnly, setActionableOnly] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  const sorted = useMemo(() => {
     const filtered = actionableOnly ? flights.filter(isActionable) : flights;
     return sortByBracketThenTime(filtered);
-  }, [actionableOnly]);
+  }, [flights, actionableOnly]);
+
+  const rows = showAll ? sorted : sorted.slice(0, TOP_N);
 
   return (
     <section className="flex flex-col gap-3">
@@ -60,9 +65,9 @@ export default function PriorityQueue() {
             </tr>
           </thead>
           <tbody>
-            {rows.map((flight) => (
+            {rows.map((flight, i) => (
               <tr
-                key={flight.code}
+                key={`${flight.code}-${flight.scheduled}-${i}`}
                 className="border-border border-b align-top last:border-0"
               >
                 <td className="p-0">
@@ -72,7 +77,7 @@ export default function PriorityQueue() {
                   >
                     <span className="font-semibold">{flight.code}</span>
                     <span className="text-muted-foreground text-xs">
-                      {flight.aircraft}
+                      {flight.aircraft} · {flight.pax} pax
                     </span>
                   </Link>
                 </td>
@@ -114,9 +119,21 @@ export default function PriorityQueue() {
         </table>
       </div>
 
-      <p className="text-muted-foreground text-xs">
-        Demo operation. Each row links to the Flight Deep Detail view.
-      </p>
+      <div className="flex items-center justify-between">
+        <p className="text-muted-foreground text-xs">
+          Showing {rows.length} of {sorted.length} flights. Each row links to the Flight Deep
+          Detail view.
+        </p>
+        {sorted.length > TOP_N && (
+          <button
+            type="button"
+            onClick={() => setShowAll((v) => !v)}
+            className="border-border text-muted-foreground hover:text-foreground rounded-full border px-3 py-1 text-xs font-semibold transition-colors"
+          >
+            {showAll ? "Show top 12" : `Show all ${sorted.length}`}
+          </button>
+        )}
+      </div>
     </section>
   );
 }

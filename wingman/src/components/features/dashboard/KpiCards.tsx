@@ -1,6 +1,6 @@
-import { eur, flights, isActionable, sum } from "./data";
+import { eur, isActionable, sum, type Flight } from "./data";
 
-export default function KpiCards() {
+export default function KpiCards({ flights }: { flights: Flight[] }) {
   const total = flights.length;
   const needAction = flights.filter(isActionable).length;
   const costOfDoingNothing = sum(flights, "ecdn");

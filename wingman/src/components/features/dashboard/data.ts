@@ -1,8 +1,11 @@
 // Wingman dashboard — Discover Airlines (4Y) operation out of Frankfurt (FRA).
 //
-// Curated demo day. The numbers mirror what the FOREST Random Forest + financial
-// engine produce per flight (delay-severity bracket, the cost of doing nothing, and the
-// share of that cost a timely intervention recovers). To be replaced with the live feed.
+// The schedule comes from the real network CSV (src/data/schedule.generated.ts). The risk
+// bracket/probability and the financial figures are derived from it — financials
+// deterministically (finance.ts), bracket/probability via a transparent rule (risk.ts) that
+// stands in for the FOREST Random Forest until its FRA output is wired.
+
+import type { AircraftSize } from "@/data/schedule.generated";
 
 export type Bracket = "B0" | "B1" | "B2" | "B3" | "B4" | "B5";
 
@@ -116,224 +119,32 @@ export const reasonCopy: Record<ReasonType, string> = {
   LOW_RISK: "Low risk",
 };
 
-export type Aircraft = "A320" | "A330" | "A350";
-
+// One operating flight: real schedule fields + derived risk + derived financials.
 export type Flight = {
+  // schedule (from the CSV)
   code: string; // "4Y 1340"
+  flightNo: string; // "4Y1340"
+  route: string; // "FRA-LPA"
   destination: string; // IATA
   destinationName: string;
-  aircraft: Aircraft;
   scheduled: string; // STD, FRA local
+  arrival: string; // STA, local
+  durationMin: number;
+  distanceKm: number;
+  size: AircraftSize; // S | M | L
+  pax: number;
+  aircraft: string; // representative type, e.g. "A330"
+  // derived risk (risk.ts)
   bracket: Bracket;
-  delayProbability: number; // 0–1, model output
+  delayProbability: number; // 0–1
   predictedDelayMin: number;
   reasonType: ReasonType;
-  reasonText: string; // desk-style note: the "why"
+  reasonText: string; // the "why", quoting a real driver
+  // derived financials (finance.ts)
   ecdn: number; // Expected Cost of Doing Nothing (€)
   avoidableLoss: number; // recoverable if the dispatcher acts in time (€)
   eu261Exposure: number; // EU261 compensation/care exposure (€)
 };
-
-// Placeholder operation — to be replaced with real flight + weather feeds.
-export const operationalDate = "FRA · Mon 7 Jan";
-
-export const flights: Flight[] = [
-  {
-    code: "4Y 510",
-    destination: "PUJ",
-    destinationName: "Punta Cana",
-    aircraft: "A350",
-    scheduled: "09:55",
-    bracket: "B4",
-    delayProbability: 0.86,
-    predictedDelayMin: 240,
-    reasonType: "CASCADE",
-    reasonText: "Inbound A350 from PUJ 215 min late; crew duty limit at risk",
-    ecdn: 132000,
-    avoidableLoss: 58000,
-    eu261Exposure: 90000,
-  },
-  {
-    code: "4Y 1520",
-    destination: "HRG",
-    destinationName: "Hurghada",
-    aircraft: "A320",
-    scheduled: "08:40",
-    bracket: "B4",
-    delayProbability: 0.84,
-    predictedDelayMin: 205,
-    reasonType: "CASCADE",
-    reasonText: "Assigned aircraft AOG; no spare at FRA before 11:00",
-    ecdn: 34000,
-    avoidableLoss: 15500,
-    eu261Exposure: 40000,
-  },
-  {
-    code: "4Y 1818",
-    destination: "PMI",
-    destinationName: "Palma de Mallorca",
-    aircraft: "A320",
-    scheduled: "10:05",
-    bracket: "B5",
-    delayProbability: 0.94,
-    predictedDelayMin: 320,
-    reasonType: "CASCADE",
-    reasonText: "Inbound A320 cancelled; next available aircraft 13:30",
-    ecdn: 58000,
-    avoidableLoss: 22000,
-    eu261Exposure: 25000,
-  },
-  {
-    code: "4Y 622",
-    destination: "CUN",
-    destinationName: "Cancún",
-    aircraft: "A330",
-    scheduled: "10:40",
-    bracket: "B3",
-    delayProbability: 0.74,
-    predictedDelayMin: 150,
-    reasonType: "CASCADE",
-    reasonText: "Inbound A330 turnaround compressed to 38 min",
-    ecdn: 71000,
-    avoidableLoss: 29000,
-    eu261Exposure: 24000,
-  },
-  {
-    code: "4Y 1340",
-    destination: "LPA",
-    destinationName: "Gran Canaria",
-    aircraft: "A320",
-    scheduled: "07:05",
-    bracket: "B3",
-    delayProbability: 0.73,
-    predictedDelayMin: 145,
-    reasonType: "CASCADE",
-    reasonText: "Inbound A320 from LPA 132 min late on previous leg",
-    ecdn: 22500,
-    avoidableLoss: 9800,
-    eu261Exposure: 25000,
-  },
-  {
-    code: "4Y 88",
-    destination: "MLE",
-    destinationName: "Malé",
-    aircraft: "A330",
-    scheduled: "12:20",
-    bracket: "B2",
-    delayProbability: 0.52,
-    predictedDelayMin: 95,
-    reasonType: "WEATHER",
-    reasonText: "Convective weather en-route; ATC flow regulation likely",
-    ecdn: 38000,
-    avoidableLoss: 14000,
-    eu261Exposure: 0,
-  },
-  {
-    code: "4Y 1208",
-    destination: "TFS",
-    destinationName: "Tenerife South",
-    aircraft: "A320",
-    scheduled: "07:35",
-    bracket: "B2",
-    delayProbability: 0.56,
-    predictedDelayMin: 90,
-    reasonType: "WEATHER",
-    reasonText: "Gusts 53 km/h forecast at FRA 07–09Z",
-    ecdn: 9400,
-    avoidableLoss: 3300,
-    eu261Exposure: 0,
-  },
-  {
-    code: "4Y 1102",
-    destination: "PMI",
-    destinationName: "Palma de Mallorca",
-    aircraft: "A320",
-    scheduled: "06:30",
-    bracket: "B1",
-    delayProbability: 0.31,
-    predictedDelayMin: 35,
-    reasonType: "CONGESTION",
-    reasonText: "FRA departure slot pushed 25 min by morning ATC flow",
-    ecdn: 4200,
-    avoidableLoss: 1100,
-    eu261Exposure: 0,
-  },
-  {
-    code: "4Y 1466",
-    destination: "HER",
-    destinationName: "Heraklion",
-    aircraft: "A320",
-    scheduled: "08:15",
-    bracket: "B1",
-    delayProbability: 0.36,
-    predictedDelayMin: 45,
-    reasonType: "TIGHT_TURNAROUND",
-    reasonText: "Turnaround 35 min, below 45 min minimum",
-    ecdn: 5100,
-    avoidableLoss: 1400,
-    eu261Exposure: 0,
-  },
-  {
-    code: "4Y 740",
-    destination: "MRU",
-    destinationName: "Mauritius",
-    aircraft: "A350",
-    scheduled: "21:10",
-    bracket: "B1",
-    delayProbability: 0.33,
-    predictedDelayMin: 40,
-    reasonType: "DEMAND",
-    reasonText: "Late catering uplift expected on full long-haul load",
-    ecdn: 19000,
-    avoidableLoss: 5200,
-    eu261Exposure: 0,
-  },
-  {
-    code: "4Y 930",
-    destination: "WDH",
-    destinationName: "Windhoek",
-    aircraft: "A330",
-    scheduled: "19:50",
-    bracket: "B1",
-    delayProbability: 0.3,
-    predictedDelayMin: 38,
-    reasonType: "DEMAND",
-    reasonText: "High load factor; extended boarding expected",
-    ecdn: 16000,
-    avoidableLoss: 4200,
-    eu261Exposure: 0,
-  },
-  {
-    code: "4Y 1604",
-    destination: "FUE",
-    destinationName: "Fuerteventura",
-    aircraft: "A320",
-    scheduled: "09:10",
-    bracket: "B0",
-    delayProbability: 0.08,
-    predictedDelayMin: 5,
-    reasonType: "LOW_RISK",
-    reasonText: "On schedule, no risk drivers",
-    ecdn: 0,
-    avoidableLoss: 0,
-    eu261Exposure: 0,
-  },
-  {
-    code: "4Y 1712",
-    destination: "RHO",
-    destinationName: "Rhodes",
-    aircraft: "A320",
-    scheduled: "09:30",
-    bracket: "B0",
-    delayProbability: 0.11,
-    predictedDelayMin: 8,
-    reasonType: "LOW_RISK",
-    reasonText: "On schedule, no risk drivers",
-    ecdn: 0,
-    avoidableLoss: 0,
-    eu261Exposure: 0,
-  },
-];
 
 // A flight is "actionable" once it leaves the on-time bracket (B0 is monitor-only).
 export const isActionable = (f: Flight) => brackets[f.bracket].severity >= 1;
