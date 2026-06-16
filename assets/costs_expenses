@@ -1,0 +1,62 @@
+## Financial Impact Engine
+
+Wingman converts delay risk into estimated financial exposure and compares it against the cost of acting now. Look into /assets/Finance_readme_section.pdf for more information.
+
+The model combines:
+
+- Variable operating costs (fuel, crew, maintenance)
+- Delay propagation costs
+- Passenger compensation obligations under EU261
+- Dispatcher intervention costs
+
+### Delay Cost Thresholds
+
+| Delay | Operational Impact |
+|---------|-------------------|
+| 0–15 min | Absorbed by schedule buffer |
+| 15–60 min | Additional operating costs |
+| 60–120 min | Network delay propagation begins |
+| 120–180 min | Passenger care obligations (EU261 Article 9) |
+| 180–300 min | Passenger compensation triggered (EU261 Article 7) |
+| 300+ min | Cancellation becomes economically preferable |
+
+---
+
+## Aircraft Assumptions
+
+To estimate delay costs without access to airline-internal accounting systems, flights are grouped into three aircraft categories:
+
+| Size | Route Distance | Assumed Passengers |
+|--------|---------------|-------------------|
+| Small | < 1,500 km | 100 |
+| Medium | 1,500–5,000 km | 150 |
+| Large | > 5,000 km | 250 |
+
+Look into assets/Brackets_sizes_money.pdf for more details.
+Representative per-minute delay costs were derived from EUROCONTROL delay cost benchmarks:
+
+| Size | B1 | B2 | B3 | B4 |
+|--------|------|------|------|------|
+| Small | €20/min | €36/min | €45/min | €54/min |
+| Medium | €50/min | €55/min | €70/min | €85/min |
+| Large | €140/min | €150/min | €190/min | €230/min |
+
+---
+
+## Cost of Action vs Cost of Inaction
+
+Every at-risk flight has two cost paths. The dispatcher decides which one the airline pays.
+
+**Doing nothing:** the delay escalates through the brackets, accumulating operating costs, network propagation, EU261 obligations, and eventually cancellation costs.
+
+**Acting early:** each bracket has defined interventions with known costs:
+
+| Bracket | Intervention Cost (EUR) |
+|---|---|
+| 0 | 0 |
+| 1 | 250–700 |
+| 2 | 450–1,250 |
+| 3 | 2,500–9,500 |
+| 4 | 8,000–25,000 |
+
+Wingman compares the two paths for every flight in real time:
