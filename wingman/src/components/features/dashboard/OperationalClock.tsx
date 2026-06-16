@@ -21,9 +21,9 @@ export default function OperationalClock() {
   return (
     <div className="flex items-baseline gap-3">
       <span className="text-foreground font-mono text-3xl font-bold tabular-nums">
-        {now ? now.toLocaleTimeString("en-US", { hour12: false }) : "--:--:--"}
+        {now ? now.toLocaleTimeString("en-GB", { hour12: false }) : "--:--:--"}
       </span>
-      <span className="text-muted-foreground text-sm">{operationalDate}</span>
+      <span className="text-muted-foreground text-sm">LT · {operationalDate}</span>
     </div>
   );
 }

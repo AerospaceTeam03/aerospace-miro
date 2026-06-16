@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { riskCopy, type RiskLevel } from "./data";
+import { riskCopy, type RiskLevel } from "./flightsData";
 
 const riskStyles: Record<RiskLevel, string> = {
   RED: "bg-red-500/15 text-red-600 dark:text-red-400",

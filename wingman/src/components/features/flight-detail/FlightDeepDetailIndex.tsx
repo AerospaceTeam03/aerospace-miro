@@ -4,8 +4,8 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ArrowRight, TriangleAlert } from "lucide-react";
-import { flights, type CauseCode, type RiskLevel } from "@/components/features/dashboard/data";
-import RiskBadge from "@/components/features/dashboard/RiskBadge";
+import { flights, type CauseCode, type RiskLevel } from "@/components/features/flight-detail/flightsData";
+import RiskBadge from "@/components/features/flight-detail/RiskBadge";
 import { flightDetails } from "@/components/features/flight-detail/data";
 import { fixtureFlights } from "@/data/flightDetails.fixture";
 

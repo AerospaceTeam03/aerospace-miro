@@ -1,18 +1,36 @@
-import { flights } from "./data";
+import { eur, flights, isActionable, sum } from "./data";
 
 export default function KpiCards() {
   const total = flights.length;
-  const redCount = flights.filter((f) => f.risk === "RED").length;
-  const amberCount = flights.filter((f) => f.risk === "AMBER").length;
-  const riskMinutes = flights
-    .filter((f) => f.risk !== "GREEN")
-    .reduce((sum, f) => sum + f.delayMinutes, 0);
+  const needAction = flights.filter(isActionable).length;
+  const costOfDoingNothing = sum(flights, "ecdn");
+  const recoverable = sum(flights, "avoidableLoss");
 
   const kpis = [
-    { label: "Total flights today", value: total, className: "text-foreground" },
-    { label: "Flights in red", value: redCount, className: "text-red-600 dark:text-red-400" },
-    { label: "Flights in amber", value: amberCount, className: "text-amber-600 dark:text-amber-400" },
-    { label: "Delay minutes at risk", value: `+${riskMinutes}`, className: "text-foreground" },
+    {
+      label: "Flights today",
+      value: total,
+      hint: "Discover · FRA",
+      className: "text-foreground",
+    },
+    {
+      label: "Need action",
+      value: needAction,
+      hint: "beyond on-time",
+      className: "text-amber-600 dark:text-amber-400",
+    },
+    {
+      label: "Cost of doing nothing",
+      value: eur(costOfDoingNothing),
+      hint: "exposure if no action",
+      className: "text-foreground",
+    },
+    {
+      label: "Recoverable today",
+      value: eur(recoverable),
+      hint: "if acted on in time",
+      className: "text-emerald-600 dark:text-emerald-400",
+    },
   ];
 
   return (
@@ -25,6 +43,7 @@ export default function KpiCards() {
           <p className={`mt-1 text-2xl font-bold tabular-nums ${kpi.className}`}>
             {kpi.value}
           </p>
+          <p className="text-muted-foreground mt-1 text-xs">{kpi.hint}</p>
         </div>
       ))}
     </section>

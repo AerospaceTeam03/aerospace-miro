@@ -1,6 +1,7 @@
+import BracketBreakdown from "@/components/features/dashboard/BracketBreakdown";
 import KpiCards from "@/components/features/dashboard/KpiCards";
-import FlightTable from "@/components/features/dashboard/FlightTable";
 import OperationalClock from "@/components/features/dashboard/OperationalClock";
+import PriorityQueue from "@/components/features/dashboard/PriorityQueue";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       </header>
 
       <KpiCards />
-      <FlightTable />
+      <PriorityQueue />
+      <BracketBreakdown />
     </div>
   );
 }

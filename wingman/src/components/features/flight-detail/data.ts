@@ -1,4 +1,4 @@
-import { flights, type CauseCode, type RiskLevel } from "@/components/features/dashboard/data";
+import { flights, type CauseCode, type RiskLevel } from "./flightsData";
 
 export type CausalNode = {
   label: string;
