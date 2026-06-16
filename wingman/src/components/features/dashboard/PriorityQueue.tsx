@@ -100,7 +100,8 @@ export default function PriorityQueue({
                   }}
                   className={cn(
                     "border-border hover:bg-muted/40 focus-visible:bg-muted/40 cursor-pointer border-b align-top transition-colors outline-none last:border-0",
-                    decision && "opacity-60"
+                    decision &&
+                      "bg-blue-500/10 hover:bg-blue-500/15 focus-visible:bg-blue-500/15 dark:bg-blue-500/15 dark:hover:bg-blue-500/20 dark:focus-visible:bg-blue-500/20"
                   )}
                 >
                   <td className="px-4 py-3">
