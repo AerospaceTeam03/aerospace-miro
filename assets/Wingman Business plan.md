@@ -30,7 +30,7 @@ Discover Airlines context:
 - 30 aircraft fleet (14 Airbus A330 long-haul \+ 16 Airbus A320 short/medium-haul), 62 destinations, \~2,100 employees, headquartered at Frankfurt Airport. ([Source: Discover Airlines official newsroom, October 2025\. newsroom-en.discover-airlines.com](http://newsroom-en.discover-airlines.com))  
 - The “Heart of Ops”, defined by Discover as the centre from which they "manage the international deployment of aircraft and crews for both hubs, ensuring guests and their baggage arrive reliably and on time worldwide.” ([Source: Discover Airlines career page. discover-airlines.com/xx/en/about-us/career](http://discover-airlines.com/xx/en/about-us/career)).
 
-  1.3. Persona’s activity analysis
+1.3. Persona’s activity analysis
 
      Thomas arrives at 06:00. He has 15 flights to manage before noon. He opens three screens: Flightradar24, an internal rotation Excel, and a chat channel with ground handling agents at Fraport and partner airports (AENA, GTAA, etc.). His first 40-60 minutes consist of manually reconstructing whether each incoming aircraft will arrive in time for its next rotation.  
        
@@ -76,7 +76,7 @@ Source: Aviation software market: Mordor Intelligence, 2025\. EU261 figures: IAT
 
   Segment 2 \- According to the GO-to-market strategy (5.2.), staging up the product from small airlines to big ones.
 
-  3.3. Why now?
+3.3. Why now?
 
      Three forces make this the right moment:  
 - EU261 reform: trilogue negotiations ongoing in Brussels, with negotiations regarding the option of nearly doubling airline compensation obligations by 2026/27. Every preventable delay is becoming more expensive.  
@@ -86,7 +86,7 @@ Source: Aviation software market: Mordor Intelligence, 2025\. EU261 figures: IAT
   (Source: EU traffic: EUROCONTROL Data Snapshot \#57, January 2026\. EU AI Act explainability: European Commission, Regulation (EU) 2024/1689, applicable 2026\. EU261 reform: Aviation24.be, October 2025.)
 
 4. # Competitive landscape
-	4.1. Direct competitors: Enterprise OCC / Disruption Management
+4.1. Direct competitors: Enterprise OCC / Disruption Management
 
 | Competitor | Target | Explainability | Pre-delay action | SMB access | Notes |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -120,7 +120,7 @@ Source: Lufthansa Systems: lhsystems.com; IBS: ibsplc.com; Amadeus: amadeus.com;
 
 5. # Business model
 
-   5.1. Revenue model
+5.1. Revenue model
 
 Wingman uses a staged pricing model designed to match the risk appetite and resources of each customer segment. SaaS subscription is the industry-dominant model (59.25% of 2024 aviation-software revenue per Mordor Intelligence) and the only format that fits a small carrier's budget without upfront CapEx.
 
@@ -143,7 +143,7 @@ Phase 4 \- Big airlines expansion (18+ months)
 
 6. # Alignment with business DATAbility Evaluation criteria
 
-   6.1. Challenge given evaluation criteria
+6.1. Challenge given evaluation criteria
 
 | Criterion | How TakeoffIQ addresses it |
 | :---- | :---- |
