@@ -5,7 +5,7 @@ Challenge partner: DATAbility GmbH
 
 1. # Problem
 
-   1. ## Flight delay and costs
+   1.1 ## Flight delay and costs
 
       Flight delays are one of the largest controllable costs in commercial aviation. The scale is staggering:  
 - $100.76/minute is the average cost of aircraft block time for US passenger airlines in 2024, covering labour, fuel, maintenance and ownership ([Source: Airlines for America (A4A), U.S. Passenger Carrier Delay Costs, 2024](https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/)).  
@@ -13,7 +13,7 @@ Challenge partner: DATAbility GmbH
 - €15 billion+ is the projected annual cost if the EU Parliament's proposed EU261 reform is adopted, nearly doubling the existing burden. Trilogue discussions expected to finalise by early 2026\. ([Source: Aviation24.be, October 2025; One Mile at a Time, June 2026\. onemileatatime.com](http://onemileatatime.com))  
 - 11.12 million flights across the European network in 2025 (+4% vs 2024, surpassing pre-pandemic 2019 levels by 16,800 flights) ([Source: EUROCONTROL Data Snapshot \#57, January 2026\. eurocontrol.int](http://eurocontrol.int))
 
-  2. ## Persona’s description
+  1.2. ## Persona’s description
 
      The person who must catch a delay before it cascades sits at the Operations Control Center (OCC). At Discover Airlines, our airline target, this role is called Flight Operations Controller.  
        
@@ -30,7 +30,7 @@ Challenge partner: DATAbility GmbH
 - 30 aircraft fleet (14 Airbus A330 long-haul \+ 16 Airbus A320 short/medium-haul), 62 destinations, \~2,100 employees, headquartered at Frankfurt Airport. ([Source: Discover Airlines official newsroom, October 2025\. newsroom-en.discover-airlines.com](http://newsroom-en.discover-airlines.com))  
 - The “Heart of Ops”, defined by Discover as the centre from which they "manage the international deployment of aircraft and crews for both hubs, ensuring guests and their baggage arrive reliably and on time worldwide.” ([Source: Discover Airlines career page. discover-airlines.com/xx/en/about-us/career](http://discover-airlines.com/xx/en/about-us/career)).
 
-  3. ## Persona’s activity analysis
+  1.3. ## Persona’s activity analysis
 
      Thomas arrives at 06:00. He has 15 flights to manage before noon. He opens three screens: Flightradar24, an internal rotation Excel, and a chat channel with ground handling agents at Fraport and partner airports (AENA, GTAA, etc.). His first 40-60 minutes consist of manually reconstructing whether each incoming aircraft will arrive in time for its next rotation.  
        
@@ -44,15 +44,12 @@ Challenge partner: DATAbility GmbH
 
   When he detects a problem at 08:30 that was detectable at 06:30, his action window has collapsed. Calling the standby crew too late means the flight departs delayed. A single long flight delay of 3 or more hours on a controllable cause triggers EU261 compensation of up to €600 per passenger, which is up to €168,000 for a full aircraft. ([Source: EU Regulation 261/2004 compensation scale: €600 for flights over 3,500 km delayed 4+ hours. Flightright.com](http://Flightright.com))
 
-2. # Solution: Wingman
-
-   1. ## Value proposition
+2. # Solution: Wingman - Value proposition
+Wingman is a proactive decision support tool for airline Flight Operations Controllers. It replaces the 40–60 minutes of manual reconstruction that starts every shift with a single screen: a prioritised list of at-risk flights, the specific reason each one is flagged, and a concrete recommended action. Throughout the shift, the tool updates in real time: new weather data, revised ETAs, and emerging cascade risks surface automatically, so Thomas is never reacting to a problem that was already visible in the data two hours earlier. Unlike enterprise OCC suites that are too expensive and heavy for regional and leisure carriers, and unlike prediction tools that produce a probability score with no operational context, Wingman gives the dispatcher exactly what they need to make a decision: not a number, but an argument. 
 
 3. # Market opportunity
 
-   1. ## Market size
-
-      
+3.1. ## Market size
 
 | Market | Size / CAGR |
 | :---- | :---- |
@@ -63,7 +60,7 @@ Challenge partner: DATAbility GmbH
 
 Source: Aviation software market: Mordor Intelligence, 2025\. EU261 figures: IATA / A4E / Aviation24.be, October 2025\. Controllable delay share: OAG & Microsoft, 2025\.
 
-2. ## Target segment
+3.2. ## Target segment
 
    Segment 1 \- Small and Medium Leisure / Regional Airlines  
    European leisure and regional carriers operating 15-50 aircraft who manage their OCC with 2-5 people per shift, using combinations of Flightradar24, Excel, and phone calls. Enterprise OCC suites are economically and operationally out of reach.  
@@ -78,7 +75,7 @@ Source: Aviation software market: Mordor Intelligence, 2025\. EU261 figures: IAT
   Source: Fleet sizes: respective airline Wikipedia pages and Simple Flying, 2025\. Listed as illustrative comparable operators, not confirmed prospects.
 
 
-  Segment 2 \- Scale up the product from small airlines to big ones.
+  Segment 2 \- According to the GO-to-market strategy (5.2.), staging up the product from small airlines to big ones.
 
   3. ## Why now?
 
@@ -90,8 +87,7 @@ Source: Aviation software market: Mordor Intelligence, 2025\. EU261 figures: IAT
   (Source: EU traffic: EUROCONTROL Data Snapshot \#57, January 2026\. EU AI Act explainability: European Commission, Regulation (EU) 2024/1689, applicable 2026\. EU261 reform: Aviation24.be, October 2025.)
 
 4. # Competitive landscape
-
-   1. ## Direct competitors: Enterprise OCC / Disruption Management
+	4.1. ## Direct competitors: Enterprise OCC / Disruption Management
 
 | Competitor | Target | Explainability | Pre-delay action | SMB access | Notes |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -104,7 +100,7 @@ Source: Aviation software market: Mordor Intelligence, 2025\. EU261 figures: IAT
 
 Source: Lufthansa Systems: lhsystems.com; IBS: ibsplc.com; Amadeus: amadeus.com; CAE: cae.com; SITA: sita.aero. All accessed 2025-2026.
 
-2. ## Indirect competitors \- Prediction-First Tools
+	4.2. ## Indirect competitors \- Prediction-First Tools
 
 | Competitor | What it does | Causal narrative | OCC action rec. | European SMB fit |
 | :---- | :---- | :---- | :---- | :---- |
@@ -113,7 +109,7 @@ Source: Lufthansa Systems: lhsystems.com; IBS: ibsplc.com; Amadeus: amadeus.com;
 | Assaia ApronAI | Computer-vision turnaround time prediction at gates. | No (turnaround only) | No | Growing |
 | Flightradar24 / FlightAware standard | Real-time flight tracking and basic alerts. | No | No | Yes (free) — the status quo |
 
-   3. ## The market gap
+4.3. ## The market gap
 
       The gap Wingman fills:  
       Prediction-first tools (Foresight, Lumo) predict but do not recommend OCC actions and do not explain causally.  
@@ -125,7 +121,7 @@ Source: Lufthansa Systems: lhsystems.com; IBS: ibsplc.com; Amadeus: amadeus.com;
 
 5. # Business model
 
-   1. ## Revenue model
+   5.1. ## Revenue model
 
 Wingman uses a staged pricing model designed to match the risk appetite and resources of each customer segment. SaaS subscription is the industry-dominant model (59.25% of 2024 aviation-software revenue per Mordor Intelligence) and the only format that fits a small carrier's budget without upfront CapEx.
 
@@ -139,7 +135,7 @@ Stage 3 \- Outcome-Based Upsell (Scale Revenue)
 Once a credible savings baseline exists (measurable delay-minutes avoided and EU261 compensation prevented), we introduce an outcome-based component: a gain-share on savings beyond a defined threshold. This is precedented in aviation (Rolls-Royce 'Power by the Hour', GE Aviation Engine Services) and aligns incentives between Wingman and the airline. It requires audit-grade attribution, which Stage 2 operational data provides.  
 (Source: SaaS dominance: Mordor Intelligence, Aviation Software Market, 2025\. Outcome-based pricing precedent: Rolls-Royce Power by the Hour, documented in aviation industry press.)
 
-2. ## Go-to-market
+5.2. ## Go-to-market
 
 Phase 1 \- Hackathon to First Conversation (Now)  
 Phase 2 \- Pilot with one airline (preferably Discover Airlines)  (0-6 months)  
@@ -148,7 +144,7 @@ Phase 4 \- Big airlines expansion (18+ months)
 
 6. # Alignment with business DATAbility Evaluation criteria
 
-   1. ## Challenge given evaluation criteria
+   6.1. ## Challenge given evaluation criteria
 
 | Criterion | How TakeoffIQ addresses it |
 | :---- | :---- |
@@ -164,7 +160,7 @@ Phase 4 \- Big airlines expansion (18+ months)
 - IATA / A4E — EU261 cost figures and reform warning, October 2025\. aviation24.be  
 - OAG & Microsoft — AI and Trusted Data: Building Resilient Airline Operations, 2025\. oag.com/ai-aviation-operations  
 - One Mile at a Time — EU261 reform update, June 2026\. onemileatatime.com  
-- Aerospace Global News — EU261 reform costs, May 2026\. aerospaceglobalnews.com  
+- Aerospace Global News — EU261 reform costs, May 2026\. aerospaceglobalnews.com 
 - Discover Airlines official career page. discover-airlines.com/xx/en/about-us/career  
 - Discover Airlines newsroom — fleet and employee figures, October 2025\. newsroom-en.discover-airlines.com  
 - Lufthansa Group / SunExpress via WIZBII — Flight Operations Controller job description. en.wizbii.com/company/deutsche-lufthansa/job/flight-operations-controller-m-f  
