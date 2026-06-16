@@ -46,6 +46,9 @@ The OCC is responsible for monitoring daily flight operations and taking prevent
 
 Current workflows rely on multiple disconnected systems, making proactive decision-making difficult.
 
+**Why Discover at FRA:**  
+Discover flies a mixed short- and long-haul leisure network
+(A320-family feeder plus A330/A350 long-haul) out of one of Europe's most congested hubs.That combination is exactly where delays compound: a late short-haul inbound can strand a wide-body's connecting load, and Frankfurt's weather and slot pressure mean the trigger is usually upstream of the flight that ends up late.
 ---
 
 ## Problem
