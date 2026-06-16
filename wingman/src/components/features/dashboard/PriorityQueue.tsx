@@ -15,7 +15,7 @@ import {
   type Flight,
 } from "./data";
 
-const TOP_N = 12;
+const TOP_N = 10;
 
 export default function PriorityQueue({ flights }: { flights: Flight[] }) {
   const [actionableOnly, setActionableOnly] = useState(false);
@@ -130,7 +130,7 @@ export default function PriorityQueue({ flights }: { flights: Flight[] }) {
             onClick={() => setShowAll((v) => !v)}
             className="border-border text-muted-foreground hover:text-foreground rounded-full border px-3 py-1 text-xs font-semibold transition-colors"
           >
-            {showAll ? "Show top 12" : `Show all ${sorted.length}`}
+            {showAll ? `Show top ${TOP_N}` : `Show all ${sorted.length}`}
           </button>
         )}
       </div>

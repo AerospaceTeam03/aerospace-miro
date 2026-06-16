@@ -34,8 +34,8 @@ export default function DashboardView() {
       </header>
 
       <KpiCards flights={flights} />
-      <PriorityQueue flights={flights} />
       <BracketBreakdown flights={flights} />
+      <PriorityQueue flights={flights} />
     </div>
   );
 }
