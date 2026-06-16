@@ -1,4 +1,4 @@
-# Aerospace03
+# Wingman ✈️
 
 ## Team Miron
 - Anastasiya Henechka, Comp. Business Analytics; Maths & Economics
@@ -174,9 +174,14 @@ For airlines this means:
 
 ## Why Wingman?
 
-Most tools predict delays.
+| Existing tools | Wingman |
+|---|---|
+| Predict delay probability | Predict + explain + quantify |
+| Show a number, not a reason | Show driver of risk in plain language |
+| Treat all delays as equal | Rank by financial impact |
+| Used reactively | Used proactively at 5am morning briefing |
 
-**Wingman predicts, explains, and quantifies the cost of doing nothing.**
+Most delay tools answer *"will this flight be delayed?"* — but a dispatcher already knows roughly which flights are at risk. The real question is *"which flight should I act on first, and what is it costing me if I don't?"* That's what Wingman answers.
 
 
 ---
@@ -192,4 +197,8 @@ Future work includes:
 - Integrating live flight and weather data for real-time predictions and recommendations.
 
 This would enable a fully automated, real-time OCC decision-support system.
+
+## The Bottom Line
+
+A probability is not a decision. A risk level is not a decision. **A reason, an action, and a dollar figure is a decision.** That's what Wingman delivers.
 
