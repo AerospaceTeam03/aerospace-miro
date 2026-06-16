@@ -104,7 +104,7 @@ Flight Information + Weather Data
   Recommended Operational Action
                 ↓
       Expected Avoidable Loss
-´´´
+```
 ## Machine Learning Approach
 
 We trained a **Random Forest model** on historical flight and weather data to predict flight delays.
