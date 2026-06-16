@@ -20,11 +20,16 @@ export const metadata: Metadata = {
     default: "Wingman",
   },
   description: "WINGMAN - Every dispatcher needs a wingman",
+  icons: {
+    icon: "/icons/icon.svg",
+    apple: "/icons/logo_x192.png",
+  },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  themeColor: "#2563eb",
 };
 
 export default function RootLayout({

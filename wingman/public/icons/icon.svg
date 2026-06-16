@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wingman">
+  <!-- Tile: light blue-50 with a subtle blue-100 edge -->
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="#eff6ff"/>
+  <rect x="2" y="2" width="508" height="508" rx="110" fill="none" stroke="#dbeafe" stroke-width="4"/>
+
+  <!-- Wing mark, blue-600. Right wing built once, left wing mirrored about x=256. -->
+  <g fill="#2563eb">
+    <!-- Central spine: a clean double-pointed rhombus (fin above, tail below) -->
+    <path d="M256 150 L282 256 L256 362 L230 256 Z"/>
+
+    <!-- Right wing: three bold swept feathers fanning up-and-out -->
+    <rect x="262" y="199" width="186" height="30" rx="15" transform="rotate(-8 262 214)"/>
+    <rect x="262" y="234" width="162" height="28" rx="14" transform="rotate(-15 262 248)"/>
+    <rect x="262" y="269" width="136" height="26" rx="13" transform="rotate(-23 262 282)"/>
+
+    <!-- Left wing: same feathers mirrored about the vertical centre line (x=256) -->
+    <g transform="translate(512,0) scale(-1,1)">
+      <rect x="262" y="199" width="186" height="30" rx="15" transform="rotate(-8 262 214)"/>
+      <rect x="262" y="234" width="162" height="28" rx="14" transform="rotate(-15 262 248)"/>
+      <rect x="262" y="269" width="136" height="26" rx="13" transform="rotate(-23 262 282)"/>
+    </g>
+  </g>
+</svg>
