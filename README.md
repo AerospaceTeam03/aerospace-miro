@@ -129,8 +129,6 @@ These brackets align with operational and regulatory thresholds used by airlines
 
 To make delay risk actionable, Wingman converts predicted delays into estimated financial exposure.
 
-Look into /assets/Finance_readme_section.pdf for more information.
-
 The model combines:
 
 - Variable operating costs (fuel, crew, maintenance)
