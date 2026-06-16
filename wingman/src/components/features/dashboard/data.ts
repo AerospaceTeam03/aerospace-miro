@@ -17,6 +17,9 @@ export type ReasonType =
   | "DEMAND"
   | "LOW_RISK";
 
+// What an action is mainly about — used to re-rank the playbook per flight (recommend.ts).
+export type ActionTag = "crew" | "pax" | "swap" | "flow" | "comms" | "monitor";
+
 export type BracketMeta = {
   label: string;
   range: string;
@@ -25,8 +28,9 @@ export type BracketMeta = {
   bar: string; // severity-bar fill classes
   dot: string; // small status dot classes
   // Ranked dispatcher action set (assets/brackets-action-map.md). `label` is the action
-  // the operator executes; `detail` is the one-line "why" shown in the decision dialog.
-  actions: { label: string; detail: string }[];
+  // the operator executes; `detail` is the one-line "why" shown in the decision dialog;
+  // `tag` lets recommend.ts re-rank the set for an individual flight.
+  actions: { label: string; detail: string; tag: ActionTag }[];
 };
 
 // Single source of truth: colour, ordering, and the action set all derive from here.
@@ -42,6 +46,7 @@ export const brackets: Record<Bracket, BracketMeta> = {
       {
         label: "Monitor",
         detail: "On profile — keep it on the watchlist and let the model re-score it.",
+        tag: "monitor",
       },
     ],
   },
@@ -56,18 +61,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
       {
         label: "Notify gate crew to expedite turnaround",
         detail: "Get the ground team moving early to claw back minutes before they compound.",
+        tag: "flow",
       },
       {
         label: "Pre-position fuel, catering, and baggage",
         detail: "Stage services at the gate so the turnaround isn't waiting on suppliers.",
+        tag: "flow",
       },
       {
         label: "Check next leg for cascade risk",
         detail: "Confirm the aircraft's following rotation still has enough buffer to absorb this.",
+        tag: "swap",
       },
       {
         label: "Log in dispatcher feed",
         detail: "Record the call so the rest of the desk has the same picture.",
+        tag: "comms",
       },
     ],
   },
@@ -82,18 +91,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
       {
         label: "Extend turnaround buffer in schedule",
         detail: "Push the next departure out now so the delay doesn't cascade down the rotation.",
+        tag: "flow",
       },
       {
         label: "Alert standby crew (do not activate yet)",
         detail: "Put reserves on notice so they're ready if this slips into the next bracket.",
+        tag: "crew",
       },
       {
         label: "Notify connecting flight desks",
         detail: "Give downline stations a head start on at-risk passenger connections.",
+        tag: "comms",
       },
       {
         label: "Verify crew duty time remaining",
         detail: "Check the operating crew can still legally finish the rotation under this delay.",
+        tag: "crew",
       },
     ],
   },
@@ -108,18 +121,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
       {
         label: "Activate standby crew",
         detail: "Bring reserves on duty now so the next leg isn't lost to duty-time limits.",
+        tag: "crew",
       },
       {
         label: "Distribute meal vouchers (EU261 Article 9)",
         detail: "Meet the care obligation early and take pressure off the gate.",
+        tag: "pax",
       },
       {
         label: "Initiate aircraft swap evaluation",
         detail: "Start sizing a spare airframe before the delay forces the decision.",
+        tag: "swap",
       },
       {
         label: "Rebook at-risk connecting passengers",
         detail: "Move tight connections proactively while alternative seats still exist.",
+        tag: "pax",
       },
     ],
   },
@@ -134,18 +151,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
       {
         label: "Execute aircraft swap",
         detail: "Commit the spare airframe to save the rotation instead of riding the delay out.",
+        tag: "swap",
       },
       {
         label: "Process EU261 Article 7 compensation",
         detail: "Trigger the compensation workflow now to contain the EU261 exposure.",
+        tag: "pax",
       },
       {
         label: "Book passenger hotels immediately",
         detail: "Secure rooms before inventory tightens overnight and costs climb.",
+        tag: "pax",
       },
       {
         label: "Replace crew if duty limit approached",
         detail: "Swap in fresh crew so a duty breach doesn't turn the delay into a cancellation.",
+        tag: "crew",
       },
     ],
   },
@@ -160,18 +181,22 @@ export const brackets: Record<Bracket, BracketMeta> = {
       {
         label: "Cancel the flight",
         detail: "Cut losses on an unrecoverable rotation and free the slot and crew.",
+        tag: "flow",
       },
       {
         label: "Rebook passengers onto alternate flights",
         detail: "Reaccommodate immediately while seats on partner and later services remain.",
+        tag: "pax",
       },
       {
         label: "Cover hotels, meals, transport",
         detail: "Discharge the EU261 care duty and keep stranded passengers looked after.",
+        tag: "pax",
       },
       {
         label: "Release crew and reposition aircraft",
         detail: "Reset crew and airframe so the cancellation doesn't damage tomorrow's plan.",
+        tag: "crew",
       },
     ],
   },
@@ -215,6 +240,10 @@ export type Flight = {
 
 // A flight is "actionable" once it leaves the on-time bracket (B0 is monitor-only).
 export const isActionable = (f: Flight) => brackets[f.bracket].severity >= 1;
+
+// Stable identity for a flight — used as the decision key and React key across the dashboard.
+// The row index is not stable across re-sorts, so we key on the flight itself.
+export const flightKey = (f: Flight) => `${f.code}-${f.scheduled}`;
 
 // Order the desk acts in: most severe bracket first, then earliest departure.
 export function sortByBracketThenTime(list: Flight[]): Flight[] {

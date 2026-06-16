@@ -1,8 +1,17 @@
-import { eur, isActionable, sum, type Flight } from "./data";
+import { eur, flightKey, isActionable, sum, type Flight } from "./data";
 
-export default function KpiCards({ flights }: { flights: Flight[] }) {
+export default function KpiCards({
+  flights,
+  decisions = {},
+}: {
+  flights: Flight[];
+  decisions?: Record<string, string>;
+}) {
   const total = flights.length;
-  const needAction = flights.filter(isActionable).length;
+  // Actionable flights the operator hasn't locked in a decision for yet.
+  const needAction = flights.filter(
+    (f) => isActionable(f) && !decisions[flightKey(f)]
+  ).length;
   const costOfDoingNothing = sum(flights, "ecdn");
   const recoverable = sum(flights, "avoidableLoss");
 
@@ -16,7 +25,7 @@ export default function KpiCards({ flights }: { flights: Flight[] }) {
     {
       label: "Need action",
       value: needAction,
-      hint: "beyond on-time",
+      hint: "awaiting a decision",
       className: "text-amber-600 dark:text-amber-400",
     },
     {

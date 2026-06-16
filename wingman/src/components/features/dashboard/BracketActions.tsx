@@ -1,17 +1,18 @@
 import { Check } from "lucide-react";
-import { brackets, type Bracket } from "./data";
+import type { Flight } from "./data";
+import { recommendActions } from "./recommend";
 
-// The predefined dispatcher action set for a bracket (assets/brackets-action-map.md).
+// The flight's recommended action set (re-ranked + tailored per flight, see recommend.ts).
 // `compact` shows the first three actions plus a "+N" count for the queue rows; the full
 // checklist is shown when expanded.
 export default function BracketActions({
-  bracket,
+  flight,
   compact = false,
 }: {
-  bracket: Bracket;
+  flight: Flight;
   compact?: boolean;
 }) {
-  const actions = brackets[bracket].actions;
+  const actions = recommendActions(flight);
 
   if (compact) {
     const shown = actions.slice(0, 3);

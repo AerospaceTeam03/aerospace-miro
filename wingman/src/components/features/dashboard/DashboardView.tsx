@@ -16,8 +16,16 @@ import {
 export default function DashboardView() {
   const today = currentWeekday();
   const [selectedDay, setSelectedDay] = useState<Weekday>(today);
+  // Locked-in decisions: flight key → chosen action label. In-memory only — resets on refresh
+  // and when the operator switches to a different day's operation.
+  const [decisions, setDecisions] = useState<Record<string, string>>({});
 
   const flights = useMemo(() => buildOperation(selectedDay), [selectedDay]);
+
+  const selectDay = (day: Weekday) => {
+    setSelectedDay(day);
+    setDecisions({});
+  };
 
   return (
     <div className="flex flex-col gap-6">
@@ -29,13 +37,17 @@ export default function DashboardView() {
         <WeekdaySwitcher
           selected={selectedDay}
           today={today}
-          onSelect={setSelectedDay}
+          onSelect={selectDay}
         />
       </header>
 
-      <KpiCards flights={flights} />
+      <KpiCards flights={flights} decisions={decisions} />
       <BracketBreakdown flights={flights} />
-      <PriorityQueue flights={flights} />
+      <PriorityQueue
+        flights={flights}
+        decisions={decisions}
+        setDecisions={setDecisions}
+      />
     </div>
   );
 }

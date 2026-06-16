@@ -2,13 +2,14 @@
 
 import { cn } from "@/lib/utils";
 import { ArrowRight, Check } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useMemo, useState, type Dispatch, type SetStateAction } from "react";
 import BracketActions from "./BracketActions";
 import BracketBadge from "./BracketBadge";
 import DecisionDialog from "./DecisionDialog";
 import SeverityBar from "./SeverityBar";
 import {
   eur,
+  flightKey,
   isActionable,
   reasonCopy,
   sortByBracketThenTime,
@@ -17,15 +18,19 @@ import {
 
 const TOP_N = 10;
 
-// A stable identity for a flight — used as the decision key and React key. The row index is
-// not stable across re-sorts, so we key on the flight itself.
-const flightKey = (f: Flight) => `${f.code}-${f.scheduled}`;
-
-export default function PriorityQueue({ flights }: { flights: Flight[] }) {
+export default function PriorityQueue({
+  flights,
+  decisions,
+  setDecisions,
+}: {
+  flights: Flight[];
+  // Locked-in decisions (flight key → chosen action label) owned by DashboardView so the
+  // "Need action" KPI can react to them. In-memory only — resets on refresh / day change.
+  decisions: Record<string, string>;
+  setDecisions: Dispatch<SetStateAction<Record<string, string>>>;
+}) {
   const [actionableOnly, setActionableOnly] = useState(false);
   const [showAll, setShowAll] = useState(false);
-  // Locked-in decisions: flight key → chosen action label. In-memory only — resets on refresh.
-  const [decisions, setDecisions] = useState<Record<string, string>>({});
   const [activeFlight, setActiveFlight] = useState<Flight | null>(null);
 
   const sorted = useMemo(() => {
@@ -142,7 +147,7 @@ export default function PriorityQueue({ flights }: { flights: Flight[] }) {
                         </span>
                       </div>
                     ) : (
-                      <BracketActions bracket={flight.bracket} compact />
+                      <BracketActions flight={flight} compact />
                     )}
                   </td>
                   <td className="px-4 py-3 text-right font-semibold tabular-nums">

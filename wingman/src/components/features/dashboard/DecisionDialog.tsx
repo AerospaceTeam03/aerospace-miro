@@ -11,7 +11,8 @@ import {
 import { cn } from "@/lib/utils";
 import { ArrowRight, Check, Lock } from "lucide-react";
 import BracketBadge from "./BracketBadge";
-import { brackets, reasonCopy, type Flight } from "./data";
+import { reasonCopy, type Flight } from "./data";
+import { recommendActions } from "./recommend";
 
 // Lets the operator review the bracket's ranked actions and lock in one decision for a
 // flight. Controlled by the parent: `flight` non-null opens it, `chosen` is the currently
@@ -60,7 +61,7 @@ export default function DecisionDialog({
               <p className="text-muted-foreground text-xs font-semibold uppercase tracking-wide">
                 Recommended actions — pick one to lock in
               </p>
-              {brackets[flight.bracket].actions.map((action, i) => {
+              {recommendActions(flight).map((action, i) => {
                 const isChosen = chosen === action.label;
                 return (
                   <button
