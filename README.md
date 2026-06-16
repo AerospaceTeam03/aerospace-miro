@@ -82,6 +82,28 @@ Wingman combines flight, schedule, and weather data to provide:
 The result is a decision-support tool that transforms delay risk into actionable operational recommendations.
 
 ---
+## Decision Framework
+
+Wingman is not a delay prediction tool. It is a decision-support system designed to help dispatchers allocate limited operational resources where they create the greatest value.
+
+The system follows a simple decision framework:
+
+```text
+Flight Information + Weather Data
+                ↓
+         Risk Prediction
+                ↓
+        Cause Identification
+                ↓
+     Delay Severity Bracket
+                ↓
+      Financial Exposure
+                ↓
+      Resource Assessment
+                ↓
+  Recommended Operational Action
+                ↓
+      Expected Avoidable Loss
 
 ## Machine Learning Approach
 
