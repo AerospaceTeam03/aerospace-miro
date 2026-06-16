@@ -2,10 +2,10 @@ import CrewDutyRow from "@/components/features/crew/CrewDutyRow";
 
 // Placeholder rosters — mocking crew duty data.
 const crews = [
-  { crew: "Crew A — Capt. Weber", flight: "LH 402", dutyUsed: 12, dutyLimit: 13 },
-  { crew: "Crew B — Capt. Hoffmann", flight: "LH 711", dutyUsed: 10, dutyLimit: 13 },
-  { crew: "Crew C — Capt. Becker", flight: "LH 1024", dutyUsed: 8, dutyLimit: 13 },
-  { crew: "Crew D — Capt. Schulz", flight: "LH 218", dutyUsed: 5, dutyLimit: 13 },
+  { crew: "Crew A — Capt. Weber", flight: "4Y210", dutyUsed: 12, dutyLimit: 13 },
+  { crew: "Crew B — Capt. Hoffmann", flight: "4Y206", dutyUsed: 10, dutyLimit: 13 },
+  { crew: "Crew C — Capt. Becker", flight: "4Y530", dutyUsed: 8, dutyLimit: 13 },
+  { crew: "Crew D — Capt. Schulz", flight: "4Y802", dutyUsed: 5, dutyLimit: 13 },
 ];
 
 export default function CrewPage() {

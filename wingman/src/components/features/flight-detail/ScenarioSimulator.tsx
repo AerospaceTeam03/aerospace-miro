@@ -11,7 +11,7 @@ const riskBadgeStyles: Record<RiskLevel, string> = {
   GREEN: "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 ring-emerald-500/40",
 };
 
-// Default simulator state matches the AA 1450 RED cascade scenario
+// Default simulator state matches the 4Y210 RED cascade scenario
 const DEFAULT_INPUTS: SimulatorInputs = {
   inboundDelayMin: 60,
   turnaroundMin: 48,

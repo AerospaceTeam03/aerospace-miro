@@ -32,6 +32,10 @@ function actionFor(code: string): string {
   return fixtureFlights[code]?.recommendedAction ?? flightDetails[code]?.recommendation ?? "—";
 }
 
+function tailFor(code: string): string {
+  return fixtureFlights[code]?.tail ?? "—";
+}
+
 type Tab = "ALL" | RiskLevel;
 const tabs: Tab[] = ["ALL", "RED", "AMBER", "GREEN"];
 
@@ -118,7 +122,8 @@ export default function FlightDeepDetailIndex() {
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className="font-semibold">{f.code}</span>
-                    <span className="text-muted-foreground text-sm">ORD → {f.destination}</span>
+                    <span className="text-muted-foreground text-sm">FRA → {f.destination}</span>
+                    <span className="text-muted-foreground text-sm">· Tail {tailFor(f.code)}</span>
                     <RiskBadge risk={f.risk} />
                   </div>
                   <p className="text-sm">

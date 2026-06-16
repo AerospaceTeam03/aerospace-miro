@@ -3,25 +3,25 @@ import ActionCard from "@/components/features/actions/ActionCard";
 // Placeholder recommendations — to be generated from flagged flights.
 const actions = [
   {
-    flight: "LH 402",
+    flight: "4Y210",
     priority: "high" as const,
-    recommendation: "Swap to standby tail D-AIXC",
-    reason: "Inbound aircraft running +65 min, two legs back. Swap recovers JFK departure.",
+    recommendation: "Swap to standby tail 4Y-M-4",
+    reason: "Inbound aircraft running +60 min into a 48-min turnaround. Swap recovers the FRA → DJE departure.",
     window: "45 min",
   },
   {
-    flight: "LH 711",
+    flight: "4Y206",
     priority: "high" as const,
-    recommendation: "Hold ORD connection, pre-alert reserve crew",
-    reason: "Thunderstorms forecast at FRA from 09:00; 18 connecting passengers at risk.",
+    recommendation: "Secure controlled departure time, pre-alert crew",
+    reason: "Thunderstorms and an ATC flow restriction at FRA from 07:30; 175 passengers on the Hurghada service at risk.",
     window: "1 h 10 min",
   },
   {
-    flight: "LH 1024",
+    flight: "4Y802",
     priority: "medium" as const,
-    recommendation: "Assign reserve crew for MUC → LHR",
-    reason: "Operating crew projected to hit duty limit before turnaround.",
-    window: "2 h",
+    recommendation: "Pre-stage ground handling for FRA → BRI",
+    reason: "Inbound 15 min late into a 52-min turnaround; pre-staging absorbs the late arrival.",
+    window: "40 min",
   },
 ];
 

@@ -1,4 +1,11 @@
 import { flights, type CauseCode, type RiskLevel } from "./flightsData";
+import {
+  AIRLINE,
+  getDestination,
+  getDiscoverFlight,
+  tailId,
+  type CsvSize,
+} from "@/data/discover";
 
 export type CausalNode = {
   label: string;
@@ -28,22 +35,24 @@ export type FlightDetail = {
   eu261Exposure: string;
 };
 
-// Placeholder — to be replaced with real flight, weather and tail-rotation data.
+// Causal narratives for the simpler fallback view. The hand-crafted rich
+// scenarios live in src/data/flightDetails.fixture.ts; this is the generic
+// pre-departure story per cause code for the remaining Discover flights.
 const causalChains: Record<CauseCode, (f: (typeof flights)[number]) => CausalNode[]> = {
   CASCADE: (f) => [
-    { label: `Inbound +${f.delayMinutes - 5} min`, detail: "Previous rotation arrived late" },
+    { label: `Inbound +${f.delayMinutes - 5} min`, detail: "Previous rotation arrived late into FRA" },
     { label: "Turnaround 52 min / buffer 4 min", detail: "Standard turnaround leaves almost no slack" },
     { label: `Knock-on +${Math.max(f.delayMinutes - 20, 5)} min`, detail: "Delay carries over to this departure" },
     { label: `Departure risk: ${f.riskScore}%`, detail: "Compounded delay driving departure risk" },
   ],
   WEATHER: (f) => [
-    { label: "Gusts 56 km/h", detail: "Crosswind near operational limits at ORD" },
+    { label: "Gusts 56 km/h", detail: "Crosswind near operational limits at FRA" },
     { label: "+12 min ground delay", detail: "De-icing and runway spacing impact" },
     { label: "Turnaround 52 min / buffer 4 min", detail: "Standard turnaround leaves almost no slack" },
     { label: `Departure risk: ${f.riskScore}%`, detail: "Weather-driven delay propagating to departure" },
   ],
   CONGESTION: (f) => [
-    { label: "Ground stop ORD 20 min", detail: "ATC flow control limiting departure rate" },
+    { label: "Ground stop FRA 20 min", detail: "ATC flow control limiting departure rate" },
     { label: `Queue position +${Math.max(f.delayMinutes - 10, 5)} min`, detail: "Aircraft queued behind congestion backlog" },
     { label: "Turnaround 52 min / buffer 4 min", detail: "Standard turnaround leaves almost no slack" },
     { label: `Departure risk: ${f.riskScore}%`, detail: "Airport congestion driving departure risk" },
@@ -64,54 +73,37 @@ function estimateTime(scheduled: string, delayMinutes: number): string {
   return `${String(eh).padStart(2, "0")}:${String(em).padStart(2, "0")}`;
 }
 
-function eu261For(distanceKm: number, risk: RiskLevel): string {
+function eu261For(distanceKm: number, risk: RiskLevel, passengers: number): string {
   if (risk === "GREEN") return "No exposure — flight on time";
   const perPax = distanceKm > 3500 ? 600 : distanceKm > 1500 ? 400 : 250;
-  const pax = 180;
-  const total = perPax * pax;
+  const total = perPax * passengers;
   return `Maximum exposure: €${total.toLocaleString("en-US")} if +3h`;
 }
 
-const destinationInfo: Record<string, { distanceKm: number; weatherConditions: string; windKmh: number; tempC: number; snowCm: number }> = {
-  MIA: { distanceKm: 1920, weatherConditions: "Clear", windKmh: 18, tempC: 24, snowCm: 0 },
-  DEN: { distanceKm: 1450, weatherConditions: "Windy", windKmh: 42, tempC: 5, snowCm: 0 },
-  LAX: { distanceKm: 2800, weatherConditions: "Clear", windKmh: 14, tempC: 18, snowCm: 0 },
-  ATL: { distanceKm: 1100, weatherConditions: "Overcast", windKmh: 20, tempC: 9, snowCm: 0 },
-  EWR: { distanceKm: 1170, weatherConditions: "Rain", windKmh: 33, tempC: 7, snowCm: 0 },
-  DFW: { distanceKm: 1290, weatherConditions: "Snow showers", windKmh: 56, tempC: -2, snowCm: 4 },
-  SFO: { distanceKm: 2960, weatherConditions: "Fog", windKmh: 12, tempC: 13, snowCm: 0 },
-  BOS: { distanceKm: 1370, weatherConditions: "Cloudy", windKmh: 27, tempC: 3, snowCm: 0 },
-  SEA: { distanceKm: 2780, weatherConditions: "Clear", windKmh: 16, tempC: 8, snowCm: 0 },
-  IAH: { distanceKm: 1510, weatherConditions: "Thunderstorms", windKmh: 38, tempC: 21, snowCm: 0 },
-  PHX: { distanceKm: 2330, weatherConditions: "Clear", windKmh: 10, tempC: 22, snowCm: 0 },
-  JFK: { distanceKm: 1190, weatherConditions: "Cloudy", windKmh: 24, tempC: 4, snowCm: 0 },
-};
-
-const tailNumbers: Record<string, string> = {
-  "AA 102": "N801AW",
-  "UA 884": "N36476",
-  "AA 1450": "N28478",
-  "DL 219": "N912DL",
-  "UA 305": "N504UA",
-  "AA 588": "N174AA",
-  "UA 1190": "N667UA",
-  "AA 2230": "N339AA",
-  "DL 940": "N855DL",
-  "UA 712": "N228UA",
-  "AA 91": "N701AA",
-  "UA 455": "N480UA",
-};
+// Deterministic tail per flight: numbered within its CSV size class, e.g.
+// "4Y-M-1". Built once over the dashboard flights so each code maps stably.
+const sizeCounters: Record<CsvSize, number> = { S: 0, M: 0, L: 0 };
+const tailByCode: Record<string, string> = {};
+for (const f of flights) {
+  const row = getDiscoverFlight(f.code);
+  const size = (row?.size ?? "M") as CsvSize;
+  sizeCounters[size] += 1;
+  tailByCode[f.code] = row ? tailId(size, sizeCounters[size]) : `${AIRLINE.iata}-M-0`;
+}
 
 export const flightDetails: Record<string, FlightDetail> = Object.fromEntries(
   flights.map((f) => {
-    const dest = destinationInfo[f.destination];
+    const row = getDiscoverFlight(f.code);
+    const dest = getDestination(f.destination);
+    const distanceKm = row?.distanceKm ?? 0;
+    const passengers = row?.custNum ?? 0;
     const estimated = estimateTime(f.scheduled, f.delayMinutes);
     return [
       f.code,
       {
         code: f.code,
-        tail: tailNumbers[f.code] ?? "N000XX",
-        origin: "ORD",
+        tail: tailByCode[f.code],
+        origin: row?.originIata ?? "FRA",
         destination: f.destination,
         scheduled: f.scheduled,
         estimated,
@@ -119,21 +111,27 @@ export const flightDetails: Record<string, FlightDetail> = Object.fromEntries(
         riskScore: f.riskScore,
         causalChain: causalChains[f.cause](f),
         weather: {
-          location: f.destination,
-          tempC: dest.tempC,
-          windKmh: dest.windKmh,
-          snowCm: dest.snowCm,
-          conditions: dest.weatherConditions,
+          // Live weather lives on the Weather page; the fallback detail view has
+          // no static per-destination weather, so it is reported as unavailable
+          // rather than invented.
+          location: dest ? `${dest.city} (${f.destination})` : f.destination,
+          tempC: 0,
+          windKmh: 0,
+          snowCm: 0,
+          conditions: "Data unavailable",
         },
-        distanceKm: dest.distanceKm,
-        etaDestination: estimateTime(estimated, Math.round((dest.distanceKm / 800) * 60)),
+        distanceKm,
+        etaDestination:
+          distanceKm > 0
+            ? estimateTime(estimated, Math.round((distanceKm / 800) * 60))
+            : "—",
         recommendation:
           f.risk === "RED"
             ? `Consider an aircraft swap — check standby tail availability before ${f.scheduled}.`
             : f.risk === "AMBER"
               ? "Monitor the inbound leg and pre-alert reserve crew if the delay grows."
               : "No action required — flight within normal parameters.",
-        eu261Exposure: eu261For(dest.distanceKm, f.risk),
+        eu261Exposure: eu261For(distanceKm, f.risk, passengers),
       } satisfies FlightDetail,
     ];
   })

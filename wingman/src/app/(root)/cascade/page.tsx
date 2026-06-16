@@ -3,26 +3,26 @@ import CascadeChain from "@/components/features/cascade/CascadeChain";
 // Placeholder rotations — to be replaced with real tail tracking (OpenSky).
 const rotations = [
   {
-    tail: "D-AIMA",
+    tail: "4Y-M-1",
     legs: [
-      { flight: "LH 402", route: "FRA → JFK", scheduled: "08:10", delay: 65 },
-      { flight: "LH 403", route: "JFK → FRA", scheduled: "14:30", delay: 80 },
-      { flight: "LH 218", route: "FRA → CDG", scheduled: "22:05", delay: 95 },
+      { flight: "4Y210", route: "FRA → DJE", scheduled: "04:45", delay: 50 },
+      { flight: "4Y211", route: "DJE → FRA", scheduled: "07:30", delay: 65 },
+      { flight: "4Y1408", route: "FRA → VAR", scheduled: "14:45", delay: 95 },
     ],
   },
   {
-    tail: "D-AIXB",
+    tail: "4Y-S-1",
     legs: [
-      { flight: "LH 711", route: "FRA → ORD", scheduled: "09:25", delay: 40 },
-      { flight: "LH 712", route: "ORD → FRA", scheduled: "16:10", delay: 55 },
+      { flight: "4Y530", route: "FRA → IBZ", scheduled: "09:30", delay: 22 },
+      { flight: "4Y531", route: "IBZ → FRA", scheduled: "12:30", delay: 35 },
     ],
   },
   {
-    tail: "D-AINC",
+    tail: "4Y-S-2",
     legs: [
-      { flight: "LH 1024", route: "MUC → LHR", scheduled: "10:05", delay: 15 },
-      { flight: "LH 1025", route: "LHR → MUC", scheduled: "13:40", delay: 20 },
-      { flight: "LH 1088", route: "MUC → VIE", scheduled: "18:15", delay: 25 },
+      { flight: "4Y802", route: "FRA → BRI", scheduled: "07:55", delay: 15 },
+      { flight: "4Y803", route: "BRI → FRA", scheduled: "10:40", delay: 20 },
+      { flight: "4Y912", route: "FRA → SPU", scheduled: "16:10", delay: 25 },
     ],
   },
 ];

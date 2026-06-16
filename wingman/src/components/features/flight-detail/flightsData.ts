@@ -1,8 +1,10 @@
 // Self-contained flight list for the Flight Deep Detail feature.
 //
-// This used to be imported from the dashboard, but the dashboard moved to the
-// Discover/FRA bracket model. The deep-detail view still runs on its original
-// US demo fixtures; aligning it to the FRA operation is a separate follow-up.
+// The dashboard moved to the richer Discover/FRA bracket model; this keeps the
+// deep-detail view on a simpler risk/cause shape. Flight identity, destination
+// and scheduled time are real values from SIZED_FRA_DISC_DATA.csv (see
+// src/data/discover.ts). The risk / cause / score / delay fields are the
+// illustrative pre-departure scenario — they are NOT in the schedule CSV.
 
 export type RiskLevel = "RED" | "AMBER" | "GREEN";
 
@@ -19,18 +21,18 @@ export type Flight = {
 };
 
 export const flights: Flight[] = [
-  { code: "AA 102", destination: "MIA", scheduled: "06:15", risk: "GREEN", cause: "CARRIER", riskScore: 12, delayMinutes: 0 },
-  { code: "UA 884", destination: "DEN", scheduled: "06:40", risk: "AMBER", cause: "CONGESTION", riskScore: 48, delayMinutes: 22 },
-  { code: "AA 1450", destination: "LAX", scheduled: "07:05", risk: "RED", cause: "CASCADE", riskScore: 87, delayMinutes: 65 },
-  { code: "DL 219", destination: "ATL", scheduled: "07:20", risk: "GREEN", cause: "CARRIER", riskScore: 8, delayMinutes: 0 },
-  { code: "UA 305", destination: "EWR", scheduled: "07:35", risk: "AMBER", cause: "WEATHER", riskScore: 55, delayMinutes: 28 },
-  { code: "AA 588", destination: "DFW", scheduled: "07:50", risk: "RED", cause: "WEATHER", riskScore: 91, delayMinutes: 74 },
-  { code: "UA 1190", destination: "SFO", scheduled: "08:05", risk: "GREEN", cause: "CARRIER", riskScore: 15, delayMinutes: 0 },
-  { code: "AA 2230", destination: "BOS", scheduled: "08:15", risk: "AMBER", cause: "CASCADE", riskScore: 51, delayMinutes: 31 },
-  { code: "DL 940", destination: "SEA", scheduled: "08:30", risk: "GREEN", cause: "CARRIER", riskScore: 10, delayMinutes: 0 },
-  { code: "UA 712", destination: "IAH", scheduled: "08:45", risk: "RED", cause: "CONGESTION", riskScore: 83, delayMinutes: 58 },
-  { code: "AA 91", destination: "PHX", scheduled: "09:00", risk: "AMBER", cause: "CASCADE", riskScore: 46, delayMinutes: 25 },
-  { code: "UA 455", destination: "JFK", scheduled: "09:20", risk: "GREEN", cause: "CARRIER", riskScore: 6, delayMinutes: 0 },
+  { code: "4Y210", destination: "DJE", scheduled: "04:45", risk: "RED", cause: "CASCADE", riskScore: 87, delayMinutes: 65 },
+  { code: "4Y206", destination: "HRG", scheduled: "08:20", risk: "RED", cause: "WEATHER", riskScore: 91, delayMinutes: 74 },
+  { code: "4Y152", destination: "MRU", scheduled: "17:45", risk: "RED", cause: "CASCADE", riskScore: 83, delayMinutes: 58 },
+  { code: "4Y530", destination: "IBZ", scheduled: "09:30", risk: "AMBER", cause: "CONGESTION", riskScore: 48, delayMinutes: 22 },
+  { code: "4Y802", destination: "BRI", scheduled: "07:55", risk: "AMBER", cause: "CASCADE", riskScore: 51, delayMinutes: 31 },
+  { code: "4Y54", destination: "LAS", scheduled: "09:20", risk: "AMBER", cause: "WEATHER", riskScore: 55, delayMinutes: 28 },
+  { code: "4Y302", destination: "LPA", scheduled: "09:55", risk: "AMBER", cause: "CONGESTION", riskScore: 46, delayMinutes: 25 },
+  { code: "4Y1240", destination: "LCA", scheduled: "11:10", risk: "AMBER", cause: "CASCADE", riskScore: 49, delayMinutes: 24 },
+  { code: "4Y10", destination: "CUN", scheduled: "10:00", risk: "GREEN", cause: "CARRIER", riskScore: 12, delayMinutes: 0 },
+  { code: "4Y1200", destination: "RHO", scheduled: "04:45", risk: "GREEN", cause: "CARRIER", riskScore: 8, delayMinutes: 0 },
+  { code: "4Y912", destination: "SPU", scheduled: "16:10", risk: "GREEN", cause: "CARRIER", riskScore: 10, delayMinutes: 0 },
+  { code: "4Y76", destination: "YYC", scheduled: "13:30", risk: "GREEN", cause: "CARRIER", riskScore: 15, delayMinutes: 0 },
 ];
 
 export const riskCopy: Record<RiskLevel, string> = {

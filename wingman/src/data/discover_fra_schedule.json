@@ -1,0 +1,4483 @@
+[
+  {
+    "recordId": "4Y210-FRA-DJE-04:45",
+    "flightNumber": "4Y210",
+    "route": "FRA-DJE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "DJE",
+    "destinationAirport": "Djerba-Zarzis International Airport",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "06:30",
+    "duration": "2h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      33.875,
+      10.7755
+    ],
+    "distanceKm": 1806,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y530-FRA-IBZ-04:45",
+    "flightNumber": "4Y530",
+    "route": "FRA-IBZ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "IBZ",
+    "destinationAirport": "Ibiza Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "07:00",
+    "duration": "2h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      38.8729,
+      1.3731
+    ],
+    "distanceKm": 1365,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1200-FRA-RHO-04:45",
+    "flightNumber": "4Y1200",
+    "route": "FRA-RHO",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RHO",
+    "destinationAirport": "Rhodes International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "08:50",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.4054,
+      28.0862
+    ],
+    "distanceKm": 2179,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y900-FRA-DBV-04:45",
+    "flightNumber": "4Y900",
+    "route": "FRA-DBV",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "DBV",
+    "destinationAirport": "Dubrovnik Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "06:35",
+    "duration": "1h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      42.5614,
+      18.2682
+    ],
+    "distanceKm": 1115,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1202-FRA-KGS-04:45",
+    "flightNumber": "4Y1202",
+    "route": "FRA-KGS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "KGS",
+    "destinationAirport": "Kos International Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "08:55",
+    "duration": "3h10m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.7933,
+      27.0917
+    ],
+    "distanceKm": 2089,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1210-FRA-CFU-04:45",
+    "flightNumber": "4Y1210",
+    "route": "FRA-CFU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CFU",
+    "destinationAirport": "Corfu International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "08:05",
+    "duration": "2h20m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.6019,
+      19.9117
+    ],
+    "distanceKm": 1462,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1204-FRA-HER-04:45",
+    "flightNumber": "4Y1204",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "08:45",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y802-FRA-BRI-04:45",
+    "flightNumber": "4Y802",
+    "route": "FRA-BRI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "BRI",
+    "destinationAirport": "Bari Karol Wojtyla Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "04:45",
+    "arrivalTimeLocal": "06:45",
+    "duration": "2h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      41.1389,
+      16.7606
+    ],
+    "distanceKm": 1176,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y202-FRA-RAK-04:50",
+    "flightNumber": "4Y202",
+    "route": "FRA-RAK",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RAK",
+    "destinationAirport": "Marrakesh Menara Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "04:50",
+    "arrivalTimeLocal": "07:40",
+    "duration": "3h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      31.6069,
+      -8.0363
+    ],
+    "distanceKm": 2468,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1206-FRA-CHQ-04:50",
+    "flightNumber": "4Y1206",
+    "route": "FRA-CHQ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CHQ",
+    "destinationAirport": "Chania International Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "04:50",
+    "arrivalTimeLocal": "08:50",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.5317,
+      24.1497
+    ],
+    "distanceKm": 2046,
+    "qualityFlag": "review",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1204-FRA-HER-04:50",
+    "flightNumber": "4Y1204",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "04:50",
+    "arrivalTimeLocal": "08:50",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1400-FRA-BOJ-04:50",
+    "flightNumber": "4Y1400",
+    "route": "FRA-BOJ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "BOJ",
+    "destinationAirport": "Burgas Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "04:50",
+    "arrivalTimeLocal": "08:25",
+    "duration": "2h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      42.5696,
+      27.5152
+    ],
+    "distanceKm": 1669,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y900-FRA-DBV-04:55",
+    "flightNumber": "4Y900",
+    "route": "FRA-DBV",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "DBV",
+    "destinationAirport": "Dubrovnik Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "04:55",
+    "arrivalTimeLocal": "06:45",
+    "duration": "1h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      42.5614,
+      18.2682
+    ],
+    "distanceKm": 1115,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1408-FRA-VAR-05:05",
+    "flightNumber": "4Y1408",
+    "route": "FRA-VAR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "VAR",
+    "destinationAirport": "Varna Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "05:05",
+    "arrivalTimeLocal": "08:35",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.2321,
+      27.8251
+    ],
+    "distanceKm": 1647,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1204-FRA-HER-05:05",
+    "flightNumber": "4Y1204",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "05:05",
+    "arrivalTimeLocal": "09:05",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1408-FRA-VAR-05:10",
+    "flightNumber": "4Y1408",
+    "route": "FRA-VAR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "VAR",
+    "destinationAirport": "Varna Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "05:10",
+    "arrivalTimeLocal": "08:40",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.2321,
+      27.8251
+    ],
+    "distanceKm": 1647,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y912-FRA-SPU-05:15",
+    "flightNumber": "4Y912",
+    "route": "FRA-SPU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPU",
+    "destinationAirport": "Split Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "05:15",
+    "arrivalTimeLocal": "06:55",
+    "duration": "1h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.5389,
+      16.298
+    ],
+    "distanceKm": 931,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y214-FRA-MIR-05:15",
+    "flightNumber": "4Y214",
+    "route": "FRA-MIR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MIR",
+    "destinationAirport": "Monastir Habib Bourguiba International Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "05:15",
+    "arrivalTimeLocal": "06:45",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.7581,
+      10.7547
+    ],
+    "distanceKm": 1598,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y910-FRA-ZAD-05:20",
+    "flightNumber": "4Y910",
+    "route": "FRA-ZAD",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ZAD",
+    "destinationAirport": "Zadar Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "05:20",
+    "arrivalTimeLocal": "06:50",
+    "duration": "1h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      44.1083,
+      15.3467
+    ],
+    "distanceKm": 835,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y512-FRA-PMI-05:40",
+    "flightNumber": "4Y512",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "05:40",
+    "arrivalTimeLocal": "07:45",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1206-FRA-CHQ-05:50",
+    "flightNumber": "4Y1206",
+    "route": "FRA-CHQ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CHQ",
+    "destinationAirport": "Chania International Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "05:50",
+    "arrivalTimeLocal": "09:50",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.5317,
+      24.1497
+    ],
+    "distanceKm": 2046,
+    "qualityFlag": "review",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1204-FRA-HER-05:50",
+    "flightNumber": "4Y1204",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "05:50",
+    "arrivalTimeLocal": "09:50",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1200-FRA-RHO-06:35",
+    "flightNumber": "4Y1200",
+    "route": "FRA-RHO",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RHO",
+    "destinationAirport": "Rhodes International Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "06:35",
+    "arrivalTimeLocal": "10:40",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.4054,
+      28.0862
+    ],
+    "distanceKm": 2179,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y512-FRA-PMI-06:55",
+    "flightNumber": "4Y512",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "06:55",
+    "arrivalTimeLocal": "08:55",
+    "duration": "2h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y214-FRA-MIR-07:05",
+    "flightNumber": "4Y214",
+    "route": "FRA-MIR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MIR",
+    "destinationAirport": "Monastir Habib Bourguiba International Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "07:05",
+    "arrivalTimeLocal": "08:35",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.7581,
+      10.7547
+    ],
+    "distanceKm": 1598,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1408-FRA-VAR-07:25",
+    "flightNumber": "4Y1408",
+    "route": "FRA-VAR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "VAR",
+    "destinationAirport": "Varna Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "07:25",
+    "arrivalTimeLocal": "10:55",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.2321,
+      27.8251
+    ],
+    "distanceKm": 1647,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1210-FRA-CFU-07:25",
+    "flightNumber": "4Y1210",
+    "route": "FRA-CFU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CFU",
+    "destinationAirport": "Corfu International Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "07:25",
+    "arrivalTimeLocal": "10:45",
+    "duration": "2h20m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.6019,
+      19.9117
+    ],
+    "distanceKm": 1462,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1214-FRA-ZTH-07:25",
+    "flightNumber": "4Y1214",
+    "route": "FRA-ZTH",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ZTH",
+    "destinationAirport": "Zakynthos International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "07:25",
+    "arrivalTimeLocal": "11:00",
+    "duration": "2h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      37.7509,
+      20.8842
+    ],
+    "distanceKm": 1681,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y802-FRA-BRI-07:55",
+    "flightNumber": "4Y802",
+    "route": "FRA-BRI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "BRI",
+    "destinationAirport": "Bari Karol Wojtyla Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "07:55",
+    "arrivalTimeLocal": "09:55",
+    "duration": "2h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      41.1389,
+      16.7606
+    ],
+    "distanceKm": 1176,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1210-FRA-CFU-08:20",
+    "flightNumber": "4Y1210",
+    "route": "FRA-CFU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CFU",
+    "destinationAirport": "Corfu International Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "08:20",
+    "arrivalTimeLocal": "11:40",
+    "duration": "2h20m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.6019,
+      19.9117
+    ],
+    "distanceKm": 1462,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y206-FRA-HRG-08:20",
+    "flightNumber": "4Y206",
+    "route": "FRA-HRG",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HRG",
+    "destinationAirport": "Hurghada International Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "08:20",
+    "arrivalTimeLocal": "13:00",
+    "duration": "4h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.1783,
+      33.7994
+    ],
+    "distanceKm": 3324,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y202-FRA-RAK-08:25",
+    "flightNumber": "4Y202",
+    "route": "FRA-RAK",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RAK",
+    "destinationAirport": "Marrakesh Menara Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "08:25",
+    "arrivalTimeLocal": "11:10",
+    "duration": "3h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      31.6069,
+      -8.0363
+    ],
+    "distanceKm": 2468,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y910-FRA-ZAD-08:30",
+    "flightNumber": "4Y910",
+    "route": "FRA-ZAD",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ZAD",
+    "destinationAirport": "Zadar Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "08:30",
+    "arrivalTimeLocal": "10:00",
+    "duration": "1h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      44.1083,
+      15.3467
+    ],
+    "distanceKm": 835,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y500-FRA-XRY-08:50",
+    "flightNumber": "4Y500",
+    "route": "FRA-XRY",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "XRY",
+    "destinationAirport": "Jerez Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "08:50",
+    "arrivalTimeLocal": "11:50",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.7446,
+      -6.0601
+    ],
+    "distanceKm": 1885,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y206-FRA-HRG-08:55",
+    "flightNumber": "4Y206",
+    "route": "FRA-HRG",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HRG",
+    "destinationAirport": "Hurghada International Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "08:55",
+    "arrivalTimeLocal": "13:30",
+    "duration": "4h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.1783,
+      33.7994
+    ],
+    "distanceKm": 3324,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y54-FRA-LAS-09:20",
+    "flightNumber": "4Y54",
+    "route": "FRA-LAS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LAS",
+    "destinationAirport": "Harry Reid International Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "09:20",
+    "arrivalTimeLocal": "12:05",
+    "duration": "11h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.084,
+      -115.1537
+    ],
+    "distanceKm": 8962,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y802-FRA-BRI-09:25",
+    "flightNumber": "4Y802",
+    "route": "FRA-BRI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "BRI",
+    "destinationAirport": "Bari Karol Wojtyla Airport",
+    "daysOfWeek": [
+      "Wednesday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "09:25",
+    "arrivalTimeLocal": "11:25",
+    "duration": "2h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      41.1389,
+      16.7606
+    ],
+    "distanceKm": 1176,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y530-FRA-IBZ-09:25",
+    "flightNumber": "4Y530",
+    "route": "FRA-IBZ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "IBZ",
+    "destinationAirport": "Ibiza Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "09:25",
+    "arrivalTimeLocal": "11:40",
+    "duration": "2h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      38.8729,
+      1.3731
+    ],
+    "distanceKm": 1365,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1300-FRA-EVE-09:30",
+    "flightNumber": "4Y1300",
+    "route": "FRA-EVE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "EVE",
+    "destinationAirport": "Harstad/Narvik Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "09:30",
+    "arrivalTimeLocal": "12:35",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      68.4913,
+      16.6781
+    ],
+    "distanceKm": 2099,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y530-FRA-IBZ-09:30",
+    "flightNumber": "4Y530",
+    "route": "FRA-IBZ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "IBZ",
+    "destinationAirport": "Ibiza Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Wednesday"
+    ],
+    "departureTimeLocal": "09:30",
+    "arrivalTimeLocal": "11:45",
+    "duration": "2h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      38.8729,
+      1.3731
+    ],
+    "distanceKm": 1365,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y530-FRA-IBZ-09:35",
+    "flightNumber": "4Y530",
+    "route": "FRA-IBZ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "IBZ",
+    "destinationAirport": "Ibiza Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "09:35",
+    "arrivalTimeLocal": "11:50",
+    "duration": "2h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      38.8729,
+      1.3731
+    ],
+    "distanceKm": 1365,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y206-FRA-HRG-09:40",
+    "flightNumber": "4Y206",
+    "route": "FRA-HRG",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HRG",
+    "destinationAirport": "Hurghada International Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "09:40",
+    "arrivalTimeLocal": "14:15",
+    "duration": "4h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.1783,
+      33.7994
+    ],
+    "distanceKm": 3324,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y530-FRA-IBZ-09:40",
+    "flightNumber": "4Y530",
+    "route": "FRA-IBZ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "IBZ",
+    "destinationAirport": "Ibiza Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "09:40",
+    "arrivalTimeLocal": "11:55",
+    "duration": "2h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      38.8729,
+      1.3731
+    ],
+    "distanceKm": 1365,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y202-FRA-RAK-09:45",
+    "flightNumber": "4Y202",
+    "route": "FRA-RAK",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RAK",
+    "destinationAirport": "Marrakesh Menara Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "09:45",
+    "arrivalTimeLocal": "12:35",
+    "duration": "3h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      31.6069,
+      -8.0363
+    ],
+    "distanceKm": 2468,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1300-FRA-EVE-09:50",
+    "flightNumber": "4Y1300",
+    "route": "FRA-EVE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "EVE",
+    "destinationAirport": "Harstad/Narvik Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "09:50",
+    "arrivalTimeLocal": "12:55",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      68.4913,
+      16.6781
+    ],
+    "distanceKm": 2099,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y500-FRA-XRY-09:50",
+    "flightNumber": "4Y500",
+    "route": "FRA-XRY",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "XRY",
+    "destinationAirport": "Jerez Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "09:50",
+    "arrivalTimeLocal": "12:50",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.7446,
+      -6.0601
+    ],
+    "distanceKm": 1885,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1302-FRA-ALF-09:50",
+    "flightNumber": "4Y1302",
+    "route": "FRA-ALF",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ALF",
+    "destinationAirport": "Alta Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "09:50",
+    "arrivalTimeLocal": "13:25",
+    "duration": "3h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      69.9761,
+      23.3717
+    ],
+    "distanceKm": 2350,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y302-FRA-LPA-09:55",
+    "flightNumber": "4Y302",
+    "route": "FRA-LPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LPA",
+    "destinationAirport": "Gran Canaria Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "09:55",
+    "arrivalTimeLocal": "13:35",
+    "duration": "4h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9319,
+      -15.3866
+    ],
+    "distanceKm": 3185,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y306-FRA-TFS-10:00",
+    "flightNumber": "4Y306",
+    "route": "FRA-TFS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TFS",
+    "destinationAirport": "Tenerife South Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "10:00",
+    "arrivalTimeLocal": "14:00",
+    "duration": "5h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.0445,
+      -16.5725
+    ],
+    "distanceKm": 3239,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y10-FRA-CUN-10:00",
+    "flightNumber": "4Y10",
+    "route": "FRA-CUN",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CUN",
+    "destinationAirport": "Cancun International Airport",
+    "daysOfWeek": [
+      "Thursday",
+      "Friday"
+    ],
+    "departureTimeLocal": "10:00",
+    "arrivalTimeLocal": "16:05",
+    "duration": "12h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      21.0365,
+      -86.8771
+    ],
+    "distanceKm": 8605,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y302-FRA-LPA-10:00",
+    "flightNumber": "4Y302",
+    "route": "FRA-LPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LPA",
+    "destinationAirport": "Gran Canaria Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "10:00",
+    "arrivalTimeLocal": "13:40",
+    "duration": "4h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9319,
+      -15.3866
+    ],
+    "distanceKm": 3185,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1500-FRA-SNN-10:05",
+    "flightNumber": "4Y1500",
+    "route": "FRA-SNN",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SNN",
+    "destinationAirport": "Shannon Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "10:05",
+    "arrivalTimeLocal": "11:15",
+    "duration": "2h10m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      52.7019,
+      -8.9248
+    ],
+    "distanceKm": 1246,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y308-FRA-ACE-10:05",
+    "flightNumber": "4Y308",
+    "route": "FRA-ACE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ACE",
+    "destinationAirport": "Cesar Manrique-Lanzarote Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Thursday",
+      "Friday"
+    ],
+    "departureTimeLocal": "10:05",
+    "arrivalTimeLocal": "13:35",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.9455,
+      -13.6052
+    ],
+    "distanceKm": 2996,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y302-FRA-LPA-10:05",
+    "flightNumber": "4Y302",
+    "route": "FRA-LPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LPA",
+    "destinationAirport": "Gran Canaria Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday"
+    ],
+    "departureTimeLocal": "10:05",
+    "arrivalTimeLocal": "13:45",
+    "duration": "4h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9319,
+      -15.3866
+    ],
+    "distanceKm": 3185,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y10-FRA-CUN-10:10",
+    "flightNumber": "4Y10",
+    "route": "FRA-CUN",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CUN",
+    "destinationAirport": "Cancun International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "10:10",
+    "arrivalTimeLocal": "16:15",
+    "duration": "12h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      21.0365,
+      -86.8771
+    ],
+    "distanceKm": 8605,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y1300-FRA-EVE-10:10",
+    "flightNumber": "4Y1300",
+    "route": "FRA-EVE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "EVE",
+    "destinationAirport": "Harstad/Narvik Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "10:10",
+    "arrivalTimeLocal": "13:25",
+    "duration": "3h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      68.4913,
+      16.6781
+    ],
+    "distanceKm": 2099,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y512-FRA-PMI-10:10",
+    "flightNumber": "4Y512",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Wednesday"
+    ],
+    "departureTimeLocal": "10:10",
+    "arrivalTimeLocal": "12:15",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y10-FRA-CUN-10:15",
+    "flightNumber": "4Y10",
+    "route": "FRA-CUN",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CUN",
+    "destinationAirport": "Cancun International Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "10:15",
+    "arrivalTimeLocal": "16:20",
+    "duration": "12h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      21.0365,
+      -86.8771
+    ],
+    "distanceKm": 8605,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y310-FRA-SPC-10:15",
+    "flightNumber": "4Y310",
+    "route": "FRA-SPC",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPC",
+    "destinationAirport": "La Palma Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "10:15",
+    "arrivalTimeLocal": "14:00",
+    "duration": "4h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.6265,
+      -17.7556
+    ],
+    "distanceKm": 3252,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y300-FRA-FUE-10:20",
+    "flightNumber": "4Y300",
+    "route": "FRA-FUE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FUE",
+    "destinationAirport": "Fuerteventura Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "10:20",
+    "arrivalTimeLocal": "13:50",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.4527,
+      -13.8638
+    ],
+    "distanceKm": 3056,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y306-FRA-TFS-10:20",
+    "flightNumber": "4Y306",
+    "route": "FRA-TFS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TFS",
+    "destinationAirport": "Tenerife South Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "10:20",
+    "arrivalTimeLocal": "14:10",
+    "duration": "4h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.0445,
+      -16.5725
+    ],
+    "distanceKm": 3239,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y512-FRA-PMI-10:20",
+    "flightNumber": "4Y512",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "10:20",
+    "arrivalTimeLocal": "12:25",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y206-FRA-HRG-10:25",
+    "flightNumber": "4Y206",
+    "route": "FRA-HRG",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HRG",
+    "destinationAirport": "Hurghada International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "10:25",
+    "arrivalTimeLocal": "15:00",
+    "duration": "4h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.1783,
+      33.7994
+    ],
+    "distanceKm": 3324,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y910-FRA-ZAD-10:25",
+    "flightNumber": "4Y910",
+    "route": "FRA-ZAD",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ZAD",
+    "destinationAirport": "Zadar Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "10:25",
+    "arrivalTimeLocal": "11:55",
+    "duration": "1h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      44.1083,
+      15.3467
+    ],
+    "distanceKm": 835,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y308-FRA-ACE-10:25",
+    "flightNumber": "4Y308",
+    "route": "FRA-ACE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ACE",
+    "destinationAirport": "Cesar Manrique-Lanzarote Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "10:25",
+    "arrivalTimeLocal": "13:55",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.9455,
+      -13.6052
+    ],
+    "distanceKm": 2996,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y10-FRA-CUN-10:25",
+    "flightNumber": "4Y10",
+    "route": "FRA-CUN",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CUN",
+    "destinationAirport": "Cancun International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "10:25",
+    "arrivalTimeLocal": "15:20",
+    "duration": "11h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      21.0365,
+      -86.8771
+    ],
+    "distanceKm": 8605,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y1204-FRA-HER-10:30",
+    "flightNumber": "4Y1204",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "10:30",
+    "arrivalTimeLocal": "14:35",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y300-FRA-FUE-10:35",
+    "flightNumber": "4Y300",
+    "route": "FRA-FUE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FUE",
+    "destinationAirport": "Fuerteventura Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "10:35",
+    "arrivalTimeLocal": "14:05",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.4527,
+      -13.8638
+    ],
+    "distanceKm": 3056,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y306-FRA-TFS-10:35",
+    "flightNumber": "4Y306",
+    "route": "FRA-TFS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TFS",
+    "destinationAirport": "Tenerife South Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "10:35",
+    "arrivalTimeLocal": "14:25",
+    "duration": "4h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.0445,
+      -16.5725
+    ],
+    "distanceKm": 3239,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1204-FRA-HER-10:35",
+    "flightNumber": "4Y1204",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "10:35",
+    "arrivalTimeLocal": "14:40",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y310-FRA-SPC-10:40",
+    "flightNumber": "4Y310",
+    "route": "FRA-SPC",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPC",
+    "destinationAirport": "La Palma Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "10:40",
+    "arrivalTimeLocal": "14:25",
+    "duration": "4h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.6265,
+      -17.7556
+    ],
+    "distanceKm": 3252,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y530-FRA-IBZ-10:40",
+    "flightNumber": "4Y530",
+    "route": "FRA-IBZ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "IBZ",
+    "destinationAirport": "Ibiza Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "10:40",
+    "arrivalTimeLocal": "12:55",
+    "duration": "2h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      38.8729,
+      1.3731
+    ],
+    "distanceKm": 1365,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1320-FRA-KTT-10:40",
+    "flightNumber": "4Y1320",
+    "route": "FRA-KTT",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "KTT",
+    "destinationAirport": "Kittila Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "10:40",
+    "arrivalTimeLocal": "15:00",
+    "duration": "3h20m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      67.701,
+      24.8466
+    ],
+    "distanceKm": 2160,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y300-FRA-FUE-10:45",
+    "flightNumber": "4Y300",
+    "route": "FRA-FUE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FUE",
+    "destinationAirport": "Fuerteventura Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "10:45",
+    "arrivalTimeLocal": "14:15",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.4527,
+      -13.8638
+    ],
+    "distanceKm": 3056,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1302-FRA-ALF-10:45",
+    "flightNumber": "4Y1302",
+    "route": "FRA-ALF",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ALF",
+    "destinationAirport": "Alta Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "10:45",
+    "arrivalTimeLocal": "14:20",
+    "duration": "3h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      69.9761,
+      23.3717
+    ],
+    "distanceKm": 2350,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y206-FRA-HRG-10:45",
+    "flightNumber": "4Y206",
+    "route": "FRA-HRG",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HRG",
+    "destinationAirport": "Hurghada International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "10:45",
+    "arrivalTimeLocal": "16:15",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.1783,
+      33.7994
+    ],
+    "distanceKm": 3324,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1320-FRA-KTT-10:50",
+    "flightNumber": "4Y1320",
+    "route": "FRA-KTT",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "KTT",
+    "destinationAirport": "Kittila Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "10:50",
+    "arrivalTimeLocal": "15:10",
+    "duration": "3h20m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      67.701,
+      24.8466
+    ],
+    "distanceKm": 2160,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1300-FRA-EVE-10:55",
+    "flightNumber": "4Y1300",
+    "route": "FRA-EVE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "EVE",
+    "destinationAirport": "Harstad/Narvik Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "10:55",
+    "arrivalTimeLocal": "13:55",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      68.4913,
+      16.6781
+    ],
+    "distanceKm": 2099,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y206-FRA-HRG-10:55",
+    "flightNumber": "4Y206",
+    "route": "FRA-HRG",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HRG",
+    "destinationAirport": "Hurghada International Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "10:55",
+    "arrivalTimeLocal": "15:30",
+    "duration": "4h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.1783,
+      33.7994
+    ],
+    "distanceKm": 3324,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y308-FRA-ACE-11:00",
+    "flightNumber": "4Y308",
+    "route": "FRA-ACE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ACE",
+    "destinationAirport": "Cesar Manrique-Lanzarote Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "11:00",
+    "arrivalTimeLocal": "14:30",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.9455,
+      -13.6052
+    ],
+    "distanceKm": 2996,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y60-FRA-RSW-11:00",
+    "flightNumber": "4Y60",
+    "route": "FRA-RSW",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RSW",
+    "destinationAirport": "Southwest Florida International Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "11:00",
+    "arrivalTimeLocal": "16:55",
+    "duration": "10h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      26.5362,
+      -81.7552
+    ],
+    "distanceKm": 7802,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y302-FRA-LPA-11:00",
+    "flightNumber": "4Y302",
+    "route": "FRA-LPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LPA",
+    "destinationAirport": "Gran Canaria Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "11:00",
+    "arrivalTimeLocal": "14:50",
+    "duration": "4h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9319,
+      -15.3866
+    ],
+    "distanceKm": 3185,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1302-FRA-ALF-11:05",
+    "flightNumber": "4Y1302",
+    "route": "FRA-ALF",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ALF",
+    "destinationAirport": "Alta Airport",
+    "daysOfWeek": [
+      "Thursday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "11:05",
+    "arrivalTimeLocal": "14:40",
+    "duration": "3h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      69.9761,
+      23.3717
+    ],
+    "distanceKm": 2350,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y306-FRA-TFS-11:10",
+    "flightNumber": "4Y306",
+    "route": "FRA-TFS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TFS",
+    "destinationAirport": "Tenerife South Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "11:10",
+    "arrivalTimeLocal": "14:55",
+    "duration": "4h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.0445,
+      -16.5725
+    ],
+    "distanceKm": 3239,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1240-FRA-LCA-11:10",
+    "flightNumber": "4Y1240",
+    "route": "FRA-LCA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LCA",
+    "destinationAirport": "Larnaca International Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "11:10",
+    "arrivalTimeLocal": "16:00",
+    "duration": "3h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      34.8751,
+      33.6249
+    ],
+    "distanceKm": 2637,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1300-FRA-EVE-11:10",
+    "flightNumber": "4Y1300",
+    "route": "FRA-EVE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "EVE",
+    "destinationAirport": "Harstad/Narvik Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "11:10",
+    "arrivalTimeLocal": "14:15",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      68.4913,
+      16.6781
+    ],
+    "distanceKm": 2099,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y702-FRA-FNC-11:15",
+    "flightNumber": "4Y702",
+    "route": "FRA-FNC",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FNC",
+    "destinationAirport": "Madeira Airport",
+    "daysOfWeek": [
+      "Wednesday",
+      "Friday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "11:15",
+    "arrivalTimeLocal": "14:30",
+    "duration": "4h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      32.6979,
+      -16.7745
+    ],
+    "distanceKm": 2836,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1240-FRA-LCA-11:15",
+    "flightNumber": "4Y1240",
+    "route": "FRA-LCA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LCA",
+    "destinationAirport": "Larnaca International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "11:15",
+    "arrivalTimeLocal": "16:00",
+    "duration": "3h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      34.8751,
+      33.6249
+    ],
+    "distanceKm": 2637,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y536-FRA-MAH-11:15",
+    "flightNumber": "4Y536",
+    "route": "FRA-MAH",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MAH",
+    "destinationAirport": "Menorca Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "11:15",
+    "arrivalTimeLocal": "13:10",
+    "duration": "1h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.8626,
+      4.2186
+    ],
+    "distanceKm": 1181,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y306-FRA-TFS-11:15",
+    "flightNumber": "4Y306",
+    "route": "FRA-TFS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TFS",
+    "destinationAirport": "Tenerife South Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "11:15",
+    "arrivalTimeLocal": "15:00",
+    "duration": "4h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.0445,
+      -16.5725
+    ],
+    "distanceKm": 3239,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y52-FRA-MSP-11:30",
+    "flightNumber": "4Y52",
+    "route": "FRA-MSP",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MSP",
+    "destinationAirport": "Minneapolis-Saint Paul International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "departureTimeLocal": "11:30",
+    "arrivalTimeLocal": "14:00",
+    "duration": "9h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      44.883,
+      -93.2223
+    ],
+    "distanceKm": 7049,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y64-FRA-TPA-11:30",
+    "flightNumber": "4Y64",
+    "route": "FRA-TPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TPA",
+    "destinationAirport": "Tampa International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "11:30",
+    "arrivalTimeLocal": "15:55",
+    "duration": "10h25m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9755,
+      -82.5332
+    ],
+    "distanceKm": 7738,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y64-FRA-TPA-11:45",
+    "flightNumber": "4Y64",
+    "route": "FRA-TPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TPA",
+    "destinationAirport": "Tampa International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "11:45",
+    "arrivalTimeLocal": "17:40",
+    "duration": "10h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9755,
+      -82.5332
+    ],
+    "distanceKm": 7738,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y500-FRA-XRY-11:50",
+    "flightNumber": "4Y500",
+    "route": "FRA-XRY",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "XRY",
+    "destinationAirport": "Jerez Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "11:50",
+    "arrivalTimeLocal": "14:50",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.7446,
+      -6.0601
+    ],
+    "distanceKm": 1885,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y54-FRA-LAS-11:50",
+    "flightNumber": "4Y54",
+    "route": "FRA-LAS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LAS",
+    "destinationAirport": "Harry Reid International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "11:50",
+    "arrivalTimeLocal": "15:40",
+    "duration": "11h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.084,
+      -115.1537
+    ],
+    "distanceKm": 8962,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y202-FRA-RAK-11:55",
+    "flightNumber": "4Y202",
+    "route": "FRA-RAK",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RAK",
+    "destinationAirport": "Marrakesh Menara Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "11:55",
+    "arrivalTimeLocal": "14:45",
+    "duration": "3h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      31.6069,
+      -8.0363
+    ],
+    "distanceKm": 2468,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y308-FRA-ACE-12:00",
+    "flightNumber": "4Y308",
+    "route": "FRA-ACE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ACE",
+    "destinationAirport": "Cesar Manrique-Lanzarote Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "12:00",
+    "arrivalTimeLocal": "15:30",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.9455,
+      -13.6052
+    ],
+    "distanceKm": 2996,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y2-FRA-PUJ-12:05",
+    "flightNumber": "4Y2",
+    "route": "FRA-PUJ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PUJ",
+    "destinationAirport": "Punta Cana International Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "12:05",
+    "arrivalTimeLocal": "16:00",
+    "duration": "9h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      18.5674,
+      -68.3634
+    ],
+    "distanceKm": 7512,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y206-FRA-HRG-12:10",
+    "flightNumber": "4Y206",
+    "route": "FRA-HRG",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HRG",
+    "destinationAirport": "Hurghada International Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "12:10",
+    "arrivalTimeLocal": "16:45",
+    "duration": "4h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.1783,
+      33.7994
+    ],
+    "distanceKm": 3324,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y302-FRA-LPA-12:10",
+    "flightNumber": "4Y302",
+    "route": "FRA-LPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LPA",
+    "destinationAirport": "Gran Canaria Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "12:10",
+    "arrivalTimeLocal": "15:50",
+    "duration": "4h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9319,
+      -15.3866
+    ],
+    "distanceKm": 3185,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y306-FRA-TFS-12:10",
+    "flightNumber": "4Y306",
+    "route": "FRA-TFS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "TFS",
+    "destinationAirport": "Tenerife South Airport",
+    "daysOfWeek": [
+      "Thursday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "12:10",
+    "arrivalTimeLocal": "16:00",
+    "duration": "4h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.0445,
+      -16.5725
+    ],
+    "distanceKm": 3239,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y518-FRA-PMI-12:10",
+    "flightNumber": "4Y518",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "12:10",
+    "arrivalTimeLocal": "14:15",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1244-FRA-LCA-12:15",
+    "flightNumber": "4Y1244",
+    "route": "FRA-LCA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LCA",
+    "destinationAirport": "Larnaca International Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "12:15",
+    "arrivalTimeLocal": "17:00",
+    "duration": "3h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      34.8751,
+      33.6249
+    ],
+    "distanceKm": 2637,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1224-FRA-HER-12:15",
+    "flightNumber": "4Y1224",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "12:15",
+    "arrivalTimeLocal": "16:15",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y302-FRA-LPA-12:40",
+    "flightNumber": "4Y302",
+    "route": "FRA-LPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LPA",
+    "destinationAirport": "Gran Canaria Airport",
+    "daysOfWeek": [
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "12:40",
+    "arrivalTimeLocal": "16:20",
+    "duration": "4h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9319,
+      -15.3866
+    ],
+    "distanceKm": 3185,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y702-FRA-FNC-12:50",
+    "flightNumber": "4Y702",
+    "route": "FRA-FNC",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FNC",
+    "destinationAirport": "Madeira Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "12:50",
+    "arrivalTimeLocal": "16:05",
+    "duration": "4h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      32.6979,
+      -16.7745
+    ],
+    "distanceKm": 2836,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1220-FRA-JTR-12:50",
+    "flightNumber": "4Y1220",
+    "route": "FRA-JTR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "JTR",
+    "destinationAirport": "Santorini Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "12:50",
+    "arrivalTimeLocal": "16:45",
+    "duration": "2h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.3992,
+      25.4793
+    ],
+    "distanceKm": 2035,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1220-FRA-JTR-12:55",
+    "flightNumber": "4Y1220",
+    "route": "FRA-JTR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "JTR",
+    "destinationAirport": "Santorini Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "12:55",
+    "arrivalTimeLocal": "16:50",
+    "duration": "2h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.3992,
+      25.4793
+    ],
+    "distanceKm": 2035,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y300-FRA-FUE-13:00",
+    "flightNumber": "4Y300",
+    "route": "FRA-FUE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FUE",
+    "destinationAirport": "Fuerteventura Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Thursday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:00",
+    "arrivalTimeLocal": "16:30",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.4527,
+      -13.8638
+    ],
+    "distanceKm": 3056,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y702-FRA-FNC-13:00",
+    "flightNumber": "4Y702",
+    "route": "FRA-FNC",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FNC",
+    "destinationAirport": "Madeira Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "13:00",
+    "arrivalTimeLocal": "16:15",
+    "duration": "4h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      32.6979,
+      -16.7745
+    ],
+    "distanceKm": 2836,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1220-FRA-JTR-13:00",
+    "flightNumber": "4Y1220",
+    "route": "FRA-JTR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "JTR",
+    "destinationAirport": "Santorini Airport",
+    "daysOfWeek": [
+      "Thursday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:00",
+    "arrivalTimeLocal": "16:55",
+    "duration": "2h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.3992,
+      25.4793
+    ],
+    "distanceKm": 2035,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y50-FRA-PHL-13:00",
+    "flightNumber": "4Y50",
+    "route": "FRA-PHL",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PHL",
+    "destinationAirport": "Philadelphia International Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:00",
+    "arrivalTimeLocal": "17:05",
+    "duration": "9h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.8744,
+      -75.2424
+    ],
+    "distanceKm": 6339,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y308-FRA-ACE-13:05",
+    "flightNumber": "4Y308",
+    "route": "FRA-ACE",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ACE",
+    "destinationAirport": "Cesar Manrique-Lanzarote Airport",
+    "daysOfWeek": [
+      "Thursday",
+      "Friday"
+    ],
+    "departureTimeLocal": "13:05",
+    "arrivalTimeLocal": "16:35",
+    "duration": "4h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.9455,
+      -13.6052
+    ],
+    "distanceKm": 2996,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y702-FRA-FNC-13:05",
+    "flightNumber": "4Y702",
+    "route": "FRA-FNC",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FNC",
+    "destinationAirport": "Madeira Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "13:05",
+    "arrivalTimeLocal": "16:20",
+    "duration": "4h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      32.6979,
+      -16.7745
+    ],
+    "distanceKm": 2836,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y60-FRA-RSW-13:05",
+    "flightNumber": "4Y60",
+    "route": "FRA-RSW",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RSW",
+    "destinationAirport": "Southwest Florida International Airport",
+    "daysOfWeek": [
+      "Thursday",
+      "Saturday"
+    ],
+    "departureTimeLocal": "13:05",
+    "arrivalTimeLocal": "17:35",
+    "duration": "10h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      26.5362,
+      -81.7552
+    ],
+    "distanceKm": 7802,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y68-FRA-MCO-13:10",
+    "flightNumber": "4Y68",
+    "route": "FRA-MCO",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MCO",
+    "destinationAirport": "Orlando International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:10",
+    "arrivalTimeLocal": "18:55",
+    "duration": "10h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.4312,
+      -81.3081
+    ],
+    "distanceKm": 7619,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y50-FRA-PHL-13:15",
+    "flightNumber": "4Y50",
+    "route": "FRA-PHL",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PHL",
+    "destinationAirport": "Philadelphia International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:15",
+    "arrivalTimeLocal": "16:05",
+    "duration": "8h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.8744,
+      -75.2424
+    ],
+    "distanceKm": 6339,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y318-FRA-LPA-13:20",
+    "flightNumber": "4Y318",
+    "route": "FRA-LPA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LPA",
+    "destinationAirport": "Gran Canaria Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "13:20",
+    "arrivalTimeLocal": "13:45",
+    "duration": "25m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      27.9319,
+      -15.3866
+    ],
+    "distanceKm": 3185,
+    "qualityFlag": "review",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1230-FRA-JMK-13:20",
+    "flightNumber": "4Y1230",
+    "route": "FRA-JMK",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "JMK",
+    "destinationAirport": "Mykonos Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "13:20",
+    "arrivalTimeLocal": "17:10",
+    "duration": "2h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      37.4351,
+      25.3481
+    ],
+    "distanceKm": 1936,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1200-FRA-RHO-13:30",
+    "flightNumber": "4Y1200",
+    "route": "FRA-RHO",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RHO",
+    "destinationAirport": "Rhodes International Airport",
+    "daysOfWeek": [
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:30",
+    "arrivalTimeLocal": "17:35",
+    "duration": "3h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.4054,
+      28.0862
+    ],
+    "distanceKm": 2179,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y76-FRA-YYC-13:30",
+    "flightNumber": "4Y76",
+    "route": "FRA-YYC",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "YYC",
+    "destinationAirport": "Calgary International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:30",
+    "arrivalTimeLocal": "15:05",
+    "duration": "9h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      51.1139,
+      -114.0203
+    ],
+    "distanceKm": 7528,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y536-FRA-MAH-13:35",
+    "flightNumber": "4Y536",
+    "route": "FRA-MAH",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MAH",
+    "destinationAirport": "Menorca Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "13:35",
+    "arrivalTimeLocal": "15:35",
+    "duration": "2h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.8626,
+      4.2186
+    ],
+    "distanceKm": 1181,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y68-FRA-MCO-13:40",
+    "flightNumber": "4Y68",
+    "route": "FRA-MCO",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MCO",
+    "destinationAirport": "Orlando International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:40",
+    "arrivalTimeLocal": "17:55",
+    "duration": "10h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      28.4312,
+      -81.3081
+    ],
+    "distanceKm": 7619,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y1230-FRA-JMK-13:45",
+    "flightNumber": "4Y1230",
+    "route": "FRA-JMK",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "JMK",
+    "destinationAirport": "Mykonos Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "13:45",
+    "arrivalTimeLocal": "17:35",
+    "duration": "2h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      37.4351,
+      25.3481
+    ],
+    "distanceKm": 1936,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y54-FRA-LAS-13:45",
+    "flightNumber": "4Y54",
+    "route": "FRA-LAS",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "LAS",
+    "destinationAirport": "Harry Reid International Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "13:45",
+    "arrivalTimeLocal": "16:20",
+    "duration": "11h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      36.084,
+      -115.1537
+    ],
+    "distanceKm": 8962,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y1224-FRA-HER-13:45",
+    "flightNumber": "4Y1224",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "13:45",
+    "arrivalTimeLocal": "17:45",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1408-FRA-VAR-13:45",
+    "flightNumber": "4Y1408",
+    "route": "FRA-VAR",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "VAR",
+    "destinationAirport": "Varna Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "13:45",
+    "arrivalTimeLocal": "17:15",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.2321,
+      27.8251
+    ],
+    "distanceKm": 1647,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1234-FRA-EFL-13:45",
+    "flightNumber": "4Y1234",
+    "route": "FRA-EFL",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "EFL",
+    "destinationAirport": "Kefalonia Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "13:45",
+    "arrivalTimeLocal": "17:15",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      38.1201,
+      20.5005
+    ],
+    "distanceKm": 1628,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y2-FRA-PUJ-13:55",
+    "flightNumber": "4Y2",
+    "route": "FRA-PUJ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PUJ",
+    "destinationAirport": "Punta Cana International Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "13:55",
+    "arrivalTimeLocal": "17:50",
+    "duration": "9h55m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      18.5674,
+      -68.3634
+    ],
+    "distanceKm": 7512,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y1232-FRA-KLX-14:00",
+    "flightNumber": "4Y1232",
+    "route": "FRA-KLX",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "KLX",
+    "destinationAirport": "Kalamata International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "14:00",
+    "arrivalTimeLocal": "17:45",
+    "duration": "2h45m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      37.0683,
+      22.0255
+    ],
+    "distanceKm": 1799,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y516-FRA-PMI-14:00",
+    "flightNumber": "4Y516",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "14:00",
+    "arrivalTimeLocal": "16:05",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y518-FRA-PMI-14:05",
+    "flightNumber": "4Y518",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "14:05",
+    "arrivalTimeLocal": "16:05",
+    "duration": "2h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1212-FRA-JSI-14:05",
+    "flightNumber": "4Y1212",
+    "route": "FRA-JSI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "JSI",
+    "destinationAirport": "Skiathos Island National Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "14:05",
+    "arrivalTimeLocal": "17:35",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.1771,
+      23.503
+    ],
+    "distanceKm": 1684,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y518-FRA-PMI-14:20",
+    "flightNumber": "4Y518",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Thursday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "14:20",
+    "arrivalTimeLocal": "16:25",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y202-FRA-RAK-14:20",
+    "flightNumber": "4Y202",
+    "route": "FRA-RAK",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "RAK",
+    "destinationAirport": "Marrakesh Menara Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "14:20",
+    "arrivalTimeLocal": "17:10",
+    "duration": "3h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      31.6069,
+      -8.0363
+    ],
+    "distanceKm": 2468,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1212-FRA-JSI-14:20",
+    "flightNumber": "4Y1212",
+    "route": "FRA-JSI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "JSI",
+    "destinationAirport": "Skiathos Island National Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "14:20",
+    "arrivalTimeLocal": "17:50",
+    "duration": "2h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.1771,
+      23.503
+    ],
+    "distanceKm": 1684,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1224-FRA-HER-14:25",
+    "flightNumber": "4Y1224",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "14:25",
+    "arrivalTimeLocal": "18:25",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1224-FRA-HER-14:30",
+    "flightNumber": "4Y1224",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "14:30",
+    "arrivalTimeLocal": "18:30",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1210-FRA-CFU-14:35",
+    "flightNumber": "4Y1210",
+    "route": "FRA-CFU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "CFU",
+    "destinationAirport": "Corfu International Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "14:35",
+    "arrivalTimeLocal": "17:55",
+    "duration": "2h20m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.6019,
+      19.9117
+    ],
+    "distanceKm": 1462,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1224-FRA-HER-14:35",
+    "flightNumber": "4Y1224",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "14:35",
+    "arrivalTimeLocal": "18:35",
+    "duration": "3h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1400-FRA-BOJ-14:45",
+    "flightNumber": "4Y1400",
+    "route": "FRA-BOJ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "BOJ",
+    "destinationAirport": "Burgas Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "14:45",
+    "arrivalTimeLocal": "18:20",
+    "duration": "2h35m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      42.5696,
+      27.5152
+    ],
+    "distanceKm": 1669,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y1224-FRA-HER-14:45",
+    "flightNumber": "4Y1224",
+    "route": "FRA-HER",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "HER",
+    "destinationAirport": "Heraklion International Airport",
+    "daysOfWeek": [
+      "Wednesday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "14:45",
+    "arrivalTimeLocal": "18:35",
+    "duration": "2h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      35.3397,
+      25.1803
+    ],
+    "distanceKm": 2115,
+    "qualityFlag": "ok",
+    "size": "M",
+    "custNum": 175
+  },
+  {
+    "recordId": "4Y514-FRA-PMI-15:00",
+    "flightNumber": "4Y514",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "15:00",
+    "arrivalTimeLocal": "17:10",
+    "duration": "2h10m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y910-FRA-ZAD-15:15",
+    "flightNumber": "4Y910",
+    "route": "FRA-ZAD",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "ZAD",
+    "destinationAirport": "Zadar Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "15:15",
+    "arrivalTimeLocal": "16:45",
+    "duration": "1h30m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      44.1083,
+      15.3467
+    ],
+    "distanceKm": 835,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y900-FRA-DBV-15:15",
+    "flightNumber": "4Y900",
+    "route": "FRA-DBV",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "DBV",
+    "destinationAirport": "Dubrovnik Airport",
+    "daysOfWeek": [
+      "Wednesday",
+      "Thursday"
+    ],
+    "departureTimeLocal": "15:15",
+    "arrivalTimeLocal": "17:05",
+    "duration": "1h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      42.5614,
+      18.2682
+    ],
+    "distanceKm": 1115,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y74-FRA-YHZ-15:40",
+    "flightNumber": "4Y74",
+    "route": "FRA-YHZ",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "YHZ",
+    "destinationAirport": "Halifax Stanfield International Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "departureTimeLocal": "15:40",
+    "arrivalTimeLocal": "18:00",
+    "duration": "7h20m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      44.8808,
+      -63.5086
+    ],
+    "distanceKm": 5235,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  },
+  {
+    "recordId": "4Y900-FRA-DBV-15:55",
+    "flightNumber": "4Y900",
+    "route": "FRA-DBV",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "DBV",
+    "destinationAirport": "Dubrovnik Airport",
+    "daysOfWeek": [
+      "Tuesday",
+      "Friday"
+    ],
+    "departureTimeLocal": "15:55",
+    "arrivalTimeLocal": "17:45",
+    "duration": "1h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      42.5614,
+      18.2682
+    ],
+    "distanceKm": 1115,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y912-FRA-SPU-16:10",
+    "flightNumber": "4Y912",
+    "route": "FRA-SPU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPU",
+    "destinationAirport": "Split Airport",
+    "daysOfWeek": [
+      "Thursday"
+    ],
+    "departureTimeLocal": "16:10",
+    "arrivalTimeLocal": "17:50",
+    "duration": "1h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.5389,
+      16.298
+    ],
+    "distanceKm": 931,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y912-FRA-SPU-16:15",
+    "flightNumber": "4Y912",
+    "route": "FRA-SPU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPU",
+    "destinationAirport": "Split Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "16:15",
+    "arrivalTimeLocal": "17:55",
+    "duration": "1h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.5389,
+      16.298
+    ],
+    "distanceKm": 931,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y514-FRA-PMI-16:20",
+    "flightNumber": "4Y514",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "16:20",
+    "arrivalTimeLocal": "18:25",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y900-FRA-DBV-16:20",
+    "flightNumber": "4Y900",
+    "route": "FRA-DBV",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "DBV",
+    "destinationAirport": "Dubrovnik Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "16:20",
+    "arrivalTimeLocal": "18:10",
+    "duration": "1h50m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      42.5614,
+      18.2682
+    ],
+    "distanceKm": 1115,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y514-FRA-PMI-16:25",
+    "flightNumber": "4Y514",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Tuesday"
+    ],
+    "departureTimeLocal": "16:25",
+    "arrivalTimeLocal": "18:30",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y912-FRA-SPU-16:25",
+    "flightNumber": "4Y912",
+    "route": "FRA-SPU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPU",
+    "destinationAirport": "Split Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "16:25",
+    "arrivalTimeLocal": "18:05",
+    "duration": "1h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.5389,
+      16.298
+    ],
+    "distanceKm": 931,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y912-FRA-SPU-16:25",
+    "flightNumber": "4Y912",
+    "route": "FRA-SPU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPU",
+    "destinationAirport": "Split Airport",
+    "daysOfWeek": [
+      "Monday",
+      "Wednesday"
+    ],
+    "departureTimeLocal": "16:25",
+    "arrivalTimeLocal": "18:05",
+    "duration": "1h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.5389,
+      16.298
+    ],
+    "distanceKm": 931,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y912-FRA-SPU-16:30",
+    "flightNumber": "4Y912",
+    "route": "FRA-SPU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "SPU",
+    "destinationAirport": "Split Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "16:30",
+    "arrivalTimeLocal": "18:10",
+    "duration": "1h40m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      43.5389,
+      16.298
+    ],
+    "distanceKm": 931,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y514-FRA-PMI-16:30",
+    "flightNumber": "4Y514",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "16:30",
+    "arrivalTimeLocal": "18:35",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y1310-FRA-FRA-16:40",
+    "flightNumber": "4Y1310",
+    "route": "FRA-FRA",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "FRA",
+    "destinationAirport": "Frankfurt Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "16:40",
+    "arrivalTimeLocal": "18:55",
+    "duration": "3h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "distanceKm": 0,
+    "qualityFlag": "review",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y514-FRA-PMI-16:40",
+    "flightNumber": "4Y514",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Wednesday"
+    ],
+    "departureTimeLocal": "16:40",
+    "arrivalTimeLocal": "18:45",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y514-FRA-PMI-16:50",
+    "flightNumber": "4Y514",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Saturday"
+    ],
+    "departureTimeLocal": "16:50",
+    "arrivalTimeLocal": "18:55",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y802-FRA-BRI-17:00",
+    "flightNumber": "4Y802",
+    "route": "FRA-BRI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "BRI",
+    "destinationAirport": "Bari Karol Wojtyla Airport",
+    "daysOfWeek": [
+      "Monday"
+    ],
+    "departureTimeLocal": "17:00",
+    "arrivalTimeLocal": "19:00",
+    "duration": "2h",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      41.1389,
+      16.7606
+    ],
+    "distanceKm": 1176,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y514-FRA-PMI-17:05",
+    "flightNumber": "4Y514",
+    "route": "FRA-PMI",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "PMI",
+    "destinationAirport": "Palma de Mallorca Airport",
+    "daysOfWeek": [
+      "Sunday"
+    ],
+    "departureTimeLocal": "17:05",
+    "arrivalTimeLocal": "19:10",
+    "duration": "2h5m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      39.5517,
+      2.7388
+    ],
+    "distanceKm": 1252,
+    "qualityFlag": "ok",
+    "size": "S",
+    "custNum": 85
+  },
+  {
+    "recordId": "4Y152-FRA-MRU-17:45",
+    "flightNumber": "4Y152",
+    "route": "FRA-MRU",
+    "originIata": "FRA",
+    "originAirport": "Frankfurt Airport",
+    "destinationIata": "MRU",
+    "destinationAirport": "Sir Seewoosagur Ramgoolam International Airport",
+    "daysOfWeek": [
+      "Friday"
+    ],
+    "departureTimeLocal": "17:45",
+    "arrivalTimeLocal": "07:00",
+    "duration": "11h15m",
+    "originCoordinates": [
+      50.0379,
+      8.5622
+    ],
+    "destinationCoordinates": [
+      -20.4302,
+      57.6836
+    ],
+    "distanceKm": 9200,
+    "qualityFlag": "ok",
+    "size": "L",
+    "custNum": 325
+  }
+]

@@ -1,21 +1,17 @@
-// Flight Deep Detail — rich view for fixture flights, simpler fallback for others.
+// Flight Deep Detail — compact "Flight Briefing" for fixture flights, simpler
+// fallback for others.
 import ActionBox from "@/components/features/flight-detail/ActionBox";
-import ActionPlaybook from "@/components/features/flight-detail/ActionPlaybook";
-import AuditTrail from "@/components/features/flight-detail/AuditTrail";
 import CausalChain from "@/components/features/flight-detail/CausalChain";
-import CausalChainPanel from "@/components/features/flight-detail/CausalChainPanel";
 import DataPanel from "@/components/features/flight-detail/DataPanel";
-import DecisionSummary from "@/components/features/flight-detail/DecisionSummary";
-import FixtureHeader from "@/components/features/flight-detail/FixtureHeader";
+import FlightBriefing, {
+  type CostSummary,
+} from "@/components/features/flight-detail/FlightBriefing";
 import FlightHeader from "@/components/features/flight-detail/FlightHeader";
-import InboundChain from "@/components/features/flight-detail/InboundChain";
-import RiskDriverCards from "@/components/features/flight-detail/RiskDriverCards";
-import ScenarioSimulator from "@/components/features/flight-detail/ScenarioSimulator";
-import TurnaroundTimeline from "@/components/features/flight-detail/TurnaroundTimeline";
-import ValidationOutcome from "@/components/features/flight-detail/ValidationOutcome";
-import WeatherPanel from "@/components/features/flight-detail/WeatherPanel";
 import { flightDetails } from "@/components/features/flight-detail/data";
 import { fixtureFlights } from "@/data/flightDetails.fixture";
+import { getFlightExposure } from "@/components/features/savings-estimator/compute";
+import { estimatorFlights } from "@/components/features/savings-estimator/data";
+import { ASSUMED_RECOVERY_MIN, eu261Threshold } from "@/components/features/savings-estimator/finance";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
@@ -47,24 +43,25 @@ export default async function FlightDeepDetailPage({
       action: "none" as const,
     };
 
-    return (
-      <div className="flex flex-col gap-8">
-        <FixtureHeader flight={fixture} />
-        <DecisionSummary flight={fixture} />
-        <CausalChainPanel steps={fixture.causalSteps} />
-        <RiskDriverCards drivers={fixture.riskDrivers} />
-        <TurnaroundTimeline
-          steps={fixture.turnaroundSteps}
-          bottleneckNote={fixture.turnaroundBottleneck}
-        />
-        <InboundChain legs={fixture.inboundChain} />
-        <ActionPlaybook flight={fixture} />
-        <ScenarioSimulator initialInputs={simInitial} />
-        <WeatherPanel weather={fixture.weather} />
-        <AuditTrail entries={fixture.auditTrail} />
-        <ValidationOutcome outcome={fixture.validation} />
-      </div>
-    );
+    // Reuse the Savings Estimator's pure cost model for the priced flights, so
+    // the Cost tab matches the Savings page exactly. No new data is invented.
+    const priced = estimatorFlights.find((e) => e.flightNumber === fixture.flightNumber);
+    const cost: CostSummary | null = priced
+      ? (() => {
+          const x = getFlightExposure(priced);
+          return {
+            gross: x.grossCost,
+            mitigated: x.mitigatedCost,
+            avoidable: x.avoidableSavings,
+            crossesEu261: x.crossesEu261,
+            thresholdMin: eu261Threshold(x.size),
+            bracketLabel: x.bracketLabel,
+            recoveryMin: ASSUMED_RECOVERY_MIN,
+          };
+        })()
+      : null;
+
+    return <FlightBriefing flight={fixture} cost={cost} simInitial={simInitial} />;
   }
 
   // ── Simpler fallback view (remaining 7 dashboard flights) ──────────────────

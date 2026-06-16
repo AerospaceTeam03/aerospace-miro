@@ -42,8 +42,8 @@ export default function FlightsPage() {
         <h2 className="text-lg font-semibold">Risk watchlist</h2>
         <FlightRiskTable />
         <p className="text-muted-foreground text-xs">
-          Placeholder data. Wire to real flights (US DOT/BTS, OpenSky) joined
-          against weather.
+          Discover Airlines (4Y) FRA schedule sample. Live flight positions
+          (OpenSky) joined against weather to come.
         </p>
       </section>
     </div>
