@@ -128,7 +128,7 @@ These brackets align with operational and regulatory thresholds used by airlines
 ## Financial Impact Engine
 
 To make delay risk actionable, Wingman converts predicted delays into estimated financial exposure.
-
+Look into /assets/Financial_instrument_framework.pdf for more informations.
 The model combines:
 
 - Variable operating costs (fuel, crew, maintenance)
@@ -213,7 +213,8 @@ For airlines this means:
 - Better resource allocation
 - Faster operational decision-making
 - More consistent shift handovers
-
+  
+---
 ## Go-to-market strategy
 
 Wingman follows a staged go-to-market approach. The first step is to use the hackathon prototype to start a pilot conversation with one airline, preferably Discover Airlines, to validate the tool on a limited operational scope.
@@ -247,6 +248,8 @@ Future work includes:
 - Integrating live flight and weather data for real-time predictions and recommendations.
 
 This would enable a fully automated, real-time OCC decision-support system.
+
+---
 
 ## The Bottom Line
 
