@@ -67,7 +67,7 @@ A probability score alone is not actionable. Controllers need:
 3. The operational severity
 4. The financial consequences of inaction
 
----
+
 
 ## Solution
 
