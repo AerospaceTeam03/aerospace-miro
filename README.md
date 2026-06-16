@@ -179,3 +179,17 @@ Most tools predict delays.
 **Wingman predicts, explains, and quantifies the cost of doing nothing.**
 
 
+---
+## Limitations & Future Work
+
+Due to the hackathon timeframe, the current version focuses on demonstrating the concept rather than maximizing predictive performance.
+
+Future work includes:
+- Training and optimizing more advanced ML models on larger datasets.
+- Adding operational features such as aircraft rotations, crew availability, and network effects.
+- Improving validation and performance on rare severe-delay events and cascade effects.
+- Connecting the trained model directly to the web application.
+- Integrating live flight and weather data for real-time predictions and recommendations.
+
+This would enable a fully automated, real-time OCC decision-support system.
+
