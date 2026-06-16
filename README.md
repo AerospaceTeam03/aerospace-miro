@@ -84,7 +84,7 @@ The result is a decision-support tool that transforms delay risk into actionable
 ## Machine Learning Approach
 
 We trained a **Random Forest model** on historical flight and weather data to predict flight delays.
-
+Look into the /Forest folder to see that.
 Rather than predicting exact delay minutes, delays are classified into operationally meaningful severity brackets:
 
 | Bracket | Delay Duration | Severity |
@@ -104,7 +104,7 @@ These brackets align with operational and regulatory thresholds used by airlines
 ## Financial Impact Engine
 
 To make delay risk actionable, Wingman converts predicted delays into estimated financial exposure.
-
+Look into /assets/Brackets_sizes_money for more information.
 The model combines:
 
 - Variable operating costs (fuel, crew, maintenance)
