@@ -132,7 +132,7 @@ The model combines:
 
 To estimate delay costs without access to airline-internal accounting systems, flights are grouped into three aircraft categories:
 
-| Size | Route Distance | Assumed Passengers |
+| Plane Size | Route Distance | Assumed Passengers |
 |--------|---------------|-------------------|
 | Small | < 1,500 km | 100 |
 | Medium | 1,500–5,000 km | 150 |
@@ -141,7 +141,7 @@ To estimate delay costs without access to airline-internal accounting systems, f
 Look into assets/Brackets_sizes_money.pdf for more details.
 Representative per-minute delay costs were derived from EUROCONTROL delay cost benchmarks:
 
-| Size | B1 | B2 | B3 | B4 |
+| Plane Size | B1 | B2 | B3 | B4 |
 |--------|------|------|------|------|
 | Small | €20/min | €36/min | €45/min | €54/min |
 | Medium | €50/min | €55/min | €70/min | €85/min |
