@@ -1,4 +1,5 @@
 import {
+  CloudSun,
   LayoutDashboard,
   Network,
   PiggyBank,
@@ -23,6 +24,11 @@ export const sidebarLinks: RouteItem[] = [
     icon: Sunrise,
     route: "/morning-briefing",
     label: "Morning briefing",
+  },
+  {
+    icon: CloudSun,
+    route: "/weather",
+    label: "Weather",
   },
   {
     icon: Telescope,
