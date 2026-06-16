@@ -216,6 +216,12 @@ For airlines this means:
 - Faster operational decision-making
 - More consistent shift handovers
 
+## Go-to-market strategy
+
+Wingman follows a staged go-to-market approach. The first step is to use the hackathon prototype to start a pilot conversation with one airline, preferably Discover Airlines, to validate the tool on a limited operational scope.
+
+After a successful pilot, Wingman would expand to regional and mid-sized airlines over the following 6–18 months, before scaling toward larger airlines once more data integrations, optimization features, and measurable savings baselines are established.
+
 ---
 
 ## Why Wingman?
