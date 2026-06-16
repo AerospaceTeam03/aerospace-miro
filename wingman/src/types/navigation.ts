@@ -2,7 +2,6 @@ import {
   CloudSun,
   LayoutDashboard,
   Network,
-  PiggyBank,
   Telescope,
   type LucideIcon,
 } from "lucide-react";
@@ -33,10 +32,5 @@ export const sidebarLinks: RouteItem[] = [
     icon: Network,
     route: "/cascade",
     label: "Cascade tracker",
-  },
-  {
-    icon: PiggyBank,
-    route: "/savings-estimator",
-    label: "Savings estimator",
   },
 ];
